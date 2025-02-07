@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Re-Roll</title>
+
     <link rel="stylesheet" href="./styless2.css">
     <script src="./script.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7349332669262576"
@@ -22,45 +23,49 @@
 </head>
 <body>
 
-
-
     <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
-    
-    
-    <div class="sidebar ">
+
+    <div class="sidebar">
         <nav class="nav-container">
             <div class="nav-links">
-                <img src="./images/HCLW.webp" alt="">
+                <img src="./images/HCLW.webp" alt="HCLW Logo">
                 <a href="./index.html">Home</a>
-                <a href="./re-roll.html" class="active">Re-Roll</a>
+                <a href="./reRoll.html" class="active">Re-Roll</a>
                 <a href="./guides.html">Guides</a>
                 <a href="#">Kontakt</a>
             </div>
         </nav>
     </div>
 
-    
+    <div class="content">
+        <!-- Hero Section -->
+        <section class="guide-hero">
+            <h1 class="guide-title">Re-Roll Guide by Rayku</h1>
+        </section>
 
-    <div class="content shifted">
-        <!-- Überschrift über dem Video -->
-        <h1 class="video-title">Re-Roll Guide by Rayku</h1>
-        
-        <div class="video-wrapper">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/N0wxLNP0AvM" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
+        <!-- Video Section -->
+        <section class="guide-section">
+            <div class="video-wrapper">
+                <iframe width="800" height="450" src="https://www.youtube.com/embed/N0wxLNP0AvM" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
 
-    <div class="video-title" style="font-size: 1rem;">
-        <h2 style="color: #b95851;">What to focus on Re Roll</h2> <br>
-        <ul>
-            <li>
+        <!-- Re-Roll Focus Section -->
+        <section class="guide-section">
+            <h2 class="section-title">What to focus on Re-Roll</h2>
+            <div class="info-box guide-box">
                 <ul>
-                    <li>3 star companions : Zero , Witch , Armes</li> <br>
-                    <li>Ability Power up : Exp% , Gold % </li> <br>
-                    <li>Save  ur Gold and Exp pouches for later stages, they scale with current stage </li>
+                    <li>
+                        <ul>
+                            <li>3 star companions: Zero, Witch, Armes</li>
+                            <li>Ability Power up: Exp%, Gold %</li>
+                            <li>Save your Gold and Exp pouches for later stages, they scale with current stage</li>
+                        </ul>
                 </ul>
+            </div>
+        </section>
     </div>
-    
+
     <script>
         function toggleSidebar() {
             document.querySelector(".sidebar").classList.toggle("active");
@@ -68,6 +73,6 @@
         }
     </script>
 
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

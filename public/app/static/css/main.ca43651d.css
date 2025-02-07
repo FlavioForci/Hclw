@@ -1,373 +1,341 @@
+/* General Styles */
+
+/* Reset and Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important
+}
+
 /* Setzt den Hintergrund und Textfarbe der gesamten Seite */
 body {
-    background-color: #1a1a1a;  /* Dunkler Hintergrund */
-    color: #fff;                /* Weißer Text */
-    font-family: Arial, sans-serif; /* Schriftart */
-    margin: 0;                  /* Entfernt den Standard-Außenabstand */
-  }
-  
-  /* Stil für die Haupt-App-Komponente */
-  .App {
-    padding: 10px;                /* Innenabstand */
-    text-align: center;
-    height: 100%;
-    width: 100%;   
-    margin-left: 0;        /* Zentriert den Text */
-  }
-  
-  /* Stil für das Header-Element (h1) im App-Header */
-  .App-header h1 {
-    color: rgb(255, 255, 255);                   /* Rote Farbe für den Text */
-    font-size: 2rem;              /* Schriftgröße */
-    margin-bottom: 20px;          /* Abstand unter dem Header */
-  }
-  
-  /* Stil für das "Tier"-Element */
-  .tier {
-    background: #2a2a2a;          /* Dunkler Hintergrund */
-    border-radius: 10px;          /* Abgerundete Ecken */
-    box-shadow: 0 4px 10px #00000080; /* Schlagschatten */
-    margin-bottom: 40px;          /* Abstand unten */
-    padding: 20px;                /* Innenabstand */
-  }
-  
-  /* Stil für die Überschrift (h2) innerhalb eines "Tier"-Elements */
-  .tier h2 {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.404);  /* Gelber Unterstrich */
-    color: rgb(194, 17, 17);                    /* Gelbe Textfarbe */
-    display: inline-block;          /* Damit die Breite auf den Inhalt angepasst wird */
-    font-size: 1.5rem;              /* Schriftgröße */
-    margin-bottom: 5px;            /* Abstand unten */
-    padding-bottom: 5px;            /* Abstand unterhalb der Überschrift */
-    text-transform: uppercase;      /* Wandelt den Text in Großbuchstaben um */
-  }
-  
-  /* Stil für das Grid, das die Charaktere darstellt */
-  .character-grid {
-    grid-gap: 10px;                /* Abstand zwischen den Grid-Elementen */
-    display: grid;                  /* Aktiviert das Grid-Layout */
-    gap: 8px;                      /* Abstand zwischen den Elementen */
-    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)); /* Dynamische Spalten */
-    justify-content: center;        /* Zentriert das Grid */
-    margin-top: 20px;               /* Abstand oben */
-  }
-  
-  /* Stil für die einzelnen Charakterkarten */
-  .character-card {
-    background: #00000056;                /* Dunkler Hintergrund */
-    border-radius: 12px;             /* Abgerundete Ecken */
-    box-shadow: 0 4px 8px #0000004d; /* Schlagschatten */
-    padding: 0px;                   /* Innenabstand */
-    text-align: center;              /* Zentriert den Text */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Übergangseffekte */
-    border: 1px solid #fff;          /* Weißer Rand */
-    width: 140px;                 /* Gleich wie Bildbreite */
-    height: 150px;                /* Gleich wie Bildhöhe */
-    box-sizing: border-box;
-    
-  }
-  
-  /* Stil für das Hover-Ereignis der Charakterkarten */
-  .character-card:hover {
-    box-shadow: 0 6px 12px rgba(255, 51, 0, 0.767);  /* Vergrößerter Schlagschatten */
-    transform: translateY(-5px);   /* Hebt die Karte leicht an */
-  }
-  
-  /* Stil für das Bild innerhalb der Charakterkarte */
-  .character-card img {
-    border-radius: 10px;            /* Abgerundete Ecken */
-    height: 150px;                  /* Feste Höhe */
-    object-fit: cover;              /* Bild füllt den Container */
-    width: 140px;                    /* Breite auf 100% setzen */
-  }
-  
-  /* Stil für den Titel (h3) der Charakterkarte */
-  .character-card h3 {
-    color: #fff;                   /* Weiße Textfarbe */
-    font-size: 1.2rem;              /* Schriftgröße */
-    display: none;              /* Abstand oben */
-  }
-  
-  /* Stil für das Raritäts-Tag */
-  .character-card .rarity {
-    border-radius: 5px;            /* Abgerundete Ecken */
-    display: inline-block;         /* Damit das Tag inline angezeigt wird */
-    font-size: .9rem;              /* Schriftgröße */
-    font-weight: 700;              /* Fetter Text */
-    margin-top: 5px;               /* Abstand oben */
-    padding: 5px 10px;             /* Innenabstand */
-  }
-  
-  /* Stil für die S-Tier Rarität */
-  .rarity.S-Tier {
-    background: linear-gradient(45deg, #fc0, #f60); /* Gelber bis orangefarbener Verlauf */
-    color: #000;                                  /* Schwarze Textfarbe */
-  }
-  
-  /* Stil für die A-Tier Rarität */
-  .rarity.A-Tier {
-    background: linear-gradient(45deg, #0cf, #06f); /* Blaugrüner Verlauf */
-    color: #fff;                                  /* Weiße Textfarbe */
-  }
-  
-  /* Stil für die B-Tier Rarität */
-  .rarity.B-Tier {
-    background: linear-gradient(45deg, #6f6, #090); /* Grüner Verlauf */
-    color: #000;                                  /* Schwarze Textfarbe */
-  }
-  
-
-  
-  
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-attachment: scroll;
+  background-size: contain;
+  background-color: rgba(29, 27, 27, 0.295);
+  transition: margin-left 0.3s;
+  position: relative;
+  min-height: 100vh;
 }
 
 html, body {
-    background-color: rgb(29, 27, 27);
-    height: 100%;
+  background-color: rgb(29, 27, 27);
+  height: 100%;
 }
 
-body {
-    background-color: rgba(29, 27, 27, 0.295);
-    transition: margin-left 0.3s;
-    position: relative;
-    min-height: 100vh;
+/* Menu Toggle Styles */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  left: 1%;
+  top: 20px;
+  z-index: 10000;
+  background: #4d4949;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
 }
 
-/* Sidebar-Stile */
+/* App Container Styles */
+.App {
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+}
+
+/* App Header Styles */
+.App-header h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Tier Styles */
+.tier {
+  background: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #00000080;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+/* Tier Header Styles */
+.tier h2 {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.404);
+  color: rgb(194, 17, 17);
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* Character Grid Styles */
+.character-grid {
+  grid-gap: 10px;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Character Card Styles */
+.character-card {
+  background: #00000056;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px #0000004d;
+  padding: 0px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #fff;
+  width: 140px;
+  height: 150px;
+  box-sizing: border-box;
+}
+
+.character-card:hover {
+  box-shadow: 0 6px 12px rgba(255, 51, 0, 0.767);
+  transform: translateY(-5px);
+}
+
+/* Character Card Image Styles */
+.character-card img {
+  border-radius: 10px;
+  height: 150px;
+  object-fit: cover;
+  width: 140px;
+}
+
+/* Character Card Title Styles */
+.character-card h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  display: none;
+}
+
+/* Rarity Tag Styles */
+.character-card .rarity {
+  border-radius: 5px;
+  display: inline-block;
+  font-size: .9rem;
+  font-weight: 700;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+/* S-Tier Rarity Styles */
+.rarity.S-Tier {
+  background: linear-gradient(45deg, #fc0, #f60);
+  color: #000;
+}
+
+/* A-Tier Rarity Styles */
+.rarity.A-Tier {
+  background: linear-gradient(45deg, #0cf, #06f);
+  color: #fff;
+}
+
+/* B-Tier Rarity Styles */
+.rarity.B-Tier {
+  background: linear-gradient(45deg, #6f6, #090);
+  color: #000;
+}
+
+/* Sidebar Styles */
 .sidebar {
-    position: fixed;
-    top: -850px;
-    width: 250px; /* Feste Breite für Desktop */
-    height: 100vh;
-    background-color: #333;
-    
-    z-index: 99;
-    overflow-y: auto;
-    transition: top 0.5s ease-in-out;
+  position: fixed;
+  top: -850px;
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  z-index: 99;
+  overflow-y: auto;
+  transition: top 0.5s ease-in-out;
 }
 
 .guide-hero,h3 {
-    color: #b95851;
-    font-size: 1.5rem;
-    margin: 1rem 0;
+  color: #b95851;
+  font-size: 1.5rem;
+  margin: 1rem 0;
 }
 
 h4 {
-    color: #b95851;
-    font-size: 1.2rem;
-    margin: 1rem 0;
+  color: #b95851;
+  font-size: 1.2rem;
+  margin: 1rem 0;
 }
 
-/* Desktop-Version (ab 769px) */
-@media (min-width: 769px) {
-    .sidebar {
-        left: 0; /* Immer sichtbar auf Desktop */
-        width: 250px; /* Feste Breite */
-        top: 0 ;
-    }
-    
-    .content {
-        margin-left: 250px; /* Inhalt verschieben */
-    }
-    
-    .menu-toggle {
-        display: none !important; /* Button auf Desktop ausblenden */
-    }
-}
-
-/* Mobile Version (bis 768px) */
-@media (max-width: 768px) {
-    .sidebar {
-        left: 0px;
-        width: 100%; /* Volle Breite auf Mobile */
-    }
-    
-    .sidebar.active {
-        top: 0px;
-        left: 0;
-        box-shadow: 0 0 15px rgba(3, 0, 0, 0.329);
-        height: 100%;
-       
-    }
-    
-    .content.shifted {
-        margin-left: 0;
-    }
-}
-
-/* Menü-Button */
-.menu-toggle {
-    display: none;
-    position: fixed;
-    left: 1%;
-    top: 20px;
-    z-index: 10000;
-    background: #4d4949;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: transform 0.3s ease;
-}
-
-/* Navigation */
+/* Navigation Styles */
 .nav-container {
-    width: 100%;
-    padding: 1rem;
-    background-color: rgba(51, 51, 51, 0.81);
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(51, 51, 51, 0.81);
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    padding: 0.8rem;
-    border-radius: 4px;
-    transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  padding: 0.8rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
-    background-color: #555;
-    transform: translateY(-2px);
+  background-color: #555;
+  transform: translateY(-2px);
 }
 
 .nav-links a.active {
-    background-color: #b95851;
-    font-weight: bold;
+  background-color: #b95851;
+  font-weight: bold;
 }
 
-/* Content-Bereich */
+/* Content Styles */
 .content {
-    padding: 20px;
-    transition: margin-left 0.3s ease;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
 }
 
-/* ... Vorherige CSS-Regeln bleiben gleich ... */
-
-
+/* Mobile Styles */
 @media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-        background-size: contain;
-    }
-}
 
-
-@media (max-width: 768px) {
-    /* Charaktere in zwei Spalten auf kleineren Bildschirmen anordnen */
-    .character-grid {
-      grid-template-columns: repeat(3, 1fr); /* Zwei Spalten mit gleichmäßiger Breite */
-      gap: 10px; /* Abstände zwischen den Karten */
-    }
-  
-    /* Charakterkarten auf kleinere Bildschirme anpassen */
-    .character-card {
-      padding: 0px;                   /* Reduzierter Innenabstand */
-      border-radius: 8px;              /* Leicht reduzierte Ecken */
-      box-shadow: 0 3px 6px #0000004d; /* Weniger Schatten für mobile Ansicht */
-      transition: transform 0.2s ease, box-shadow 0.2s ease; /* Schnellere Übergänge */
-      height: 120px;                  /* Reduziere die Höhe des Bildes */
-      width: 120px;                   /* Breite des Bildes anpassen */
-    }
-  
-    /* Bild in der Charakterkarte kleiner darstellen */
-    .character-card img {
-      height: 120px;                  /* Reduziere die Höhe des Bildes */
-      width: 120px;                   /* Breite des Bildes anpassen */
-    }
-  
-    /* Text in der Charakterkarte für kleine Bildschirme anpassen */
-    .character-card h3 {
-      font-size: 1rem;                /* Kleinere Schriftgröße */
-      margin-top: 8px;                /* Weniger Abstand nach oben */
-    }
-  
-    .character-card .rarity {
-      font-size: 0.85rem;             /* Kleinere Schriftgröße für Rarität */
-      padding: 4px 8px;               /* Weniger Innenabstand */
-    }
-  
-    /* Stil für das "Tier"-Element auf kleineren Bildschirmen */
-    .tier {
-      padding: 15px;                  /* Reduzierter Innenabstand */
-      margin-bottom: 30px;            /* Weniger Abstand unten */
-      border-radius: 8px;             /* Abgerundete Ecken leicht reduziert */
-      box-shadow: 0 3px 6px #0000004d; /* Leichter Schatten für mobile Ansicht */
-    }
-  
-    /* Stil für die Überschrift (h2) innerhalb eines "Tier"-Elements auf kleineren Bildschirmen */
-    .tier h2 {
-      font-size: 1.2rem;              /* Kleinere Schriftgröße für Tier-Überschrift */
-      margin-bottom: 8px;             /* Weniger Abstand unterhalb der Überschrift */
-      padding-bottom: 4px;            /* Reduzierter Innenabstand */
-    }
+  /* Charaktere in zwei Spalten auf kleineren Bildschirmen anordnen */
+  .character-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px; /* Reduzierter Abstand für kleinere Bilder */
   }
+
+  /* Charakterkarten auf kleinere Bildschirme anpassen */
+  .character-card {
+      padding: 0px;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px #0000004d;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      width: 90px; /* Kleinere Breite */
+      height: 100px; /* Kleinere Höhe */
+  }
+
+  /* Bild in der Charakterkarte kleiner darstellen */
+  .character-card img {
+      height: 90px; /* Reduzierte Höhe */
+      width: 90px; /* Reduzierte Breite */
+  }
+
+  /* Text in der Charakterkarte für kleine Bildschirme anpassen */
+  .character-card h3 {
+      font-size: 0.9rem;
+      margin-top: 8px;
+  }
+
+  .character-card .rarity {
+      font-size: 0.75rem;
+      padding: 3px 6px;
+  }
+
+  /* Stil für das "Tier"-Element auf kleineren Bildschirmen */
+  .tier {
+      padding: 15px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px #0000004d;
+  }
+
+  /* Stil für die Überschrift (h2) innerhalb eines "Tier"-Elements auf kleineren Bildschirmen */
+  .tier h2 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+  }
+    /* General Styles */
+
+      /* Sidebar on Mobile */
+      .sidebar {
+          left: 0px;
+          width: 100%;
+      }
+
+      /* Active State for Sidebar */
+      .sidebar.active {
+          top: 0px;
+          left: 0;
+          box-shadow: 0 0 15px rgba(3, 0, 0, 0.329);
+          height: 100%;
+      }
+      .menu-toggle {
+          display: block;
+      }
+
+      }
   
-  @media (max-width: 480px) {
-    /* Für sehr kleine Bildschirme (z. B. Mobiltelefone) */
-    .character-grid {
-      grid-template-columns: repeat(2, 1fr); /* Zwei Spalten mit gleichmäßiger Breite */
-      gap: 5px; /* Weniger Abstand auf sehr kleinen Bildschirmen */
-    }
-  
-    /* Charakterkarten auf sehr kleine Bildschirme anpassen */
-    .character-card {
-      padding: 0px;                    /* Noch kleinerer Innenabstand */
-      border-radius: 6px;              /* Noch kleinere abgerundete Ecken */
-      box-shadow: 0 2px 4px #0000004d; /* Noch geringerer Schatten für kleine Bildschirme */
-    }
-  
-    /* Bild in der Charakterkarte für sehr kleine Bildschirme */
-    .character-card img {
-      height: 100px;                  /* Reduzierte Bildhöhe */
-      width: 100px;                   /* Reduzierte Bildbreite */
-    }
-  
-    /* Text in der Charakterkarte für sehr kleine Bildschirme anpassen */
-    .character-card h3 {
-      font-size: 0.9rem;               /* Kleinere Schriftgröße */
-      margin-top: 6px;                 /* Weniger Abstand nach oben */
-    }
-  
-    .character-card .rarity {
-      font-size: 0.75rem;              /* Kleinere Schriftgröße für Rarität */
-      padding: 3px 6px;                /* Noch weniger Innenabstand */
-    }
-  
-    /* Stil für das "Tier"-Element auf sehr kleinen Bildschirmen */
-    .tier {
-      padding: 10px;                  /* Noch kleinerer Innenabstand */
-      margin-bottom: 20px;            /* Noch weniger Abstand unten */
-      border-radius: 6px;             /* Kleinere abgerundete Ecken */
+@media (max-width: 480px) {
+  /* Für sehr kleine Bildschirme (z. B. Mobiltelefone) */
+  .character-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+  }
+
+  /* Charakterkarten auf sehr kleine Bildschirme anpassen */
+  .character-card {
+      padding: 0px;
+      border-radius: 6px;
       box-shadow: 0 2px 4px #0000004d;
-      
-    }
-  
-    /* Stil für die Überschrift (h2) innerhalb eines "Tier"-Elements auf sehr kleinen Bildschirmen */
-    .tier h2 {
-      font-size: 1rem;                /* Kleinere Schriftgröße für Tier-Überschrift */
-      margin-bottom: 6px;             /* Weniger Abstand unterhalb der Überschrift */
-      padding-bottom: 3px;            /* Reduzierter Innenabstand */
-    }
   }
-  
 
-  @media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
+  /* Bild in der Charakterkarte für sehr kleine Bildschirme */
+  .character-card img {
+      height: 100px;
+      width: 100px;
+  }
+
+  /* Text in der Charakterkarte für sehr kleine Bildschirme anpassen */
+  .character-card h3 {
+      font-size: 0.9rem;
+      margin-top: 6px;
+  }
+
+  .character-card .rarity {
+      font-size: 0.75rem;
+      padding: 3px 6px;
+  }
+
+  /* Stil für das "Tier"-Element auf sehr kleinen Bildschirmen */
+  .tier {
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px #0000004d;
+
+  }
+
+  /* Stil für die Überschrift (h2) innerhalb eines "Tier"-Elements auf sehr kleinen Bildschirmen */
+  .tier h2 {
+      font-size: 1rem;
+      margin-bottom: 6px;
+      padding-bottom: 3px;
+  }
+}
+
+/* Mobile Styles for Menu Toggle */
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: block;
+  }
 }

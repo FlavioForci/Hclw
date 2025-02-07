@@ -1,8 +1,13 @@
+/* --------------------------------------------- */
+/*  General Styles                               */
+/* --------------------------------------------- */
+
+/* Resets and Basic Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 
 html, body {
@@ -17,18 +22,25 @@ body {
     min-height: 100vh;
 }
 
-/* Sidebar-Stile */
+/* --------------------------------------------- */
+/*  Sidebar                                      */
+/* --------------------------------------------- */
+
 .sidebar {
     position: fixed;
     left: -250px;
     top: 0;
-    width: 250px; /* Feste Breite für Desktop */
+    width: 250px;
     height: 100vh;
     background-color: #333;
     transition: all 0.3s ease-in-out;
     z-index: 99;
     overflow-y: auto;
 }
+
+/* --------------------------------------------- */
+/*  Typography                                   */
+/* --------------------------------------------- */
 
 .guide-hero,h3 {
     color: #b95851;
@@ -42,41 +54,10 @@ h4 {
     margin: 1rem 0;
 }
 
-/* Desktop-Version (ab 769px) */
-@media (min-width: 769px) {
-    .sidebar {
-        left: 0; /* Immer sichtbar auf Desktop */
-        width: 250px; /* Feste Breite */
-    }
-    
-    .content {
-        margin-left: 250px; /* Inhalt verschieben */
-    }
-    
-    .menu-toggle {
-        display: none !important; /* Button auf Desktop ausblenden */
-    }
-}
+/* --------------------------------------------- */
+/*  Menu Toggle                                  */
+/* --------------------------------------------- */
 
-/* Mobile Version (bis 768px) */
-@media (max-width: 768px) {
-    .sidebar {
-        left: -100%;
-        width: 100%; /* Volle Breite auf Mobile */
-    }
-    
-    .sidebar.active {
-        left: 0;
-        box-shadow: 0 0 15px rgba(0,0,0,0.3);
-        height: 100%;
-    }
-    
-    .content.shifted {
-        margin-left: 0;
-    }
-}
-
-/* Menü-Button */
 .menu-toggle {
     display: none;
     position: fixed;
@@ -93,7 +74,10 @@ h4 {
     transition: transform 0.3s ease;
 }
 
-/* Navigation */
+/* --------------------------------------------- */
+/*  Navigation                                   */
+/* --------------------------------------------- */
+
 .nav-container {
     width: 100%;
     padding: 1rem;
@@ -125,15 +109,19 @@ h4 {
     font-weight: bold;
 }
 
-/* Content-Bereich */
+/* --------------------------------------------- */
+/*  Content                                      */
+/* --------------------------------------------- */
+
 .content {
     padding: 20px;
     transition: margin-left 0.3s ease;
 }
 
-/* ... Vorherige CSS-Regeln bleiben gleich ... */
+/* --------------------------------------------- */
+/*  Video Styling                                */
+/* --------------------------------------------- */
 
-/* Video-Styling */
 .video-title {
     margin-top: 40px!important;
     color: white;
@@ -143,23 +131,18 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
     z-index: 1;
-        /* Entferne zentrierende Eigenschaften */
-    text-align: left; 
-        
-        /* Gleiche Breite wie Video-Container */
-    width: calc(100% - 2rem); /* 2rem = Padding des Containers */
-    max-width: 1200px; /* Gleiche Maximalbreite wie Video */
-    margin: 0 auto 1rem; /* Gleicher horizontaler Abstand wie Video */
-        
-        /* Positionierung anpassen */
-    padding-left: 1rem; /* Gleiches Padding wie Video-Container */
-    }
+    text-align: left;
+    width: calc(100% - 2rem);
+    max-width: 1200px;
+    margin: 0 auto 1rem;
+    padding-left: 1rem;
+}
 
-    .video-container {
-        /* Sicherstellen, dass der Container korrekt ausgerichtet ist */
-        margin: 0 auto;
-        padding: 1rem; /* Dieses Padding muss zum Title passen */
-    }
+.video-container {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 .video-wrapper {
     position: relative;
     max-width: 800px;
@@ -168,207 +151,66 @@ h4 {
     border: 2px solid #333;
     padding: 10px;
     background: #000;
-    ;
 }
 
 .video-wrapper iframe {
     width: 100%;
     height: 100%;
-    min-height: 250px; /* Mindesthöhe für kleine Screens */
-    aspect-ratio: 16/9; /* Behält das korrekte Seitenverhältnis */
+    min-height: 250px;
+    aspect-ratio: 16/9;
 }
 
-/* Responsive Anpassungen */
-@media (max-width: 768px) {
-    .video-wrapper {
-        width: 95%;
-        max-width: 600px;
-        padding: 5px;
-    }
-    
-    .video-title {
-        margin-top: 100px;
-        font-size: 1.5rem;
-        padding: 0 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .video-wrapper {
-        min-height: 200px;
-    }
-    
-    .video-wrapper iframe {
-        min-height: 200px;
-    }
-    
-    .video-title {
-        font-size: 1.2rem;
-        letter-spacing: 1px;
-    }
-}
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-    
-    .nav-links {
-        padding-top: 60px;
-    }
-    
-    .video-title {
-        font-size: 1.5rem;
-        margin-left: 0;
-    }
-    
-    .video-wrapper {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-
-
-.sidebar, .content {
-    z-index: 1;
-}
-.menu-toggle {
-    position: relative;
-    z-index: 7;
-}
-
-
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-        background-size: contain;
-    }
-}
-
-@media (max-width: 768px) {
-    .video-title {
-        width: calc(100% - 1rem); /* Angepasstes Padding für Mobile */
-        padding-left: 0.5rem;
-        margin: 0 auto 0.5rem;
-    }
-    
-    .video-container {
-        padding: 0.5rem;
-    }
-}
+/* --------------------------------------------- */
+/*  Grid Section                                 */
+/* --------------------------------------------- */
 
 .grid-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 10px;
-    margin-top: 20px !important; /* Abstand zur Reward-Code-Section */
+    margin-top: 20px !important;
     margin-left: 250px;
 }
 
-/* Grid-Item (klickbare Box) */
 .grid-item {
     display: flex;
     align-items: center;
-    gap: 20px; /* Abstand zwischen Bild und Text */
-    background-color: #44444448; /* Hintergrundfarbe der Box */
+    gap: 20px;
+    background-color: #44444448;
     padding: 1px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Schatten */
-    text-decoration: none; /* Unterstreichung entfernen */
-    color: inherit; /* Standardtextfarbe beibehalten */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover-Effekt */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover-Effekt für Grid-Item */
 .grid-item:hover {
-    transform: translateY(-5px); /* Leichter Lift-Effekt */
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Dunklerer Schatten */
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Grid-Bild */
 .grid-image {
-    width: 250px; /* Breite des Bildes */
-    height: 100px; /* Höhe des Bildes */
-    object-fit: cover; /* Bild proportional zuschneiden */
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
 }
 
-/* Grid-Text */
 .grid-text {
-    flex: 1; /* Text nimmt den verbleibenden Platz ein */
+    flex: 1;
     color: white;
 }
 
 .grid-text h3 {
     margin: 0;
     font-size: 1.2rem;
-    color: #fff; /* Weiße Schrift */
-}
-li {
-    color: white;
+    color: #fff;
 }
 
-.arrow {float: right;; margin-right: 10px; color: white; font-size: 1.5rem;}
+/* --------------------------------------------- */
+/*  Guide Specific Styles                        */
+/* --------------------------------------------- */
 
-
-@media (max-width: 768px) {
-    .grid-section {
-        grid-template-columns: 1fr; /* Eine Spalte auf kleinen Bildschirmen */
-        margin-left: auto;
-    }
-
-    .grid-item {
-        flex-direction: column; /* Bild und Text untereinander */
-        text-align: center; /* Text zentrieren */
-    }
-
-    .grid-image {
-        width: 250px; /* Bild nimmt die volle Breite ein */
-        height: 100px; /* Höhe automatisch anpassen */
-        place-self: left;
-        float: left;
-    }
-}
-
-@media (max-width: 768px) {
-    .grid-image {
-        
-        max-width: 250px;
-    }
-    
-    .grid-item {
-        flex-direction: row;
-        align-items: center;
-    }
-}
-
-/* Close-Button Styling */
-.close-menu {
-    display: none;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-    z-index: 1001;
-}
-
-@media (max-width: 768px) {
-    .close-menu {
-        display: block;
-    }
-    
-    .nav-links {
-        padding-top: 40px; /* Platz für Close-Button */
-    }
-}
-
-
-
-/* Guide-Specific Styles */
 .guide-hero {
     text-align: center;
     padding: 2rem 1rem;
@@ -400,7 +242,7 @@ li {
     background: #2a2a2a;
     padding: 1.5rem;
     margin: 1.5rem 0;
-    overflow: hidden; /* Verhindert Überlauf von Inhalten */
+    overflow: hidden;
 }
 
 .guide-image {
@@ -408,25 +250,24 @@ li {
     padding: 10px;
     margin: 1rem 0;
     min-height: 300px;
-    max-height: 500px; /* Maximale Höhe festlegen */
+    max-height: 500px;
     background: #1a1a1a;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffffff;
     font-style: italic;
-    border-radius: 4px; /* Optional für abgerundete Ecken */
-    overflow: hidden; /* Schneidet überstehende Bildteile ab */
+    border-radius: 4px;
+    overflow: hidden;
     float: right;
+    aspect-ratio: 9/16;
 }
-.guide-image {
-    aspect-ratio: 9/16; /* Standardisiert das Format (z.B. :9) */
-}
+
 .guide-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Bild füllt Container ohne Verzerrung */
-    object-position: center; /* Zentriert den Bildausschnitt */
+    object-fit: cover;
+    object-position: center;
 }
 
 .guide-list {
@@ -458,65 +299,28 @@ li {
     font-size: 1.3rem;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .guide-title {
-        font-size: 2rem;
-    }
-    
-    .section-title {
-        font-size: 1.5rem;
-    }
-    
-    .tip-container {
-        grid-template-columns: 1fr;
-    }
+/* --------------------------------------------- */
+/*  Skill Guide Section                          */
+/* --------------------------------------------- */
+
+ 
+
+
+/* Typography */
+.guide-hero,
+.skillguide-hero {
+    color: #b95851;
+    font-size: 1.5rem;
+    margin: 1rem 0;
 }
 
-/* CSS-Anpassungen */
-.video-title {
-    color: white;
-    font-size: 2rem;
-    text-align: left; /* Linksausrichtung */
-    width: calc(100% - 2rem); /* Gleiche Breite wie Video-Container */
-    max-width: 800px; /* Gleiche Maximalbreite wie Video */
-    margin: 0 auto 1rem; /* Zentriert den Container, Inhalt links */
-    padding-left: 1rem; /* Linker Abstand */
-    box-sizing: border-box;
+h4 {
+    color: #b95851;
+    font-size: 1.2rem;
+    margin: 1rem 0;
 }
 
-.video-wrapper {
-    position: relative;
-    max-width: 800px;
-    width: 90%;
-    margin: 0 auto;
-    border: 2px solid #333;
-    padding: 10px;
-    background: #000;
-}
-
-/* Mobile Anpassungen */
-@media (max-width: 768px) {
-    .video-title {
-        width: 95%;
-        padding-left: 0;
-        font-size: 1.5rem;
-        margin-left: 5%; /* Gleich mit Video-Container abgestimmt */
-    }
-    
-    .video-wrapper {
-        width: 95%;
-    }
-}
-
-@media (max-width: 480px) {
-    .video-title {
-        font-size: 1.2rem;
-        margin-left: 2.5%;
-    }
-}
-
-
+/* Skill Guide Specific Styles */
 .skillguide-section {
     max-width: 1200px;
     padding: 0 1rem;
@@ -528,15 +332,34 @@ li {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    color: #ddd; /* Default text color inside the box */
 }
 
-.skillguide-hero {
+.skillsection-title {
     color: #ffffff;
     font-size: 2rem;
     margin-bottom: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.skillguide-list {
+    color: #ddd;
+    line-height: 1.8; /* Increased for better readability */
+    padding-left: 20px;
+}
+
+.skillguide-list li {
+    margin-bottom: 0.8rem;
+}
+
+.skillguide-note {
+    margin-top: 1.5rem;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Skill Grid Styles */
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -557,45 +380,22 @@ li {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.skillguide-list {
-    color: #ddd;
-    line-height: 1.6;
+/* Buff and Debuff Styles */
+.buff {
+    color: #a5d6a7; /* Light green for buffs */
+    font-weight: bold;
 }
 
-.skillguide-list li {
-    margin-bottom: 0.8rem;
+.debuff {
+    color: #ef9a9a; /* Light red for debuffs */
+    font-weight: bold;
 }
 
-.skillguide-note {
-    margin-top: 1.5rem;
-    color: #ffffff;
-    font-style: italic;
-}
-
-/* Mobile Anpassungen */
-@media (max-width: 768px) {
-    .skill-grid {
-        grid-template-columns: repeat(3, 1fr); /* 2 Spalten für kleinere Bildschirme */
-    }
-}
-
-@media (max-width: 480px) {
-    .skill-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .skillguide-hero {
-        font-size: 1.5rem;
-    }
-}
-
-
-
-
+/* Small Images Grid */
 .skill-grid2 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 Spalten */
-    gap: 0.5rem; /* Abstand zwischen den Bildern */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
 }
 
 .skill-grid2 img {
@@ -603,7 +403,6 @@ li {
     height: 60px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
 }
 
 .skill-grid2 img:hover {
@@ -611,17 +410,178 @@ li {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .skill-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skillguide-section {
+        padding: 0 0.5rem;
+    }
+
+    .skillguide-box {
+        padding: 1.5rem;
+    }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+    .skill-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skill-grid img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skillguide-hero {
+        font-size: 1.3rem;
+    }
+
+    .skillguide-box {
+        padding: 1rem;
+    }
+}
+
+/* --------------------------------------------- */
+/*  Helper Classes                               */
+/* --------------------------------------------- */
+
+li {
+    color: white;
+}
+
+.arrow {
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* --------------------------------------------- */
+/*  Media Queries                                */
+/* --------------------------------------------- */
+
+/* Large devices (desktops, 769px and up) */
+@media (min-width: 769px) {
+    .sidebar {
+        left: 0;
+        width: 250px;
+    }
+
+    .content {
+        margin-left: 250px;
+    }
+
+    .menu-toggle {
+        display: none !important;
+    }
+}
+
+/* Mobile Version (up to 768px) */
+@media (max-width: 768px) {
+    .sidebar {
+        left: -100%;
+        width: 100%;
+    }
+
+    .sidebar.active {
+        left: 0;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        height: 100%;
+    }
+
+    .content.shifted {
+        margin-left: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    body {
+        background-attachment: scroll;
+        background-size: contain;
+    }
+
+    .video-title {
+        width: calc(100% - 1rem);
+        padding-left: 0.5rem;
+        margin: 0 auto 0.5rem;
+    }
+
+    .video-container {
+        padding: 0.5rem;
+    }
+
+    .grid-section {
+        grid-template-columns: 1fr;
+        margin-left: auto;
+    }
+
+    .grid-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grid-image {
+        width: 250px;
+        height: 100px;
+        place-self: left;
+        float: left;
+    }
+
+    .grid-image {
+        max-width: 250px;
+    }
+
+    .grid-item {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .close-menu {
+        display: block;
+    }
+
+    .nav-links {
+        padding-top: 40px;
+    }
+
+    .video-title {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .video-wrapper {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile Anpassungen */
+@media (max-width: 768px) {
+    .skill-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 /* Mobile Anpassungen */
 @media (max-width: 768px) {
     .skill-grid2 {
-        grid-template-columns: repeat(2, 1fr); /* 2 Spalten für Tablets */
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 480px) {
+
     .skill-grid2 {
         grid-template-columns: repeat(4, 1fr);
     }
+    
     .skill-grid2 img {
         width: 50px;
         height: 50px;
@@ -644,5 +604,3 @@ li {
 }
 
 }
-
-

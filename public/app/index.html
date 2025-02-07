@@ -1,28 +1,30 @@
 <!doctype html>
 <html lang="en">
-    <head><meta charset="utf-8"/>
-        <link rel="icon" href="/app/favicon.ico"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1"/>
-        <meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/>
-        <link rel="apple-touch-icon" href="/app/logo192.png"/>
-        <link rel="stylesheet" href="/public/styless2.css">
-        <link rel="manifest" href="/app/manifest.json"/>
-        <title>Tier List</title>
-        <script defer="defer" src="/app/static/js/main.fce832a6.js">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="/app/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="HCLW Tier List"/>
+    <link rel="apple-touch-icon" href="/public/app/favicon.ico"/>
+    <link rel="manifest" href="/app/manifest.json"/>
+    <title>HCLW Tier List</title>
 
-        </script><link href="/app/static/css/main.ca43651d.css" rel="stylesheet">
-        
-    
-        <style>
-            /* Neue CSS-Regeln für den Hintergrund */
-            .guide-hero {
-                position: relative;
-                height: 400px;
-                overflow: hidden;
-                margin-bottom: 2rem;
-            }
-        
-            .guide-hero::before {
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="/public/styless2.css">
+    <link href="/app/static/css/main.ca43651d.css" rel="stylesheet">
+
+    <!-- Inline Styles (Consider moving to CSS file) -->
+    <style>
+        /* Hero Section Background */
+        .guide-hero {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .guide-hero::before {
             content: '';
             position: absolute;
             top: 0;
@@ -37,84 +39,67 @@
             animation: smoothFade 2.5s ease-out forwards;
             border-radius: 50px;
         }
-        
+
         @keyframes smoothFade {
             0% {
                 opacity: 0;
                 filter: blur(5px);
             }
             100% {
-                opacity: 0.1; /* Adjust final opacity as needed */
+                opacity: 0.1;
                 filter: blur(5px);
             }
         }
-            .guide-text { position: relative;
-                padding-top: 100px;
-                color: #fff;
-                text-shadow: 2px 2px 4px rgba(0,0,0,0.8)}
-        
-            .guide-title {position: relative;
-                padding-top: 100px;
-                color: #fff;
-                text-shadow: 2px 2px 4px rgba(0,0,0,0.8)}
-               
-            
-        
-            .content {
-                    position: relative;
-                    z-index: 0;
-                }
-         </style>
-    
-    
-    
-    
-    
-    
-    </head>
-        <body>
-            
-            <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
-    
-    
-            <div class="sidebar ">
-                <nav class="nav-container">
-                    <div class="nav-links">
-                        <img src="../images/HCLW.webp" alt="">
-                        <a href="/index.html">Home</a>
-                        <a href="./beginnerguide.html" class="active">Beginner's Guide
-                        </a>
-                        <a href="/guides.html">Guides</a>
-                        <a href="#">Kontakt</a>
-                    </div>
-                </nav>
+
+        /* Hero Text Styles */
+        .guide-title {
+            position: relative;
+            padding-top: 100px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            align-self: center; /*Added align-self: center*/
+        }
+
+        .content {
+            position: relative;
+            z-index: 0;
+        }
+    </style>
+
+    <!-- JavaScript Links -->
+    <script defer="defer" src="/app/static/js/main.fce832a6.js"></script>
+</head>
+<body>
+    <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+
+    <div class="sidebar">
+        <nav class="nav-container">
+            <div class="nav-links">
+                <img src="../images/HCLW.webp" alt="HCLW Logo">
+                <a href="/index.html">Home</a>
+                <a href="./beginnerguide.html">Beginner's Guide</a>
+                <a href="/guides.html">Guides</a>
+                <a href="#">Kontakt</a>
             </div>
-            <noscript>You need to enable JavaScript to run this app.</noscript>
+        </nav>
+    </div>
 
-            <div class="content">
-                <!-- Hero Section -->
-                <section class="guide-hero">
-                    <h1 class="guide-title" style="align-self: center;">Tier List</h1><br>
-                    <p>will change a lot cause many things are not known yet</p>
+    <div class="content">
+        <!-- Hero Section -->
+        <section class="guide-hero">
+            <h1 class="guide-title">Tier List</h1><br>
+            <p>will change a lot cause many things are not known yet</p>
+            <h4 style="color: rgba(204, 22, 22, 0.815);">-Data from Rayku </h4>
+        </section>
 
-                    
-                    <h4 style="color: rgba(204, 22, 22, 0.815);">-Data from Rayku </h4>
-        
-                </section>
-                
-            
-            
-            <div id="root"></div>
-        
-        
-            <script>
-                function toggleSidebar() {
-                    document.querySelector(".sidebar").classList.toggle("active");
-                    document.querySelector(".content").classList.toggle("shifted");
-                }
-            </script>
-            
-        </body>
-        
-        
-        </html>
+        <div id="root"></div>
+
+        <script>
+            function toggleSidebar() {
+                document.querySelector(".sidebar").classList.toggle("active");
+                document.querySelector(".content").classList.toggle("shifted");
+            }
+        </script>
+    </div>
+</body>
+</html>
