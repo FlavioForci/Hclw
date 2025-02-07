@@ -1,0 +1,124 @@
+/* Allgemeine Stile */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a; /* Dunkler Hintergrund */
+  color: #ffffff; /* Weißer Text */
+}
+
+/* App-Container */
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Überschrift */
+.App-header h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* Goldene Akzentfarbe */
+}
+
+/* Tiers (Kategorien wie S-Tier, A-Tier) */
+.tier {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #2a2a2a; /* Dunkler, aber etwas abgehobener als der Hintergrund */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Tier-Überschrift */
+.tier h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Charakter Grid */
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1500px, 2fr));
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Charakter-Karten */
+.character-card {
+  background: #333;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(255, 204, 0, 0.6);
+}
+
+/* Charakter-Bild */
+.character-card img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 150px;  /* Einheitliche Breite */
+  height: 150px; /* Einheitliche Höhe */
+}
+
+/* Charakter-Name */
+.character-card h3 {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Charakter-Typ 
+.character-card p {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin: 5px 0;
+}
+
+/* Farbige Labels für Seltenheit */
+.character-card .rarity {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/* Farben für verschiedene Tier-Raritäten */
+.rarity.S-Tier {
+  background: linear-gradient(45deg, #ffcc00, #ff6600);
+  color: black;
+}
+
+.rarity.A-Tier {
+  background: linear-gradient(45deg, #00ccff, #0066ff);
+  color: white;
+}
+
+.rarity.B-Tier {
+  background: linear-gradient(45deg, #66ff66, #009900);
+  color: black;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  .character-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+  }
+
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+}

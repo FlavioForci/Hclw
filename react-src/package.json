@@ -1,0 +1,30 @@
+{
+  
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.2.0",
+    "react": "^18.2.0",       
+    "react-dom": "^18.2.0",    
+    "react-scripts": "5.0.1"
+  },
+  
+    "name": "hclw-app",
+    "version": "1.0.0",
+    "homepage": "/app",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build && rmdir -rf ../public/app && mv build ../public/app",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "postinstall": "patch-package"
+    },
+    "browserslist": {
+      "production": [">0.2%", "not dead", "not op_mini all"],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
