@@ -5,7 +5,12 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+      
     ],
+
+    "cleanUrls": true },
+
+
     "headers": [
       {
         "source": "**/*.mp4",
@@ -53,7 +58,7 @@
       },
       {
         "source": "/guides",          
-        "destination": "/guides.html"
+        "destination": "public/hclw/guides.html"
       },
       {
         "source": "/reRoll",          
@@ -66,10 +71,12 @@
       {
         "source": "/app/**", 
         "destination": "/app/index.html"
-      }
+      },
+       {
+        "source": "/hclw",
+        "destination": "hclw/hclw.html"}
     ]
 
 
   }
   
-}

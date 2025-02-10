@@ -303,24 +303,6 @@ h4 {
 /*  Skill Guide Section                          */
 /* --------------------------------------------- */
 
- 
-
-
-/* Typography */
-.guide-hero,
-.skillguide-hero {
-    color: #b95851;
-    font-size: 1.5rem;
-    margin: 1rem 0;
-}
-
-h4 {
-    color: #b95851;
-    font-size: 1.2rem;
-    margin: 1rem 0;
-}
-
-/* Skill Guide Specific Styles */
 .skillguide-section {
     max-width: 1200px;
     padding: 0 1rem;
@@ -329,37 +311,18 @@ h4 {
 
 .skillguide-box {
     background: #2a2a2a;
-    padding: 2rem;
+    padding: 0.2rem;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-    color: #ddd; /* Default text color inside the box */
 }
 
-.skillsection-title {
+.skillguide-hero {
     color: #ffffff;
     font-size: 2rem;
     margin-bottom: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.skillguide-list {
-    color: #ddd;
-    line-height: 1.8; /* Increased for better readability */
-    padding-left: 20px;
-}
-
-.skillguide-list li {
-    margin-bottom: 0.8rem;
-}
-
-.skillguide-note {
-    margin-top: 1.5rem;
-    color: #ffffff;
-    font-style: italic;
-    font-size: 0.9rem;
-}
-
-/* Skill Grid Styles */
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -380,18 +343,21 @@ h4 {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-/* Buff and Debuff Styles */
-.buff {
-    color: #a5d6a7; /* Light green for buffs */
-    font-weight: bold;
+.skillguide-list {
+    color: #ddd;
+    line-height: 1.6;
 }
 
-.debuff {
-    color: #ef9a9a; /* Light red for debuffs */
-    font-weight: bold;
+.skillguide-list li {
+    margin-bottom: 0.8rem;
 }
 
-/* Small Images Grid */
+.skillguide-note {
+    margin-top: 1.5rem;
+    color: #ffffff;
+    font-style: italic;
+}
+
 .skill-grid2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -408,41 +374,6 @@ h4 {
 .skill-grid2 img:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-}
-
-/* Mobile Styles */
-@media (max-width: 768px) {
-    .skill-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .skillguide-section {
-        padding: 0 0.5rem;
-    }
-
-    .skillguide-box {
-        padding: 1.5rem;
-    }
-}
-
-/* Small Mobile Styles */
-@media (max-width: 480px) {
-    .skill-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .skill-grid img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .skillguide-hero {
-        font-size: 1.3rem;
-    }
-
-    .skillguide-box {
-        padding: 1rem;
-    }
 }
 
 /* --------------------------------------------- */
