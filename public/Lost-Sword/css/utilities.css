@@ -1,0 +1,12 @@
+/* css/utilities.css */
+
+/* Beispiel: Hilfsklassen für Abstände */
+.mt-0 { margin-top: 0 !important; }
+.mt-1 { margin-top: 0.25rem !important; }
+.mt-2 { margin-top: 0.5rem !important; }
+.mt-3 { margin-top: 1rem !important; }
+/* ... und so weiter für mb (margin-bottom), ml, mr, mx, my, pt, pb, pl, pr, px, py */
+
+/* Beispiel: Hilfsklassen für Farben */
+
+/* ... und weitere, die du brauchst ... */

@@ -1,0 +1,181 @@
+/* css/components/navbar.css */
+
+/* Navigationsleiste */
+nav {
+    border: #ffffff56 1px solid;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    width: 50%;
+    height: 100%;
+    background-color: #1f1f1f;
+    padding: 10px;
+    padding-top: 70px; /* Platz für Logo/Button */
+    z-index: 700;
+    transition: transform 0.3s ease;
+    
+}
+
+nav.active {
+    transform: translateX(110%);
+}
+
+/* Logo-Container */
+.logo-container {
+    border: #ffffff38 1px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1f1f1f;
+    display: flex;
+    padding: 10px 20px;
+    z-index: 800;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 30px;
+    height: auto;
+    text-decoration: none;
+}
+
+.logo-container a {
+    text-decoration: none;
+}
+
+.logo-text {
+    margin-left: -10px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+}
+
+/* Toggle-Button-Positionierung (innerhalb des Logo-Containers) */
+.logo-container .toggle-button {
+    margin-left: auto;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.toggle-button{
+     background: transparent;
+    border: none;
+      cursor: pointer;
+       display: block;;
+       text-decoration: none;
+}
+
+/* Hamburger-Balken */
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: white; /* Oder deine gewünschte Farbe */
+    transition: 0.3s;
+}
+
+/* X-Animation */
+.toggle-button.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.toggle-button.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.toggle-button.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Trennlinie */
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.212);
+    margin: 10px 0;
+    display: none;
+
+}
+
+
+nav a img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+nav  a.active-link {
+    background-color: rgba(255, 255, 255, 0.2); /* Hellerer Hintergrund */
+    font-weight: bold;  
+    border-radius: 8px;        /* Fettgedruckte Schrift */
+    /*  Du kannst hier weitere Stile hinzufügen, z.B.: */
+    /* color: #ffcc00; */     /* Andere Textfarbe */
+    /* border-left: 4px solid #ffcc00; */  /* Linker Rand */
+}
+/* Navigationslinks */
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav li {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+
+    
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    
+   
+    transition: background-color 0.2s; /* Sanfter Hover-Effekt */
+  
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Heller beim Hover */
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Media Query für größere Bildschirme */
+@media (min-width: 769px) {
+    .toggle-button {
+        display: none;
+        text-decoration: none;
+    }
+
+
+    nav {
+        left: 0;
+        transform: none;
+        width: 200px;
+        padding-top: 20px;
+        margin-top: 40px;
+    }
+
+    
+}
+

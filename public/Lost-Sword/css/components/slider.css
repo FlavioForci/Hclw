@@ -1,0 +1,122 @@
+/* css/components/slider.css */
+
+/* ----- Grundlegende Stildefinitionen (außerhalb der Media Queries) ----- */
+
+.events-section {
+    
+    text-align: center;
+    padding: 20px;
+    border-bottom: #4d4a4ace 3px solid;
+    padding-top: 40px;
+   
+    
+    
+}
+
+.events-section h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.slider-container {
+    position: relative;  /* Wichtig für absolute Positionierung */
+    margin: 0 auto;    /* Zentriert horizontal */
+    overflow: hidden;   /* Überlauf ausblenden */
+    border: 1px solid #dddddd9f;
+    position: grid;
+    /* KEINE feste width und height hier */
+}
+
+.slider {
+    display: flex;      /* Flexbox für die Slides */
+    transition: transform 0.5s ease-in-out; /* Animation */
+    height: 100%;      /* Volle Höhe des Containers */
+     /* width wird per JS gesetzt */
+}
+
+.slide {
+    flex: 0 0 100%;    /* Jeder Slide nimmt 100% der Breite ein */
+    min-width: 100%;
+    box-sizing: border-box;
+    height: 100%;      /* Volle Höhe des Sliders */
+    position: relative; /* Wichtig für absolute Positionierung */
+    
+}
+
+.slide img {
+    width: 100%;      /* Bild füllt den Slide in der Breite */
+    height: 100%;      /* Bild füllt den Slide in der Höhe */
+    object-fit: cover;  /* Wichtig für korrektes Skalieren/Beschneiden */
+    display: block;    /* Verhindert unnötigen Abstand */
+    border: none;
+}
+
+.caption {
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+/* Pfeil-Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* ----- Media Queries (für verschiedene Bildschirmgrößen) ----- */
+
+/* Standardansicht (Desktop) */
+.slider-container {
+    width: 500px;   /* Feste Breite */
+    height: 300px;   /* Feste Höhe */
+}
+
+
+
+/* Sehr kleine Bildschirme (Smartphones) */
+@media (max-width: 520px) {  /*  Breakpoint anpassen, wenn nötig! */
+    .slider-container  {
+        width: 100%;          /* Volle Breite */
+        height: auto; 
+               /* Höhe automatisch */
+    }
+}
+
+
+
+/*  Du könntest weitere Media Queries hinzufügen, z.B. für sehr große
+    Bildschirme, um die maximale Breite des Sliders zu begrenzen. */
+
+@media (min-width: 1200px) { /* Beispiel */
+     .slider-container {
+        max-width: 1200px; /* Maximale Breite begrenzen */
+    
+    }
+}

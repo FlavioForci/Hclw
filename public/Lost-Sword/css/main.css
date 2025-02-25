@@ -1,0 +1,21 @@
+/* css/main.css */
+
+@import url('../css/base.css');
+@import url('../css/layout.css');
+@import url('../css/components/navbar.css');
+/* @import url('components/button.css');  // Nur wenn du den Button auslagerst */
+@import url('../css/components/video-bg.css');
+@import url('../css/utilities.css');
+@import url('../css/components/slider.css');
+@import url('../css/components/guide_grid.css');
+@import url('../css/components/todo.css');
+@import url('../css/components/guide.css');
+
+/* debug 
+
+   * {
+    border: 1px solid red;
+    z-index: 1000;;
+   }*/
+
+

@@ -1,0 +1,118 @@
+/* Style für die Guide-Seite */.guide-section {
+    margin-bottom: 20px;
+}.guide-section h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    
+}.guide-section ul {
+    list-style: disc; /* Oder circle, square */
+    padding-left: 20px;
+}.guide-section li {
+    margin-bottom: 5px;
+}.guide-section p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+* {
+    color: white;
+}
+
+
+.reroll-targets img {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)); 
+    gap: 20px;
+    padding: 10px;
+
+}.reroll-targets img {
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    transition: transform 0.2s;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Schattenstil */
+}.reroll-targets img:hover {
+    transform: scale(1.05);
+   
+}
+
+
+@media (max-width: 769px) 
+
+{
+    .reroll-targets img {
+        border-radius: 8px;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        transition: transform 0.2s;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Schattenstil */
+   
+    }
+}
+
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.2s;
+    background-color: rgba(68, 68, 68, 0.432);
+    padding: 5px;
+}.icons img:hover {
+    transform: scale(1.05);
+}
+
+
+
+.skill-images { /* Stile für die Bilder der passiven Fähigkeiten */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive Grid */
+    gap: 20px; /* Abstand zwischen Bildern */
+}
+.skill-images img {
+   width: 500px;
+    height: auto; /* Höhe automatisch anpassen */
+    max-height: 250px; /* Maximale Höhe */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Schattenstil */
+}
+
+
+@media (min-width: 768px) { /* Für größere Bildschirme */
+    .skill-images {
+          grid-template-columns: repeat(2, 2fr); /* Zwei Spalten */
+      }
+    .skill-images img {
+          grid-column: span 1; /* Jedes Bild nimmt eine Spalte ein */
+      }
+    .skill-images p {
+          grid-column: span 1; /* Text nimmt beide Spalten ein */
+      }
+  }
+
+
+
+
+  .skill-item { /* Stile für das Bild-Text-Paar */
+    display: flex;
+    flex-direction: column; /* Bild und Text vertikal anordnen */
+    align-items: center; /* Zentrieren */
+}.skill-item img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}.skill-item p {
+    text-align: center; /* Text zentrieren */
+    width: 100%; /* Volle Breite */
+    padding: 10px; /* Innenabstand */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Schattierter Hintergrund */
+    margin-top: 5px; /* Überlappung mit dem Bild */
+}
+
+@media (min-width: 768px) {
+  .skill-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
