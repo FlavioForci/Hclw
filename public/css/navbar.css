@@ -40,7 +40,7 @@ body {
   min-height: 100vh;
   /* display: flex; justify-content: center; align-items: center;  Entferne diese Zeilen! */
   overflow: hidden;
-  background-color: #111;
+  background-color: rgb(22, 22, 23);
   padding-top: 60px; /* Behalte das bei (für die fixed Navbar) */
 }
 
@@ -61,14 +61,14 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
-  opacity: 0.05; /* Anfangs unsichtbar */
+  opacity: 0.02; /* Anfangs unsichtbar */
   animation-timing-function: linear; /* Gleichmäßige Animation */
   animation-iteration-count: infinite; /* Endlosschleife */
 }
 
 /* Ebene 1: Bild */
 .layer-1 {
-  background-image: url("../images/peakpx.jpg"); /* Ersetze mit deinem Bild */
+  background-image: url("../images/GhPIXlJaIAAdEDu.jpg_large"); /* Ersetze mit deinem Bild */
   animation-name: animate-bg-1;
   animation-duration: 20s;  /* Passe die Dauer an */
   animation-delay: 0s;
