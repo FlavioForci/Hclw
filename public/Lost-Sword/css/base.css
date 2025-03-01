@@ -2,10 +2,12 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: roboto;
     color: rgb(114, 84, 84);
     min-height: 100vh;
     background-color: rgb(22, 22, 22);
+    
+    
 }
 
 /*  Füge hier weitere grundlegende Stile hinzu, z.B.: */
@@ -26,6 +28,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    
 }
 
 /* Optional: Ein CSS-Reset (empfohlen für konsistentes Verhalten) */
@@ -42,3 +45,10 @@ body {
     line-height: 1.5; // Zeilenabstand
 }
 */
+
+
+
+* {
+    font-family: "roboto", sans-serif;
+    
+}

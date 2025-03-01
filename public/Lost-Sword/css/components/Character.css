@@ -1,0 +1,126 @@
+/* Character.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Character-liste {
+    padding: 20px;
+    z-index: 10;
+}
+
+/* Basis-Stile für die Charakter-Container */
+.Character-S, .Character-A, .Character-B {  /* Gemeinsame Regeln zusammenfassen */
+    max-width: 150px; /* Behalte die maximale Breite bei */
+    height: 200px;    /* Explizite Höhe für Hover-Problem */
+    background-color: rgb(201, 147, 0); /* Standard-Hintergrundfarbe, wird überschrieben */
+    padding: 2px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    z-index: 22;
+}
+
+/* Spezifische Hintergrundfarben */
+.Character-A {
+    background-color: rgb(141, 93, 116);
+}
+
+.Character-B {
+    background-color: rgb(82, 82, 82);
+}
+
+
+.Character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Standard: auto-fit */
+    gap: 10px;
+    z-index: 22;
+}
+
+/* Media Query für Handys (max-width: 768px ist ein guter Startpunkt) */
+@media (max-width: 768px) {
+    .Character-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 Spalten auf Handys */
+    }
+     /* Optional: Kleinere maximale Breite auf sehr kleinen Bildschirmen */
+    .Character-S, .Character-A, .Character-B{
+        max-width: 100%; /*Nimmt die breite des screens ein*/
+        height: auto;    /* Setze höhe auf auto */
+
+    }
+     .Character-S span, .Character-A span, .Character-B span{
+          font-size: 0.8em; /*Passe die größe an*/
+     }
+}
+
+
+.Character-S img, .Character-A img, .Character-B img { /* Gemeinsame Regeln */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Character-S span, .Character-A span, .Character-B span { /* Gemeinsame Regeln */
+    background-color: rgba(255, 255, 255, 0.226);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.3em;
+    font-weight: 900;
+    -webkit-filter: drop-shadow(1px 3px 3px rgb(0, 0, 0));
+}
+
+.Character-S img:hover, .Character-A img:hover, .Character-B img:hover { /* Gemeinsame Regeln */
+    transform: scale(1.1);
+}
+
+
+.filter-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff7f70e;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    z-index: 1000;
+}
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    z-index: 10000;
+}
+
+.filter-button:hover {
+    background-color: #a5a5a5;
+    transform: scale(1.03);
+}
+
+.filter-button:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+.filter-button.active {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    border-color: #007bff;
+    transform: scale(1.03);
+}
+
+/* Media Query für Filter-Buttons (könnte mit der obigen kombiniert werden) */
+@media (max-width: 768px) {
+    .filter-button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

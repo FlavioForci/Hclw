@@ -2,6 +2,7 @@
 
 .bg-layer {
     opacity: 0.02;
+
     /* animation-timing-function und animation-iteration-count
     sind normalerweise Teil einer vollständigen Keyframe-Animation,
     die du hier nicht hast. Entferne sie, wenn du keine Animation

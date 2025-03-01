@@ -3,6 +3,7 @@
 body {
     overflow-x: hidden; /* Horizontales Scrollen verhindern */
    padding-top: 60px;  /* Platz für festes Logo/Button */
+   
 }
 .background-container, .bg-layer, .bg-layer video {
    position: absolute;
@@ -19,6 +20,8 @@ body {
        overflow: auto;  /* Scrollen wieder erlauben auf großen Bildschirmen */
        padding-top: 0;
    }
+
+   
 }
 
 
@@ -29,10 +32,12 @@ body {
    padding-left: 15px;
    padding-right: 15px;
    margin-top: 70px;}
+   
 
 .content-container img {
    max-width: 100%;
    height: auto;
+  z-index: 23;
    
 
 }
@@ -40,4 +45,16 @@ body {
 .content-container h2 {
    border-bottom: 1px solid #5f5f5f; /* Trennstrich hinzufügen */
 
+}
+
+@media (min-width: 1269px) {
+   .content-container {
+       padding-left: 250px;
+       padding-right: 0;
+       
+      max-width: 1400px; /* Oder eine andere maximale Breite */
+       
+         
+   }
+   
 }

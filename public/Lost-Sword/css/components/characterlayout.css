@@ -1,0 +1,312 @@
+.Character-banner {
+    background: linear-gradient(to bottom, rgb(92, 53, 136), rgb(29, 27, 27)); /* Angepasster Verlauf */
+    background-color: rgb(201, 147, 0);
+    display: flex;          /* Flexbox aktivieren */
+    align-items: center;    /* Vertikal zentrieren (optional) */
+    max-height: 150px;
+    border-radius: 3px;
+    
+    
+}
+
+.Character-Image {
+    max-width: 150px;       /* Maximale Bildbreite */
+            /* Höhe proportional anpassen */
+margin-right: 40px; 
+margin-bottom: 50px;
+}
+
+.Character-Name {
+    padding: 5px;
+    font-size: 1.3em;
+    margin-right: auto;    /* Wichtig: Damit der Name links bleibt */
+    /* Folgendes ist optional, falls du den Namen vertikal zentrieren möchtest: */
+    /* display: flex;
+       align-items: center; */
+}
+
+.Caracterinfocard {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 15px  ;
+}
+
+.info-row {
+   margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+.info-label {
+    background-color: rgba(107, 107, 107, 0.377);
+    height: 45px;
+}
+
+.info-row span {
+    
+    padding: 5px;
+    font-size: 1.2em;
+    color: #fff;
+    
+}
+
+.info-value {
+    background-color: #b9b9b95b;
+    height: 25px;
+}
+
+
+
+
+/* Front row - 3. Balken rot */
+.info-value.front-row::after {
+    background: linear-gradient(to right,
+        white 0%,   white 32%,   /* 1. Balken */
+        #000000 32%,  #000000 34%,   /* 1. Abstand */
+        white 34%,  white 66%,  /* 2. Balken */
+        #000000 66%,  #000000 68%,   /* 2. Abstand */
+        red 68%,   red 100%    /* 3. Balken (rot) */
+    );
+}
+
+/* Middle row - 2. Balken rot */
+.info-value.middle-row::after {
+    background: linear-gradient(to right,
+        white 0%,   white 32%,   /* 1. Balken */
+        #ccc 32%,  #ccc 34%,   /* 1. Abstand */
+        red 34%,    red 66%,    /* 2. Balken (rot) */
+        #ccc 66%,  #ccc 68%,   /* 2. Abstand */
+        white 68%,   white 100%   /* 3. Balken */
+    );
+}
+
+/* Back row - 1. Balken rot */
+.info-value.back-row::after {
+    background: linear-gradient(to right,
+        red 0%,     red 32%,    /* 1. Balken (rot) */
+        #ccc 32%,  #ccc 34%,    /* 1. Abstand */
+        white 34%,  white 66%,   /* 2. Balken */
+        #ccc 66%,  #ccc 68%,    /* 2. Abstand */
+        white 68%,   white 100%   /* 3. Balken */
+    );
+}
+
+/* Breite anpassen, da jetzt nur 3 Balken */
+.info-value.info-value.info-value.front-row::after {
+    content: "";
+    display: inline-block;
+    width: 64px; /* (3 Balken * 20px) + (2 Abstände * 2px) = 64px */
+    height: 10px;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    
+    .Caracterinfocard {
+        flex-direction: column; /* Auf kleineren Bildschirmen vertikal anordnen */
+        gap: 0; /* Kein Abstand zwischen den Reihen */
+        margin: auto; /* Zentrieren */
+        padding: 0px;
+    }
+
+    .info-row {
+        width: 100%;       /* Volle Breite auf kleineren Bildschirmen */
+        margin-bottom: 5px; /* Reduziere den Abstand zwischen den Reihen */
+    }
+     .info-row:last-child {
+        margin-bottom: 0; /*Kein Abstand bei der letzten Reihe*/
+     }
+}
+
+.Character-Skills {
+    display: flex;
+    flex-wrap: wrap;        /* Erlaube Umbruch */
+    gap: 20px;             /* Abstand zwischen den Skill-Items */
+    width: 100%;          /* Volle Breite des Containers */
+  
+    overflow-x: auto;  
+     padding-bottom: 15px; 
+}
+
+.skill-item {
+    flex: 0 0 auto;     
+    
+    width: 250px;
+    max-width: 100%; 
+    border: 1px solid #3a3a3a5e;
+    padding: 10px;
+    background-color: #41404057;
+    display: flex;         
+    flex-direction: column; 
+    align-items: center;   }
+
+
+.skill-item > div {  
+    margin-bottom: 10px;
+}
+.skill-item > div:last-child{
+    margin-bottom: 0;
+} 
+
+/*NEU: Container für Bild*/
+.skill-image-container {
+    margin-bottom: 10px; /*Abstand zwischen Bild und Beschreibung*/
+}
+
+.skill-description {
+    /* width: 100%;  Breite ist nicht nötig, da Flexbox das übernimmt */
+}
+
+.skill-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: center; /* Zentriert den Text */
+}
+
+.skill-level {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+    text-align: center; /* Zentriert den Text */
+}
+
+.skill-section {
+    margin-bottom: 1em;
+    text-align: left; 
+}
+
+.section-title {
+    font-weight: bold;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+/* .skill-section > div:not(.section-title) {  Nicht nötig mit <p>
+    margin-bottom: 0.2em;
+} */
+.skill-section > div:last-child{ /*Nicht mehr benötigt, da jetzt <p>*/
+    margin-bottom: 0;
+}
+
+/* Stile für die Bilder */
+.Skill-1 img, .Skill-2 img, .Skill-3 img, .Skill-4 img  {
+    max-width: 100%;  /* Wichtig für Responsivität */
+    height: 97px;
+    display: block; 
+    margin-bottom: 5px;  
+    border-radius: 12px; /* Runde Ecken */
+}
+
+
+/* Responsives Verhalten */
+@media (max-width: 768px) {
+    .Character-Skills {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .skill-item {
+        width: 100%;  
+        flex: 0 0 100%;
+        flex-basis: 100%; 
+        max-width: fit-content;
+    }
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap; /* Umbruch auf kleineren Bildschirmen */
+	gap: 20px;
+	justify-content: space-between; /*Verteilt den Platz auf großen Bildschirmen*/
+}
+
+.Character-Card-Section,
+.Card-Skill-Section {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	border: 1px solid #3a3a3a5e; /* Rahmen */
+	padding: 10px;
+	background-color: #41404057;/*Hintergrundfarbe*/
+	flex: 1 0 calc(50% - 10px); /* Nimmt die Hälfte der Breite minus Abstand */
+	box-sizing: border-box; /* Bezieht Padding und Border in die Breite mit ein */
+	min-width: 300px;/*Mindestbreite*/
+}
+
+
+.Character-Card,
+.Card-Skill {
+	margin-right: 10px;
+	flex-shrink: 0;      /* Verhindere, dass der Bildcontainer schrumpft */
+
+}
+
+.Character-Card img,
+.Card-Skill img {
+	max-width: 150px; /* Reduzierte maximale Bildbreite */
+	height: auto;
+	display: block;
+	border-radius: 12px;
+    border: #dbdbdb50 1px solid;
+
+}
+
+.Character-Card-Name,
+.Card-Skill-Name {
+	text-align: center;
+	margin-bottom: 5px;
+  flex-grow: 1;      /* Textcontainer nimmt verfügbaren Platz ein*/
+
+}
+
+.Card-Description,
+.Card-Skill-Description {
+	flex-grow: 1; /* Textcontainer nimmt verfügbaren Platz ein */
+}
+
+/* Responsives Verhalten */
+@media (max-width: 768px) {
+	.cards-container {
+		flex-direction: column; /* Untereinander auf kleinen Bildschirmen */
+	}
+
+	.Character-Card-Section,
+	.Card-Skill-Section {
+		width: 100%; /* Volle Breite auf kleinen Bildschirmen */
+		flex-direction: column; /* Elemente untereinander */
+		align-items: center;      /* Zentriert horizontal */
+		flex: 1 0 100%;        /* Volle Breite */
+	}
+
+	.Character-Card img,
+	.Card-Skill img {
+		max-width: 100%; /* Volle Breite auf kleinen Bildschirmen */
+        margin-right: 0;
+        margin-bottom: 10px;
+	}
+
+	.Character-Card,
+	.Card-Skill {
+		margin-right: 0; /* Entferne margin-right auf kleinen Bildschirmen */
+		margin-bottom: 10px; /* Füge margin-bottom hinzu */
+	}
+
+}
+    .Card-Skill-Name {
+        display: none;
+    }
+
+    .Character-Card-Name {
+        display: none;
+    }

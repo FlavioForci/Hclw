@@ -82,11 +82,14 @@
 @media (min-width: 768px) { /* Für größere Bildschirme */
     .skill-images {
           grid-template-columns: repeat(2, 2fr); /* Zwei Spalten */
+          
       }
     .skill-images img {
+        max-width: 500px;
           grid-column: span 1; /* Jedes Bild nimmt eine Spalte ein */
       }
     .skill-images p {
+        max-width: 480px;
           grid-column: span 1; /* Text nimmt beide Spalten ein */
       }
   }
