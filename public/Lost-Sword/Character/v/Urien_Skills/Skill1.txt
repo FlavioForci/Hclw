@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Thousand Arrows At One Time - Ultimate Skill
+Damage
+Causes 222/240/258/288/318% damage
+Target unit
+All enemies
+Effect: Apply debuff
+Effect: Critical hit rate is reduced by 4/6/8/10/12%
+Duration: 8 seconds
+Cooling time
+36 seconds

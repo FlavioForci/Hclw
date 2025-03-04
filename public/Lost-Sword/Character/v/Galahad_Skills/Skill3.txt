@@ -1,0 +1,12 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Blocking - Active
+introduce
+Triggers when an enemy tries to impose a negative effect (debuff).
+If in a state of inaction or more severe condition, it will be triggered when successfully resisting.
+Damage
+Causes 510/540/570/600/630% damage
+Target unit
+All enemies ahead
+Cooling time
+1 second

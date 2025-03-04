@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Sanctuary - Passive
+Effect: Give teams a bonus
+Target unit: All of us
+Defensive strength increased by 24/30/36/44/52%

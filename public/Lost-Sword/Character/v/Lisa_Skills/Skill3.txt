@@ -1,0 +1,8 @@
+Skill 1 (Tab 3) Information:
+==================================================
+The mark of jealousy - passive
+Trigger condition
+When the skill hits
+Effect
+Additional damage when overlapping maximum values:
+Lv1-Lv5 When the cumulative mark on the target reaches more than 6 levels, it will cause additional damage equivalent to attack power of 300.0%/345.0%/390.0%/435.0%/480.0%.

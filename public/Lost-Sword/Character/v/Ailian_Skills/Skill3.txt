@@ -1,0 +1,7 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Intuition-passive
+[Effect: Give team gain]
+Target unit: Our
+Effect: Increased critical resistance rate by 2/4/6/9/12%
+Spell attribute: Unable to remove

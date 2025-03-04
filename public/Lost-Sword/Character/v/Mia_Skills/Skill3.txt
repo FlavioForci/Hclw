@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+God and evil - passive
+Effect: Give gain
+Target unit:
+Effect: Lord's Attack Power 120/180/240/320/400

@@ -1,0 +1,7 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Amplitude-passive
+Effect: Give gain
+Trigger condition: When a critical strike is caused
+Target unit: itself
+Ability value superposition: Each layer increases the critical damage of the target unit by 3%/5%/7%/10%/15% (maximum 10 layers)

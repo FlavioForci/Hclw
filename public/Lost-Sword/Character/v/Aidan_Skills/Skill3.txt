@@ -1,0 +1,7 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Leader-passive
+Effect: Equipment Proficiency
+Target unit: itself
+The main attribute efficiency of equipment increases by 80%
+Only suitable for equipment with prop level below 160

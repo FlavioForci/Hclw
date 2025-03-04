@@ -1,0 +1,9 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Red Dragon's Shelter - Passive
+Effect 1: Give Buffer
+Target unit: itself
+Effect: The resistance to abnormal status is increased by 10/15/20/25/30%
+Effect 2: Give Buffer
+Target unit: itself
+Effect: Defensive strength increased by 32/44/56/72/88%

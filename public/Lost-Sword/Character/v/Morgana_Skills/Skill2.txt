@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Abyss Storm - Take the initiative
+Damage
+Causes 269%/296%/323%/356%/395% damage
+Target unit
+All enemies
+Effect: Remove the gain
+Target unit: All enemies
+Remove all included buff spells.
+Cooling time
+8 seconds

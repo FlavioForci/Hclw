@@ -1,0 +1,14 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Ancient Shock-Ultimate Skill
+Damage
+Causes 792%/864%/920%/1008%/1096% damage
+Target unit
+All enemies
+Effect: Remove the gain
+Target unit: All enemies
+Remove all included buff spells
+Cooling time
+32 seconds
+Effect
+Increase damage to fearful enemies by 50%/75%/100%/125%/150%

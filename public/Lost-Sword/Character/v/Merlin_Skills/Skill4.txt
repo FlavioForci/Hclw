@@ -1,0 +1,7 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Majestic - passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: Critical hit rate increased by 5/7.5/10/12.5/15%
+Spell attribute: Unable to remove

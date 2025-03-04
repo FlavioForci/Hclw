@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Storm-passive
+Effect: Give gain
+Target unit:
+Effect: Ranged attack power increased by 32/44/56/72/88%

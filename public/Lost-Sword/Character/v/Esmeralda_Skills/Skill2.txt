@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Holy Light Technique - Active
+Recovery amount
+Get 85/91/96/105/114% recovery
+Target unit
+3 of us
+Cooling time
+12 seconds

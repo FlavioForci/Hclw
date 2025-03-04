@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Triangle Blasting-Active
+Damage
+Causes 225/246/270/300/330% damage
+Target unit
+All enemies
+Effect: Bondage
+Bondage: No action can be carried out.
+Duration: 1.5 seconds
+Cooling time
+9 seconds

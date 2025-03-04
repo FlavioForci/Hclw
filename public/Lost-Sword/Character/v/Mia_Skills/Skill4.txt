@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Cold Heart - Passive
+Effect: Give gain
+Target unit: itself
+Effect: Critical resistance rate increases by 6/8/10/14/18%

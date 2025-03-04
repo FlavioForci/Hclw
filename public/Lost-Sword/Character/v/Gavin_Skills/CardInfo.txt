@@ -1,0 +1,17 @@
+Card Info:
+==================================================
+Card information
+Green belt
+quality
+gold
+Star rating
+5 stars
+property
+Defensive strength increased by 24%/28%/32%/36%/40%/44%/46%/48%/52%/56%/60%
+Damage reduction 1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+Green Belt - Active
+[Effect: Remove debuff]
+Target unit: itself
+Removes 1 random effect from the included debuff spell.
+[Cooldown time]
+30 seconds

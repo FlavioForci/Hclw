@@ -1,0 +1,7 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Guardian-passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: Defensive strength increased by 24%/30%/36%/44%/52%
+Spell attribute: Unable to remove

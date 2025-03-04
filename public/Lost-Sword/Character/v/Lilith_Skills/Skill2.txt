@@ -1,0 +1,11 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Dazzling - Active
+Damage
+Causes 224%/246%/272%/300%330% damage
+Target unit
+All enemies ahead
+Effect: Superimposed Buffer Additional Damage
+The buff effect on the target unit increases damage by 5% per layer
+Cooling time
+18 seconds

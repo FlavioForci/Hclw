@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Upward spinning slash-active
+Damage
+Causes 304/312/328/344/368% damage
+Target unit
+All enemies ahead
+Cooling time
+14 seconds

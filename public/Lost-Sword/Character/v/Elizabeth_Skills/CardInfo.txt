@@ -1,0 +1,26 @@
+Card Info:
+==================================================
+Card information
+Absolute Armor
+quality
+gold
+Star rating
+5 stars
+property
+Melee attack power increased 24/28/32/36/40/44/48/52/56/60%
+Health Recovery 110/120/130/140/150/160/170/180/190/200
+story
+"Hey!"
+Elizabeth wearing red underwear waving her giant sword made me think a lot.
+"Elizabeth, when you put on that bikini, it feels like you're becoming another person."
+"Aidan! This is called absolute armor, not a bikini! Also, you will feel this way because the armor exerts its true power!"
+"Oh, I know, I know~"
+"And... only if you work hard, you won't feel so ashamed...!"
+"Um?"
+Absolute armor seems to improve the wearer's swordsmanship.
+LV.1 Absolute Armor
+[Effect: Give gain]
+Specific trigger conditions: Trigger when the current health is below 50%.
+Target unit: itself
+Effect: Damage reduction 0.5/1/1.5/2/2.5/3/3.5/4/4.5/5%
+Spell attribute: Unable to remove

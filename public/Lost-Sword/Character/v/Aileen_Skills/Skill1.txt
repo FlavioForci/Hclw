@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Sunbeam - Ultimate Skill
+Damage
+Causes 270%/279%/297%/324%/351% damage
+Target unit
+All enemies
+Effect: Extra damage to abnormal status
+Increase damage by 20% when attacking target units that are bound
+Cooling time
+36 seconds

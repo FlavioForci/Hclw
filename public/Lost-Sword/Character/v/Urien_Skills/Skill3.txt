@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Unyielding - passive
+[Effect: Give gain]
+Target unit: itself
+Effect: Health 500/1000/1500/2000/3000

@@ -1,0 +1,11 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Volcanic eruption - Active
+Damage
+Causes 177/195/213/237/261% damage
+Effect: Extra damage to abnormal status
+When attacking target units that are subject to terror, the damage increases by 30/45/60/75/90%
+Target unit
+All enemies
+Cooling time
+7 seconds

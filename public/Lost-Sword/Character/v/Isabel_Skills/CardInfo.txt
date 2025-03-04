@@ -1,0 +1,10 @@
+Card Info:
+==================================================
+Card information
+quality
+gold
+Star rating
+★★★★★
+property
+Attack speed increased by 3/6/9/12/15/18/21/24/27/30%
+Ignore damage reduction 2/4/6/8/10/12/14/16/18/20%

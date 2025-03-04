@@ -1,0 +1,10 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Convenience-Active
+Effect: Give gain
+Effect: Attack power increased by 10/15/20/30/40%
+Duration: 10 seconds
+Target unit
+All of us
+Cooling time
+20 seconds

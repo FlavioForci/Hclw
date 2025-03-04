@@ -1,0 +1,17 @@
+Card Info:
+==================================================
+Card information
+Flowing water
+quality
+gold
+Star rating
+5 stars
+property
+The lord's attack power has increased by 24/28/32/36/40/44/48/52/56/60%
+Ignore damage reduction 1/2/3/4/5/6/7/8/9/10%
+LV.1 Duel
+[Effect: Give gain]
+Specific trigger conditions: Triggered when the current health is above 100%.
+Target unit: itself
+Effect: Melee critical strike rate increased by 1.5/3/4.5/6/7.5/9/10.5/12/13.5/15%
+Spell attribute: Unable to remove

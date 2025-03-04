@@ -1,0 +1,16 @@
+Skill 1 (Tab 1) Information:
+==================================================
+The Ideal Country of Lograce – The Ultimate Skill
+Recovery amount
+Get 480/550/619/724/828% recovery
+Target unit
+All of us
+The first effect: resurrection
+Resurrect our teammates who were killed in the end and restore 100% of their health. The buff of the target character will not be removed.
+Second effect: Give gain
+Target unit: All of us
+Continuous healing: Recovery of 60% of the caster's attack power every 1 second
+Health.  
+Duration: 4 seconds
+Cooling time
+48 seconds

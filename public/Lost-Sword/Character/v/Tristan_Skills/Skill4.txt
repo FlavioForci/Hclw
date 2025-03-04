@@ -1,0 +1,9 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Focus - passive
+First effect: Give gain
+Target unit:
+Effect: Ranged attack power increased by 32/44/56/72/88%
+Second effect: Give gain
+Target unit:
+Effect: Critical hit rate increased by 3/4/5/7/9%

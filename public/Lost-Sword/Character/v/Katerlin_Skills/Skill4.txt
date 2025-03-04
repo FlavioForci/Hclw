@@ -1,0 +1,9 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Seal-passive
+Effect 1: Give Buffer
+Target unit:
+Effect: Increased critical hit rate by 6%/8%/10%/14%/18%
+Effect 2: Give Buffer
+Target unit:
+Effect: Attack power increased by 32%/44%/56%/72%/88%

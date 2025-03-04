@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Melody-passive
+Effect: Give gain
+Target unit:
+Effect: The status abnormal resistance is increased by 30/40/50/60/70%

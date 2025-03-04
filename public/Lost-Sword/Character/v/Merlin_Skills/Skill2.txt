@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Ice Ray - Active
+Damage
+Causes damage of 303/331/358/395/432% of attack power
+Target unit
+All enemies ahead
+Effect: Freezing
+Freezing: No action can be performed
+Duration: 1.5 seconds
+Cooling time
+9 seconds

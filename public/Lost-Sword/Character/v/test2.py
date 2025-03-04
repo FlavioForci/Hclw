@@ -1,40 +1,97 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from bs4 import BeautifulSoup
-import time
+import os
+import json
 
-def scrape_and_save_titles(url, filename="titles.txt"):
-    """
-    Ruft chinesische Titel von einer Webseite ab und speichert sie in einer Textdatei.
+def read_skill_info(root_dir, character_name):
+    skill_info = {}
+    skills_dir = os.path.join(root_dir, f"{character_name}_Skills")
+    
+    if os.path.exists(skills_dir):
+        for filename in os.listdir(skills_dir):
+            if filename in ["Skill1.txt", "Skill2.txt", "Skill3.txt", "Skill4.txt"]:
+                filepath = os.path.join(skills_dir, filename)
+                try:
+                    with open(filepath, "r", encoding="utf-8") as f:
+                        lines = f.readlines()
+                        skill_number = filename.split("Skill")[1].split(".txt")[0]
+                        skill = {}
+                        current_key = None
+                        
+                        # Skip first two lines
+                        for line in lines[2:]:
+                            line = line.strip()
+                            if line:  # Skip empty lines
+                                if ":" in line:
+                                    key, value = line.split(":", 1)
+                                    current_key = key.strip()
+                                    skill[current_key] = value.strip()
+                                else:
+                                    if current_key:
+                                        # Append to existing value
+                                        skill[current_key] = skill[current_key] + " " + line
+                                    else:
+                                        # Use line as both key and value
+                                        skill[line] = line
+                                        current_key = line
+                                        
+                        skill_info[f"Skill {skill_number}"] = skill
+                except Exception as e:
+                    print(f"Fehler beim Lesen von {filename}: {e}")
+    return skill_info
 
-    Args:
-        url (str): Die URL der Webseite.
-        filename (str): Der Name der Datei, in der die Titel gespeichert werden sollen.
-    """
-    try:
-        service = Service('./chromedriver.exe')  # Ersetzen Sie dies durch den Pfad zu Ihrem ChromeDriver
-        driver = webdriver.Chrome(service=service)
-        driver.get(url)
-        time.sleep(5)  # Warte, bis die Seite geladen ist.
+def read_card_info(root_dir, character_name):
+    card_info = {}
+    skills_dir = os.path.join(root_dir, f"{character_name}_Skills")
+    
+    if os.path.exists(skills_dir):
+        card_file = os.path.join(skills_dir, "Cardinfo.txt")
+        if os.path.exists(card_file):
+            try:
+                with open(card_file, "r", encoding="utf-8") as f:
+                    lines = f.readlines()
+                    card = {}
+                    current_key = None
+                    
+                    # Skip first two lines
+                    for line in lines[2:]:
+                        line = line.strip()
+                        if line:  # Skip empty lines
+                            if ":" in line:
+                                key, value = line.split(":", 1)
+                                current_key = key.strip()
+                                card[current_key] = value.strip()
+                            else:
+                                if current_key:
+                                    # Append to existing value
+                                    card[current_key] = card[current_key] + " " + line
+                                else:
+                                    # Use line as both key and value
+                                    card[line] = line
+                                    current_key = line
+                                    
+                    card_info["card"] = card
+            except Exception as e:
+                print(f"Fehler beim Lesen von Cardinfo.txt: {e}")
+    return card_info
 
-        soup = BeautifulSoup(driver.page_source, "html.parser")
-        items = soup.find_all("a", class_="item", attrs={"data-v-0a523baa": ""})
+# Rest des Codes bleibt gleich...
 
-        with open(filename, "w", encoding="utf-8") as f:
-            for item in items:
-                title = item.get("title")
-                if title:
-                    f.write(title + "\n")
 
-        print(f"Titel wurden erfolgreich in '{filename}' gespeichert.")
-        driver.quit()
+def collect_character_data(root_dir):
+    character_data = {}
+    for folder_name in os.listdir(root_dir):
+        character_dir = os.path.join(root_dir, folder_name)
+        if os.path.isdir(character_dir) and folder_name.endswith("_Skills"):
+            character_name = folder_name.replace("_Skills", "")
+            skill_info = read_skill_info(root_dir, character_name)
+            card_info = read_card_info(root_dir, character_name)
+            character_data[character_name] = {**skill_info, **card_info}
+    return character_data
 
-    except Exception as e:
-        print(f"Ein Fehler ist aufgetreten: {e}")
-        try:
-            driver.quit()
-        except:
-            pass
+# Pfad anpassen
+root_dir = "./"
+character_data = collect_character_data(root_dir)
 
-url = "https://www.gamekee.com/lostsword/"
-scrape_and_save_titles(url)
+with open("character_data.json", "w", encoding="utf-8") as f:
+    json.dump(character_data, f, indent=4, ensure_ascii=False)
+
+print("Daten erfolgreich verarbeitet!")

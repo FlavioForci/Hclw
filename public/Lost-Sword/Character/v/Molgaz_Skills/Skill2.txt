@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Flame Explosion-Active
+Damage
+Causes 272%/300%/328%/364%/404% damage
+Target unit
+All enemies ahead
+Effect: Extra damage to abnormal status
+When attacking a target unit that is burned
+, damage increased by 30%/45%/60%/75%/90%
+Cooling time
+12 seconds

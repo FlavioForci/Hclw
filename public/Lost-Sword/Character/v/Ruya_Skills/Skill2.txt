@@ -1,0 +1,15 @@
+Skill 1 (Tab 2) Information:
+==================================================
+A flash - Active
+Damage
+Causes 186/204/222/252/276% damage
+The first effect: apply debuff
+The target is inductive and the damage to the target is increased by 5%, and the duration is 3 seconds.
+Second effect: Give gain
+Target unit: itself
+Effect: Defensive strength increased by 32/44/56/72/88%
+Duration: 3 seconds
+Cooling time
+6 seconds
+Target unit
+All enemies

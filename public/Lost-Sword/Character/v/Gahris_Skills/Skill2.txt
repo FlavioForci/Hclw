@@ -1,0 +1,11 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Decision-take the initiative
+Effect: Give gain
+Effect: Critical hit rate increased by 10/12/14/16/20%
+Attack speed increased by 20/21/22/23/25%
+Duration: 10 seconds
+Cooling time
+15 seconds
+Target unit
+itself

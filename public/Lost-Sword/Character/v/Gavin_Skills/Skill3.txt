@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+One-hit kill - passive
+Effect: Give gain
+Target unit:
+Effect: Health increase by 32%/44%/56%/72%/88%

@@ -1,0 +1,9 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Solar Eclipse - Passive
+First effect: Give gain
+Target unit: itself
+Effect: Increase health by 32%
+Second effect: Give gain
+Target unit: itself
+Effect: Critical hit rate increased by 3/4/5/7/9%

@@ -1,0 +1,14 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Apocalypse-Active
+Damage
+Causes 244/270/294/326/360% damage
+Target unit
+All enemies ahead
+First effect: extra damage due to abnormal status
+When attacking target units that are bound, the damage increases by 30/45/60/75/90%
+Second effect: apply debuff
+Effect: Attack power is reduced by 2/4/6/8/10%
+Duration: 6 seconds
+Cooling time
+12 seconds

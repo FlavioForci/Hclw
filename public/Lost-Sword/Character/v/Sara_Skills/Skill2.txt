@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Rapid Fire-Active
+Damage
+Causes 185/190/200/210/220% damage
+Target unit
+All enemies ahead
+Cooling time
+10 seconds

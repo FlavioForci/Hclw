@@ -1,0 +1,15 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Immortal - Passive
+Effect 1: Give Buffer
+Trigger condition: near death
+Target unit:
+Immune Damage: Immune Damage.
+Duration: 5 seconds
+Spell attribute: Unable to remove
+Effect 2: Not dead
+Trigger condition: near death
+Target unit:
+Safe from death when subjected to a fatal attack
+Cooling time
+60 seconds

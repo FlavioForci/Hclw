@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Healing - Passive
+[Effect: Give gain]
+Target unit: itself
+Effect: Increase the amount of healing by 2%/4%/6%/8%/10%

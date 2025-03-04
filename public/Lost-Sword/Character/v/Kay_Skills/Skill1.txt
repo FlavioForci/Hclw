@@ -1,0 +1,14 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Firework Awakening-Ultimate Skill
+Damage
+Causes 100%/150%/200%/300%/400% damage
+Target unit
+All enemies
+Effect: Give gain
+Target unit:
+Change appearance: Transform into a form suitable for combat.
+Duration: 10 seconds
+Trigger at the end of the effect: Burn
+Cooling time
+30 seconds

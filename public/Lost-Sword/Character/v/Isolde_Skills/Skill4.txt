@@ -1,0 +1,7 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Divine Power-Passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: Electric shock resistance increased by 30/35/40/45/50%
+Spell attribute: Unable to remove

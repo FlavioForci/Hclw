@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Three consecutive shots - Active
+Damage
+Causes 168%/174%/180%/189%/198% damage
+Target unit
+1 enemy
+Cooling time
+8 seconds

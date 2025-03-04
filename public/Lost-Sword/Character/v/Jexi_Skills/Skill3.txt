@@ -1,0 +1,5 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Training - Passive
+[Effect: Give team gain]
+Target unit: Our effect: Defense 8/12/16/20/24

@@ -26,6 +26,7 @@ margin-bottom: 50px;
 }
 
 .Caracterinfocard {
+    margin-bottom: 100px;
     
     display: flex;
     flex-direction: row;
@@ -109,6 +110,28 @@ margin-bottom: 50px;
     box-sizing: border-box;
 }
 
+.info-value.info-value.info-value.middle-row::after {
+    content: "";
+    display: inline-block;
+    width: 64px; /* (3 Balken * 20px) + (2 Abstände * 2px) = 64px */
+    height: 10px;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.info-value.info-value.info-value.back-row::after {
+    content: "";
+    display: inline-block;
+    width: 64px; /* (3 Balken * 20px) + (2 Abstände * 2px) = 64px */
+    height: 10px;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
     
     .Caracterinfocard {
@@ -128,6 +151,7 @@ margin-bottom: 50px;
 }
 
 .Character-Skills {
+    
     display: flex;
     flex-wrap: wrap;        /* Erlaube Umbruch */
     gap: 20px;             /* Abstand zwischen den Skill-Items */
@@ -162,9 +186,6 @@ margin-bottom: 50px;
     margin-bottom: 10px; /*Abstand zwischen Bild und Beschreibung*/
 }
 
-.skill-description {
-    /* width: 100%;  Breite ist nicht nötig, da Flexbox das übernimmt */
-}
 
 .skill-name {
     font-size: 1.5em;
@@ -225,6 +246,7 @@ margin-bottom: 50px;
 }
 
 .cards-container {
+    
 	display: flex;
 	flex-wrap: wrap; /* Umbruch auf kleineren Bildschirmen */
 	gap: 20px;
@@ -233,6 +255,7 @@ margin-bottom: 50px;
 
 .Character-Card-Section,
 .Card-Skill-Section {
+    
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -279,6 +302,7 @@ margin-bottom: 50px;
 @media (max-width: 768px) {
 	.cards-container {
 		flex-direction: column; /* Untereinander auf kleinen Bildschirmen */
+        
 	}
 
 	.Character-Card-Section,
@@ -310,3 +334,47 @@ margin-bottom: 50px;
     .Character-Card-Name {
         display: none;
     }
+
+  
+
+.level-stats .info-value {
+    display: flex; 
+    flex-direction: column; 
+    gap: 5px; 
+  }
+  
+  .level-stats .stat-item {
+    padding: 5px 10px; 
+    border-radius: 3px; 
+    font-size: 0.9em; 
+    color: #333; 
+    font-weight: 600; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  .level-stats .stat-item span { 
+    text-align: left; 
+  }
+  
+  .level-stats .stat-item .rank { /* Neue Klasse für den Rang */
+    font-size: 1.1em; 
+    white-space: nowrap; 
+    color: black; /* Schwarze Farbe für den Rang */
+  }
+  
+  .level-stats .stat-item:nth-child(1) { /* Health */
+    background-color: #a5d6a7; 
+  }
+  
+  .level-stats .stat-item:nth-child(2) { /* Attack Power */
+    background-color: #ef9a9a; 
+  }
+  
+  .level-stats .stat-item:nth-child(3) { /* Defense */
+    background-color: #ffe082; 
+  }
+  .level-stats .stat-item:nth-child(3) { /* Defense */
+    background-color: #ffe082; 
+  }

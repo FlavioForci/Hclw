@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Meteorite Shock - Ultimate Skill
+Damage
+Causes 536%/580%/628%/696%/764% damage
+Target unit
+All enemies
+Effect: Burning
+Continuous damage: Takes damage equivalent to 100% of the caster's attack power every 1 second.
+Duration: 12 seconds
+Cooling time
+34 seconds

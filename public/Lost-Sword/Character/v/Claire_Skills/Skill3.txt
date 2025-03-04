@@ -1,0 +1,18 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Sacrifice-passive
+The first effect: fainting
+Trigger condition: near death
+Target unit: All enemies
+Faint: No action can be taken.
+Duration: 4 seconds
+Second effect: additional treatment
+Trigger condition: near death
+Target unit: All of us except the caster
+Recover the current health equivalent to 100% of the health.
+The third effect: Give gain
+Trigger condition: near death
+Target unit: All of us except the caster
+Effect: Attack power increased by 24%
+Cooling time
+40 seconds

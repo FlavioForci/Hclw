@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Crazy-passive
+[Effect: Give gain]
+Target unit: itself
+Effect: Increased critical hit rate by 2%/4%/6%/8%/12%

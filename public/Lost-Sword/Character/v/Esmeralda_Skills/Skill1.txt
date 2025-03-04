@@ -1,0 +1,13 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Dean Kate - Ultimate Skill
+Recovery amount
+Get 385/440/485/565/640% recovery
+Effect: Give gain
+Target unit: All of us
+Effect: Get 4/6/8/10/12% improvement
+Duration: 12 seconds
+Cooling time
+38 seconds
+Target unit
+All enemies

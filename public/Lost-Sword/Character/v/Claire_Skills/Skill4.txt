@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Glory - Passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: terrorist resistance increased by 30%/35%/40%/45%/50%

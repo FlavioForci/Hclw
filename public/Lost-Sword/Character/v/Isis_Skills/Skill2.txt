@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Desert Dragon - Active
+Damage
+Causes damage of 110/114/118/124/130% of attack power
+Target unit
+3 of all enemies ahead
+Cooling time
+8 seconds

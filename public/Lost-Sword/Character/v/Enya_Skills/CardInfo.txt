@@ -1,0 +1,15 @@
+Card Info:
+==================================================
+Card information
+The manager's character
+quality
+gold
+Star rating
+5 stars
+property
+Attack speed increased by 2%/4%/6%/8%/10%/12%/14%/16%/18%/20%
+Additional damage 1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+Egg rice-passive
+[Effect: Give team gain]
+Target unit: Our
+Effect: Additional damage 0.5%/1%/1.5%/2%/2.5%/3%/3.5%/4%/4.5%/5%

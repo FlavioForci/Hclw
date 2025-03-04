@@ -1,0 +1,11 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Purification - Active
+Recovery amount
+Obtain 138/161/184/215/246% recovery
+Target unit
+All of us
+Effect: Remove debuffs
+Remove all included debuff spells.
+Cooling time
+16 seconds

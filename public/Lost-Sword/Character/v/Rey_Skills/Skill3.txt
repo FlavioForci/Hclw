@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Faith-passive
+[Effect: Give gain]
+Target unit:
+Effect: 4%/6%/8%/10%/12% damage reduction

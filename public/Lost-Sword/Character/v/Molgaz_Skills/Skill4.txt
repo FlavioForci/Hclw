@@ -1,0 +1,7 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Being abused - passive
+Effect: Give gain
+Trigger condition: When hit by the target
+Target unit: itself
+Each layer increases the attack power of the target unit by 3%/3%/3%/4%/4% (maximum 12 layers)

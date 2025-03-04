@@ -1,0 +1,9 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Healing Wind - Ultimate Skill
+Recovery amount
+Get 200/225/250/289/331% recovery
+Target unit
+All of us
+Cooling time
+30 seconds

@@ -1,0 +1,10 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Room Service - Ultimate Skills
+Effect: Give gain
+Effect: Attack power increased by 30/40/50/60/75%
+Duration: 10 seconds
+Target unit
+All of us
+Cooling time
+28 seconds

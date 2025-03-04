@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Big Bang - Ultimate Skill
+Damage
+Causes 712%/768%/824%/904%/984% damage
+Target unit
+All enemies
+Effect: Extra damage to abnormal status
+When attacking a target unit that is burned
+, damage increased by 50%/75%/100%/125%/150%
+Cooling time
+36 seconds

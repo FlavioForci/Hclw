@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Pray-Active
+Recovery amount
+Obtain 90%/105%/120%/140%/160% of attack power
+Target unit
+All of us
+Cooling time
+8 seconds

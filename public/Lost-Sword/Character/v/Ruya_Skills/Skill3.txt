@@ -1,0 +1,5 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Speedy Sword - Passive
+Effect: Additional damage
+Inflicts 1 extra damage equivalent to 60/67.5/75/82/90% of attack power.

@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Tide Crack-Ultimate Skill
+Damage
+Dealing 434%/469%/511%/567%/623% damage
+Effect: Apply debuff
+Effect: 10%/12%/14%/18%/24% attack power
+Duration: 8 seconds
+Target unit
+All enemies
+Cooling time
+38 seconds

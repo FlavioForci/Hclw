@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Explosion Shooting - Active
+Damage
+Causes 360%/420%/480%/560%/640% damage
+Target unit
+All enemies ahead
+Effect: fainting
+Faint: No action can be taken.
+Duration: 2 seconds
+Cooling time
+12 seconds

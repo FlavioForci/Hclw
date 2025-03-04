@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+All cure-active
+Recovery amount
+Obtain 66%/70%/74%/80%/86% recovery
+Target unit
+3 of us
+Cooling time
+12 seconds

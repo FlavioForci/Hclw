@@ -1,0 +1,13 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Ice Ray - Active
+Damage
+Causes 275%/303%/331%/367%/404% damage
+Target unit
+All enemies ahead
+First effect: extra damage due to abnormal status
+When attacking target units that are frozen, the damage increases by 30%/45%/60%/75%/90%
+Second effect: Give gain
+Target unit: itself Effect: Critical hit rate increased by 6%/8%/10%/14%/18% Duration: 5 seconds
+Cooling time
+10 seconds

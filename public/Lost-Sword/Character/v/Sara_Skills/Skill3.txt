@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Glutty - Passive
+[Effect: Give gain]
+Target unit:
+Effect: Health increase by 18/24/30/38/46%

@@ -1,0 +1,7 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Assist - Passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: Critical damage increased by 20/30/40/55/70%
+Spell attribute: Unable to remove

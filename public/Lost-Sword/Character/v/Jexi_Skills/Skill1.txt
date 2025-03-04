@@ -1,0 +1,9 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Strike-Ultimate Skill
+Damage
+Causes 170%/180%/190%/205%/220% damage
+Target unit
+All enemies
+Cooling time
+28 seconds

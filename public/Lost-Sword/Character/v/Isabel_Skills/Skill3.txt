@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Miracle - Passive
+Effect: Give gain
+Target unit:
+Immune damage: Immune to 20 damages.

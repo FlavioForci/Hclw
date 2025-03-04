@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Dark Explosion - Active
+Damage
+Causes 150%/165%/180%/200%/220% damage
+Target unit
+All enemies
+Effect: Horror
+Terror: No action can be carried out
+Duration: 1.5 seconds
+Cooling time
+12 seconds

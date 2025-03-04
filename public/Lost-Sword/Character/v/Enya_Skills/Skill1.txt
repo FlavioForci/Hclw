@@ -1,0 +1,10 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Mechanical bow shooting technique-ultimate skill
+Damage
+Causes 72%/81%/90%/102%/114% damage
+Target unit
+Effect: Give gain
+Target unit: itself Change appearance: transform into a form suitable for combat.  Duration: 12 seconds Spell attribute: Unable to remove
+Cooling time
+32 seconds

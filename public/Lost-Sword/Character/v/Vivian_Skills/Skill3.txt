@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Demonic energy - passive
+Effect: Give gain
+Target unit: itself
+Effect: Magic attack power increased by 32/44/56/72/88%

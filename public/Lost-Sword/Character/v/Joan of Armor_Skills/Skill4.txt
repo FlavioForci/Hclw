@@ -1,0 +1,7 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Dissolve-passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: Freezing resistance increased by 30/35/40/45/50%
+Spell attribute: Unable to remove

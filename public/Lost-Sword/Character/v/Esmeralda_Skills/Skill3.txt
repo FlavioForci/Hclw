@@ -1,0 +1,7 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Temple - Passive
+[Effect: Give team gain]
+Target unit: Our
+Effect: Health increase by 16/20/24/30/36%
+Spell attribute: Unable to remove

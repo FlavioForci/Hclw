@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Fierce rushing - Ultimate skill
+Damage
+Causes 488%/528%/568%/624%/688% damage
+Target unit
+All enemies
+Effect: Extra damage due to abnormal status
+Target unit:
+When attacking target units that are bound, the damage will be increased by 20%/40%/60%/80%/100%
+Cooling time
+32 seconds

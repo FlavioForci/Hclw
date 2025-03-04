@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Earthquake Sword - Ultimate Skill
+Damage
+Causes 360/392/424/472/520% damage
+Target unit
+All enemies
+Effect - fainting
+Faint: No action can be taken. Duration: 1 second
+Cooling time
+36 seconds

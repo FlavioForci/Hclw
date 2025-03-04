@@ -1,0 +1,8 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Healing Poetry - Passive
+Effect: Additional treatment
+Target unit: 1 of us
+(Target details: Target units with high health)
+Trigger probability: 20%
+Recover the current health equivalent to 60% of the attack power.

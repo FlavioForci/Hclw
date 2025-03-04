@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Bondage-passive
+[Effect: Give gain]
+Target unit: itself
+Effect: Bound hit increases by 4%/8%/12%/18%/24%

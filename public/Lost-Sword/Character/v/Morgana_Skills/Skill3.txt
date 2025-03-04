@@ -1,0 +1,8 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Demonic energy - passive
+Effect: Give gain
+Specific trigger conditions: Trigger when the current health is above 50%.
+Target unit:
+Effect: Attack power increased by 20%/40%/60%/80%/100%
+Spell attribute: Unable to remove
