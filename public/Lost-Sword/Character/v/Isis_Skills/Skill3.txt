@@ -1,6 +1,0 @@
-Skill 1 (Tab 3) Information:
-==================================================
-Meat shield-passive
-[Effect: Give gain]
-Target unit:
-Effect: Health increase by 2/4/6/8/10%

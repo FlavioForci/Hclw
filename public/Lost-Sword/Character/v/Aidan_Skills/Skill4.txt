@@ -1,9 +1,0 @@
-Skill 1 (Tab 4) Information:
-==================================================
-Warriors - Passive
-[Effect 1: Give gain]
-Target unit: itself
-Effect: Attack power increased by 12/24/36/60/84%
-[Effect 2: Give gain]
-Target unit: itself
-Effect: Increased critical resistance rate by 10/10/10/15/20%

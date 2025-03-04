@@ -1,0 +1,15 @@
+Card Info:
+==================================================
+Card information
+Ice Queen
+quality
+gold
+Star rating
+5 stars
+property
+Magic attack power increased by 24%/28%/32%/36%/40%/44%/48%/52%/56%/60%
+Ignore damage reduction 1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+LV1 Ice Dragon's Shelter
+【Effect: Give gain】
+Target unit: itself
+Effect: When the current vitality is 100%/90%/80%/70%/60%/50%/40%/30%/20%/10%, the magic attack power increases by 15%/20%/25%/30%/35%/40%/45%/50%/55%/60%.

@@ -1,6 +1,0 @@
-Skill 1 (Tab 4) Information:
-==================================================
-Self-Awakening - Passive
-Effect: Give gain
-Target unit: itself
-Effect: Increase critical hit rate by 8%/10%/12%/16%/20%

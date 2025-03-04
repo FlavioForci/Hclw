@@ -1,6 +1,0 @@
-Skill 1 (Tab 3) Information:
-==================================================
-Character - Passive
-Effect: Give gain
-Target unit:
-Effect: Defensive strength increased by 32/44/56/72/88%

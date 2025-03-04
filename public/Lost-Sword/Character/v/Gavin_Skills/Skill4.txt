@@ -1,6 +1,0 @@
-Skill 1 (Tab 4) Information:
-==================================================
-Decision-passive
-Effect: Give gain
-Target unit:
-Effect: Get 5%/10%/15%/20%/25%

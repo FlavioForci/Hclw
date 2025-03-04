@@ -1,0 +1,14 @@
+Card Info:
+==================================================
+Card information
+Charming
+quality
+gold
+Star rating
+5 stars
+property
+Abnormal status hits increase by 16%/17%/18%/19%/20%/21%/22%/23%/24%/25%
+LV.1 dopamine
+[Effect: Apply debuff]
+Target unit: Enemy
+Effect: Reduce critical resistance rate by 1.5%/3%/4.5%/6%/7.5%/9%/10.5%/12%/13.5%/15%

@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+King Kong - Passive
+Effect: Give gain
+Target unit: itself
+Effect: Damage reduction of 5%/7%/9%/11%/13%

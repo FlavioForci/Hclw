@@ -1,6 +1,0 @@
-Skill 1 (Tab 3) Information:
-==================================================
-Sword Saint-Passive
-Effect: Give gain
-Target unit: itself
-Effect: Attack power increased by 32%/44%/56%/72%/88%

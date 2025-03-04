@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Cultivation - Passive
+Effect: Give gain
+Target unit: itself
+Effect: Ranged attack power increased by 18/24/30/38/46%

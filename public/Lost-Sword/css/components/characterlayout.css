@@ -161,18 +161,6 @@ margin-bottom: 50px;
      padding-bottom: 15px; 
 }
 
-.skill-item {
-    flex: 0 0 auto;     
-    
-    width: 250px;
-    max-width: 100%; 
-    border: 1px solid #3a3a3a5e;
-    padding: 10px;
-    background-color: #41404057;
-    display: flex;         
-    flex-direction: column; 
-    align-items: center;   }
-
 
 .skill-item > div {  
     margin-bottom: 10px;
@@ -236,13 +224,6 @@ margin-bottom: 50px;
         flex-wrap: wrap;
         gap: 10px;
     }
-
-    .skill-item {
-        width: 100%;  
-        flex: 0 0 100%;
-        flex-basis: 100%; 
-        max-width: fit-content;
-    }
 }
 
 .cards-container {
@@ -305,8 +286,15 @@ margin-bottom: 50px;
         
 	}
 
+    .info-row.level-stats {
+        display: flex;
+        margin-bottom: 100px;
+        
+        
+    }
+
 	.Character-Card-Section,
-	.Card-Skill-Section {
+	.skill-section {
 		width: 100%; /* Volle Breite auf kleinen Bildschirmen */
 		flex-direction: column; /* Elemente untereinander */
 		align-items: center;      /* Zentriert horizontal */
@@ -378,3 +366,34 @@ margin-bottom: 50px;
   .level-stats .stat-item:nth-child(3) { /* Defense */
     background-color: #ffe082; 
   }
+
+ 
+ 
+  @media (max-width: 768px) {
+    .Character-Skills {
+        flex-wrap: wrap;
+        gap: 10px;
+    
+    }
+
+    .skill-item {
+        width: 100%;  /* Volle Breite */
+        flex: 1 1 100%; /* Flex-grow: 1, flex-shrink: 1, flex-basis: 100% */
+        max-width: none; /* Entferne max-width: fit-content */
+        margin: 0; /* Entferne eventuelle Margins */
+    }
+}
+
+
+.skill-item {
+    flex: 1 1 250px;     /* Statt flex: 0 0 auto */
+    width: 100%;
+    min-width: 250px;    /* Minimale Breite */
+    max-width: 100%;     /* Maximale Breite */
+    border: 1px solid #3a3a3a5e;
+    padding: 10px;
+    background-color: #41404057;
+    display: flex;         
+    flex-direction: column; 
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Water Balloon - Active
+Damage
+Causes 242/250/259/272/286% damage
+Effect: Extra damage due to abnormal status
+Target unit:
+When attacking target units that are frozen, damage increases by 10/15/20/30/40%
+Cooling time
+20 seconds
+Target unit
+All enemies ahead

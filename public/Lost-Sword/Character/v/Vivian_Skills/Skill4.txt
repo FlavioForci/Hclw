@@ -1,9 +1,0 @@
-Skill 1 (Tab 4) Information:
-==================================================
-Mark-passive
-First effect: Give gain
-Target unit: itself
-Effect: Critical damage increased by 32/44/56/72/88%
-Second effect: Give gain
-Target unit: itself
-Effect: Critical hit rate increased by 3/4/5/7/9%

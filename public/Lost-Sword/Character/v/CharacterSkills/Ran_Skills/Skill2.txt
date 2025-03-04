@@ -1,0 +1,11 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Dance under the moon - Take the initiative
+Effect: Extra damage due to abnormal status
+When attacking the target unit where the electric shock is applied, the damage will increase by 35%/45%/60%/75%/90%
+Damage
+Causes 476%/518%/560%/616%672% damage
+Target unit
+All enemies ahead
+Cooling time
+10 seconds

@@ -1,6 +1,0 @@
-Skill 1 (Tab 4) Information:
-==================================================
-Concentrated - Passive
-[Effect: Give gain]
-Target unit: itself
-Effect: Increase the critical resistance rate by 2%/4%/6%/8%/10%

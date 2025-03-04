@@ -1,8 +1,0 @@
-Skill 1 (Tab 4) Information:
-==================================================
-Perseverance - Passive
-Effect: Give gain
-Specific trigger conditions: Triggered when the current health is below 25%.
-Target unit: itself
-Effect: Defensive strength increased by 20/25/30/40/50%
-Spell attribute: Unable to remove
