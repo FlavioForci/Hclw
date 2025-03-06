@@ -196,8 +196,6 @@ margin-bottom: 50px;
 
 .section-title {
     font-weight: bold;
-    text-decoration: underline;
-    display: block;
     margin-bottom: 0.2em;
 }
 
@@ -243,7 +241,6 @@ margin-bottom: 50px;
 	border: 1px solid #3a3a3a5e; /* Rahmen */
 	padding: 10px;
 	background-color: #41404057;/*Hintergrundfarbe*/
-	flex: 1 0 calc(50% - 10px); /* Nimmt die Hälfte der Breite minus Abstand */
 	box-sizing: border-box; /* Bezieht Padding und Border in die Breite mit ein */
 	min-width: 300px;/*Mindestbreite*/
 }
@@ -294,12 +291,7 @@ margin-bottom: 50px;
     }
 
 	.Character-Card-Section,
-	.skill-section {
-		width: 100%; /* Volle Breite auf kleinen Bildschirmen */
-		flex-direction: column; /* Elemente untereinander */
-		align-items: center;      /* Zentriert horizontal */
-		flex: 1 0 100%;        /* Volle Breite */
-	}
+	
 
 	.Character-Card img,
 	.Card-Skill img {
@@ -376,18 +368,13 @@ margin-bottom: 50px;
     
     }
 
-    .skill-item {
-        width: 100%;  /* Volle Breite */
-        flex: 1 1 100%; /* Flex-grow: 1, flex-shrink: 1, flex-basis: 100% */
-        max-width: none; /* Entferne max-width: fit-content */
-        margin: 0; /* Entferne eventuelle Margins */
-    }
 }
 
 
 .skill-item {
     flex: 1 1 250px;     /* Statt flex: 0 0 auto */
     width: 100%;
+    flex-basis: 250px;    /* Standardbreite */
     min-width: 250px;    /* Minimale Breite */
     max-width: 100%;     /* Maximale Breite */
     border: 1px solid #3a3a3a5e;
@@ -395,5 +382,19 @@ margin-bottom: 50px;
     background-color: #41404057;
     display: flex;         
     flex-direction: column; 
+    
+}
+
+
+.skill-name.skill-level {
     align-items: center;
 }
+
+.skill-description {
+    min-width: 100%;
+    margin-left: 5px;
+    align-self: left;
+    align-items:baseline;
+    
+}
+

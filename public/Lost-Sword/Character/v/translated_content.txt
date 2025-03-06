@@ -1,0 +1,155 @@
+Card character stat skill effect
+Revenge
+Mileage purchase short -distance notarization 24 ~ 60%
+1 ~ 10% notarization when attacking 6 ~ 24%
+(10 overlapping)
+Lifetime contract mileage purchase magic notary 24 ~ 60%
+6-24% 
+2.5 ~ 25%of the damages received
+(Except for yourself)
+Distribution to allies with the highest health
+Sword Master Store Purchase Note Frequent Note Notaries 24-60% Life Power is less than 50%
+5 ~ 50% notarization
+Galvanity
+Ethan's birth condition 18.4%~ 40%
+[Paranoia of the disappeared sword]
+
+If you are attacked by death,
+Live without dying
+(1 resurrection)
+
+Water dragon
+24-60% of Merlin Magic Notary
+1 ~ 10% of magic disembation 9 ~ 36%
+Wol -ha sword
+
+24 ~ 60%
+10 ~ 100% damage damage when attacking 1 ~ 10%
+First Tactics
+
+Guineaby Magic Notary 24 ~ 60%
+1 ~ 10% resistance 1 ~ 10%
+Fried Wen
+Percybuls 24 ~ 60% allied evidence 9 ~ 36%
+
+Titanomakia
+Isabelle speed 3 ~ 30%
+2 ~ 20% ignorance of damage reduction
+
+Ice Empress
+Katrin magic notarization 24 ~ 60%
+When the damage decrease is 1 ~ 10% more than 100 ~ 10% of the health force
+15 ~ 60% of magic notarization
+shedding
+
+24 ~ 60%
+1 ~ 10% ignorance of damage reduction
+(25.02.06 patch) When the life force is 100 ~ 10% or more
+Melee 1.5 ~ 15%
+
+Elrad swordsmanship journal
+Lua
+Additional damage 6 ~ 15%
+Chimpi 55 ~ 100% Active Skill Reset
+(Cool time: 30 ~ 21 seconds)
+
+Struggle
+Zanhark's long -range notary 24-60%
+When more than 50% of vitality
+18% of short distance evidence
+Ranged evidence 18%
+Strong power
+
+Lucy short distance notarization 24 ~ 60% notarization 0.5 ~ 5%
+(20 overlapping)
+
+Fairy King
+Morgana
+24 ~ 60% magic notarization
+When more than 100 ~ 10% of vitality
+1.5 ~ 15% magic
+fascination
+16 ~ 25% of the releases above
+
+Reduction of 1.5 ~ 15% of enemy critical hits
+Carpediem
+Kirke Magic Notary 24 ~ 60%
+Reduced enemy attack power 1.5 ~ 15%
+Dark smile
+Lisa long -range notary 24 ~ 60%
+1 ~ 10% chance of distant critical strikes 35% reduction in healing volume
+1-3 additional basic attacks
+Tendency
+
+Izolde Healing and 6-24% increase
+When the battle starts 6-24%
+Allied life 11-20% recovery
+
+A bow that does not miss
+Tristan far -notarized 24 ~ 60%
+Damage decrease in 1 ~ 10% life force 100 ~ 10% or more
+1.5 ~ 15% for ranged range
+
+madness
+Vivian
+24 ~ 60% magic notarization
+1 ~ 10% magic
+
+Allied Chipi 9-36%
+
+Green
+Gawain
+24 ~ 60% proof
+1 ~ 10% decrease in damage
+Hungry 
+Harmful order
+1 random removal
+(Cooldown: 30 ~ 12 seconds)
+Manager
+
+Enya Speed ​​2 ~ 20%
+Additional damage 1 ~ 10% additional damage 0.5 ~ 5%
+Saline
+
+K -not 24 ~ 60%
+※ Attack power increase speed 10 ~ 15%
+(Continue: 10 seconds)
+(Cooldown: 30 ~ 12 seconds)
+Rose flame
+
+Christina magic notarization 24 ~ 60%
+Attack speed 1 ~ 10% allies 0.5 ~ 5%
+obedience
+
+Morgaz magic notarization 24 ~ 60%
+1 ~ 10% of the damage decreased 1 ~ 10%
+(10 overlapping)
+
+Absolute Fix Armor
+Elizabeth
+24 ~ 60% of short distance notarization
+Health recovery 110 ~ 200
+
+When the vitality is less than 50%
+Reduced damage by 0.5 ~ 5%
+scrounger
+Lia magic notarization 24 ~ 60%
+1 ~ 10% of the damage reduction 10 ~ 20%
+(Continue: 10 seconds)
+(Cooldown: 20 seconds)
+Polishing
+
+Claire short -range notarization 24-60% life force is 50% or more
+Increase 2.5 ~ 25% resistance
+Chastity
+Galler Haid
+
+Defense increased 24 ~ 60%
+When the healing quantity increases 6-24%
+Wearer 
+20 ~ 200% shield creation
+
+-25.01.22: First upload
+-25.01.25: Added Gaean, Lia, Elizabeth Card Information
+-25.02.09: Separation of the tier, change the Swordmaster, and add the Mia Card patch.
+-25.02.22: Add Katrin Card Patch, Lisa, Galler Haid

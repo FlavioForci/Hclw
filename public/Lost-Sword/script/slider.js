@@ -1,35 +1,24 @@
+const sliders = document.querySelectorAll('.slider-container');
 
+sliders.forEach((slider) => {
+    const prevButton = slider.querySelector('.prev');
+    const nextButton = slider.querySelector('.next');
+    const slides = slider.querySelectorAll('.slide');
+    let slideIndex = 0;
 
-const slider = document.querySelector('.slider');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-const slides = document.querySelectorAll('.slide'); // Alle Slides auswählen
-let slideIndex = 0;
-const slideCount = slides.length;
+    prevButton.addEventListener('click', () => {
+        slideIndex--;
+        if (slideIndex < 0) {
+            slideIndex = slides.length - 1;
+        }
+        slider.querySelector('.slider').style.transform = `translateX(-${slideIndex * 100}%)`;
+    });
 
-// Funktion zum Anzeigen eines bestimmten Slides
-function goToSlide(index) {
-    if (index < 0) {
-        slideIndex = slideCount - 1;
-    } else if (index >= slideCount) {
-        slideIndex = 0;
-    } else {
-        slideIndex = index;
-    }
-
-     slider.style.transform = `translateX(-${slideIndex * 100}%)`;
-}
-
-
-// Event-Listener für die Buttons (können in initSlider verschoben werden)
-
-
-//Init
-function initSlider() {
-
-    // Füge die Event-Listener für die Pfeiltasten hinzu
-    prevButton.addEventListener('click', () => goToSlide(slideIndex - 1));
-    nextButton.addEventListener('click', () => goToSlide(slideIndex + 1));
-}
-
-initSlider(); // Rufe die Initialisierungsfunktion auf
+    nextButton.addEventListener('click', () => {
+        slideIndex++;
+        if (slideIndex >= slides.length) {
+            slideIndex = 0;
+        }
+        slider.querySelector('.slider').style.transform = `translateX(-${slideIndex * 100}%)`;
+    });
+});

@@ -106,14 +106,14 @@
 }
 
 .filter-button:focus {
-    outline: 2px solid #007bff;
+    outline: 2px solid #282d33;
     outline-offset: 2px;
 }
 
 .filter-button.active {
-    background-color: #007bff;
+    background-color: #eeeeee;
     color: rgb(0, 0, 0);
-    border-color: #007bff;
+    border-color: #000000;
     transform: scale(1.03);
 }
 

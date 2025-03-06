@@ -99,3 +99,17 @@ function normalizePath(path) {
 setActiveLink();
 window.addEventListener('popstate', setActiveLink);
 window.addEventListener('hashchange', setActiveLink);
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HHK5DQPT94');
+
+
+  // Info-Section-Toggle-Funktion
+  document.getElementById('toggleButton').addEventListener('click', () => {
+    document.querySelector('.info-section').classList.toggle('active');
+});

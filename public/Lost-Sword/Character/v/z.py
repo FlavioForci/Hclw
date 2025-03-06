@@ -2,13 +2,13 @@ import os
 
 def parse_skill_data(skill_dict):
     skill_info = {
-        "name": "N/A",
-        "damage": "N/A",
+        "name": "",
+        "damage": "",
         "effect": [],
-        "target": "N/A",
-        "cooldown": "N/A",
-        "level": "N/A",
-        "duration": "N/A",
+        "target": "",
+        "cooldown": "",
+        "level": "",
+        "duration": "",
         "additional_effects": []
     }
     
@@ -1982,7 +1982,7 @@ for name in character_names:
     <link rel="stylesheet" href="../../Lost-Sword/css/main.css">
     <link rel="stylesheet" href="../../Lost-Sword/css/components/characterlayout.css">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C93YVSG1YX"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHK5DQPT94"></script>
     
 </head>
 <body>
@@ -2056,6 +2056,9 @@ for name in character_names:
             {skills_html}
         </div>
     </div>
+
+     
+        <script src="../../Lost-Sword/script/script.js" defer></script>
 </body>
 </html>"""
 

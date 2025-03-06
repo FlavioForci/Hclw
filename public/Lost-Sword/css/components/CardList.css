@@ -1,0 +1,225 @@
+
+
+.CardList-container li img {
+   
+    position: relative;
+    width: 220px;
+    margin-right: 0px;
+    position: relative;
+    border: 1px solid rgb(31, 31, 31);
+
+}
+
+
+
+.card-info {
+    width: 70%;
+}
+
+.card-image {
+
+    width: 30%;
+    height: 150px;
+    
+   
+}
+
+li {
+    clear: both;
+    margin-bottom: 20px;
+    
+    list-style: none;
+    
+    
+}
+
+
+/* Für kleinere Bildschirme */
+@media only screen and (max-width: 768px) {
+    /* Reduziere die Schriftgröße */
+    body {
+      font-size: 16px;
+    }
+  
+    /* Reduziere die Größe der Bilder */
+    .card-image {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      margin: 10px auto;
+    }
+  
+    /* Reduziere die Größe der Karten */
+    .card-info {
+      padding: 10px;
+    }
+  
+    /* Reduziere die Größe der Überschriften */
+    h1, h2 {
+      font-size: 18px;
+    }
+  
+    /* Reduziere die Größe der Listen */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Für noch kleinere Bildschirme */
+  @media only screen and (max-width: 480px) {
+    /* Reduziere die Schriftgröße weiter */
+    body {
+      font-size: 14px;
+    }
+  
+    /* Reduziere die Größe der Bilder weiter */
+    .card-image {
+      max-width: 150px;
+    }
+  
+    /* Reduziere die Größe der Karten weiter */
+    .card-info {
+      padding: 5px;
+    }
+  
+    /* Reduziere die Größe der Überschriften weiter */
+    h1, h2 {
+      font-size: 16px;
+    }
+  }
+  
+
+  .filter-container {
+    margin-bottom: 20px;
+    z-index: 34;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    z-index: 33;
+}
+
+.filter-option {
+    background-color: rgb(31, 31, 31);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 33;
+}
+
+.filter-option:hover {
+    background-color: #4b4747;
+    z-index: 33;
+}
+
+.filter-option.active {
+    background-color: #6d6b6b;
+    color: #fff;
+    z-index: 33;
+}
+
+.filter-option.active:hover {
+    background-color: #cfd3cf;
+    z-index: 33;
+}
+
+
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.modal-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 95%;
+  max-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.modal-image {
+  width: 100%;
+  max-height: 40vh;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.modal-info {
+  color: white;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.modal-close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: #ff4757;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .modal-content {
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    border-radius: 0;
+    padding: 1rem;
+  }
+
+  .modal-image {
+    max-height: 45vh;
+    margin-top: 2.5rem;
+  }
+
+  .modal-info {
+    max-height: calc(100vh - 55vh - 4rem);
+    font-size: 0.9rem;
+  }
+
+  .modal-info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .modal-info ul {
+    padding-left: 1rem;
+  }
+}
