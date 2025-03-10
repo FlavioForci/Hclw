@@ -1,0 +1,272 @@
+:root {
+    --s-tier: #ff4444;    /* Rot */
+    --a-tier: #ffa500;    /* Orange */
+    --b-tier: #ffd700;    /* Gelb */
+ 
+  }
+  
+  .tier-list-container {
+    background: var(--background-dark);
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .tier-header {
+    display: grid;
+    grid-template-columns: 80px repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .tier-row {
+    display: grid;
+    grid-template-columns: 80px repeat(3, 1fr);
+    gap: 1rem;
+    min-height: 200px;
+    margin-bottom: 1.5rem;
+    background: var(--background-dark);
+    background-color: rgba(63, 63, 63, 0.5);
+  }
+  
+  .tier-rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .s-tier { background: var(--s-tier); }
+  .a-tier { background: var(--a-tier); }
+  .b-tier { background: var(--b-tier); }
+  
+  
+  
+  /* Responsive Design */
+  
+  
+
+  .tier-category-D, .tier-category-T, .tier-category-H{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: rgb(63, 63, 63, 0.5);
+    width: 400px;
+    
+  }
+
+  .tier-category-D { color: #ff4444;
+}
+  .tier-category-T { color: #ffa500; } 
+  .tier-category-H { color: #5ba872; }
+
+
+ 
+
+
+
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Standard: auto-fit */
+   
+    z-index: 22;
+
+}
+
+
+
+.Character-S img, .Character-A img, .Character-B img, .Character-C img, .Character-D img, .Character-E img, .Character-F img, .Character-X img { /* Gemeinsame Regeln */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Character-S span, .Character-A span, .Character-B span, .Character-C span , .Character-D span, .Character-E span, .Character-F span, .Character-X span{ /* Gemeinsame Regeln */
+  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 0;
+    font-size: 0.5rem;
+    font-weight: 900;
+    -webkit-filter: drop-shadow(1px 3px 3px rgb(0, 0, 0));
+}
+
+.Character-S img:hover, .Character-A img:hover, .Character-B img:hover { /* Gemeinsame Regeln */
+    transform: scale(1.1);
+}
+
+:root {
+    --s-tier: #ff4444;    /* Rot */
+    --a-tier: #ffa500;    /* Orange */
+    --b-tier: #ffd700;    /* Gelb */
+    --c-tier: #7fff7f;    /* Grün */
+    --d-tier: #7f7fff;    /* Blau */
+    --e-tier: #ff7fff;    /* Pink */
+    --f-tier: #cccccc;    /* Grau */
+    --x-tier: #333333;    /* Dunkelgrau */
+    --background-dark: rgb(31, 31, 31);
+  }
+  
+  .tier-list-container {
+    background: var(--background-dark);
+    border-radius: 12px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .tier-header {
+    display: grid;
+    grid-template-columns: 80px repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .tier-row {
+    display: grid;
+    grid-template-columns: 80px repeat(3, 1fr);
+    gap: 1rem;
+    min-height: 200px;
+    margin-bottom: 1.5rem;
+    background: var(--background-dark);
+  }
+  
+  .tier-rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .s-tier { background: var(--s-tier); }
+  .a-tier { background: var(--a-tier); }
+  .b-tier { background: var(--b-tier); }
+  .c-tier { background: var(--c-tier); }
+  .d-tier { background: var(--d-tier); }
+  .e-tier { background: var(--e-tier); }
+  .f-tier { background: var(--f-tier); }
+  .x-tier { background: var(--x-tier); }
+  
+  .Character-S, .Character-A, .Character-B,
+  .Character-C, .Character-D, .Character-E,
+  .Character-F, .Character-X {
+    max-width: 150px;
+    height: 150px;
+    padding: 2px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    z-index: 22;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+  }
+  
+  .Character-S { background: var(--s-tier); }
+  .Character-A { background: var(--a-tier); }
+  .Character-B { background: var(--b-tier); }
+  .Character-C { background: var(--c-tier); }
+  .Character-D { background: var(--d-tier); }
+  .Character-E { background: var(--e-tier); }
+  .Character-F { background: var(--f-tier); }
+  .Character-X { background: var(--x-tier); }
+  
+ 
+  
+  .Character-S span, .Character-A span, .Character-B span,
+  .Character-C span, .Character-D span, .Character-E span,
+  .Character-F span, .Character-X span {
+    background-color: rgba(255, 255, 255, 0.226);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+  
+  @media (max-width: 768px) {
+   
+   
+    
+    .Character-S, .Character-A, .Character-B,
+    .Character-C, .Character-D, .Character-E,
+    .Character-F, .Character-X {
+      width: 75px;
+      height: 100px;
+    }
+    
+    .character-grid img {
+      height: 100px;
+    }
+    
+    .tier-category-D, .tier-category-T, .tier-category-H {
+      width: 80px;
+      margin: 0px;
+      padding: 0px;
+      margin-left: -20px;
+      
+    }
+    .s-tier, .a-tier, .b-tier, .c-tier, .d-tier, .e-tier, .f-tier, .x-tier {
+      width:40px;
+      padding: 0px;
+      margin: 0px;
+      
+    }
+    .character-grid {
+        display: block;
+    
+      }
+
+
+    
+  }
+
+  .tier-header,
+  .tier-row {
+    grid-template-columns: 60px repeat(3, 1fr);
+  }
+  
+  .character-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .Character-S, .Character-A, .Character-B,
+  .Character-C, .Character-D, .Character-E,
+  .Character-F, .Character-X {
+    width: 75px;
+    height: 120px;
+  }
+  
+  .character-grid img {
+    height: 100px;
+  }
+
+
+  
