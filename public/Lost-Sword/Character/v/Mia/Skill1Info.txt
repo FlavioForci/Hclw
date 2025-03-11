@@ -1,0 +1,45 @@
+Skill 1 Information:
+==================================================
+Mia
+(The Elf Prosecutor who guards Avalon)
+High Elves Swordsman who guards Avalon
+Damage
+Cause attack power
+711/765/819/900/990
+%
+The damage
+Effect: Additional damage
+When the target unit is a lord, it causes
+1
+The number is equivalent to attack power
+120/140/160/180/200%
+Additional damage.
+Target unit
+All enemies
+Cooling time
+32
+Second
+Flowing water
+quality
+gold
+Star rating
+5 stars
+24/28/32/36/40/44/48/52/56/60%
+Ignore damage reduction
+1/2/3/4/5/6/7/8/9/10%
+LV.1 Duel
+[Effect: Give gain]
+Specific trigger conditions: the current health value is
+100%
+Triggered when above
+Target unit: itself
+Effect: Increased melee critical strike rate
+1.5/3/4.5/6/7.5/9/10.5/12/13.5/15%
+Spell attribute: Unable to remove
+Mia
+As a high elf, Mia learned swordsmanship based on powerful magic.
+Although I am usually careless, I will become very serious when fighting.
+In Avalon, she worked hard to guard the forest as a younger commander.
+Seeing Aidan and his group of people who looked like a jealous person, they thought it was a monster who attacked them, but soon they learned that Aidan was the guide.
+After that,
+He developed a strong interest in Aidan.

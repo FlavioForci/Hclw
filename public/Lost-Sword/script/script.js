@@ -20,9 +20,6 @@ toggleButton.addEventListener('click', () => {
 
 
 
-
-
-
 function setActiveLink() {
     const navLinks = document.querySelectorAll('nav ul li a');
     const currentPath = window.location.pathname;

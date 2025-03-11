@@ -1,0 +1,56 @@
+Skill 4 Information:
+==================================================
+Ruya
+(Sword of Cornwall)
+The war orphan born in Brittany Alex in 503 was adopted by the swordsman
+The first effect: increase the attack target
+Target unit: itself
+Additional target units for general attack
+1
+name.
+Second effect: Give gain
+Target unit: itself
+Effect: Increase attack power
+32/44/56/72/88%
+Effective in the following weather: Rain
+Elgrad Swordsman Diary
+quality
+gold
+Star rating
+5 stars
+6/7/8/9/10/11/12/13/14/15%
+Increased critical damage
+55/60/65/70/75/80/85/90/95/100%
+LV.1 reaction
+[Effect: Change the cooldown time]
+Target unit: itself
+Change the cooldown time of active skills to
+0
+Second.
+Cooling time:
+30
+Second
+Ruya
+The power of "The Sword of Cornwall" is comparable to the legendary holy sword.
+Rumors about Ruya are circulating in mainland Britania.
+The Sword Saint and the peerless genius of the Knight Family who served the royal family for generations, these titles are all a responsibility that Ruya bears.
+The power of the sword saint is beyond imagination.
+It is said that the power of the Sword Saint is enough to cause landslides and earth to break, so it is classified by the country as the core combat power of national defense, gathering the respect and fear of everyone
+Futigen, who controlled Britania, also knew this well. After establishing the empire, he was eager to conquer the mainland, but he could only treat it with caution in the face of the Kingdom of Cornwall.
+Ruya is a person with such strength. But one thing is surprising, that is, she is not a warlike person.
+If I hadn't met that special elf... I might not have become the chief knight of Cornwall like I am now.
+Luya's teacher is different from other elves who are good at magic. He is a master who has reached the highest level of swordsmanship and shines in the war that swept across the continent more than ten years ago.
+At that time, in the face of the invasion of foreign races, the lords thought of uniting and uniting to the outside world, but were busy fighting for power and intrigue...
+In the battle, the constant killing had already made her heart numb, and she was gradually eroded by darkness. One day, in that
+In the deserted land of death in the war, she discovered the newborn Ruya. Driven by the only trace of human emotions, she decided to adopt this young life.
+She hopes that this child can become a more powerful swordsman than herself in the future, strong enough to become a chain that will restrain those ambitious people.
+"Don't forget, you are a sword in the Kingdom of Cornwall. Your sword is to be swung for the Cornwall royal family.
+Ruya practiced swordsmanship since she learned to walk, and she practiced swords all the time every day except eating and sleeping. Later, I had a relationship with the former kings
+Under the introduction of the teacher, she entered the palace, but her daily cruel training never stopped. During this growth process, Ruya rarely communicated with people, and this emptiness gradually made her forget how to communicate with others.
+Walking outside the palace, she also met many people, but everyone just expressed their respect to her... No one could fill the emptiness of Ruya.
+Looking at people who are completely different, full of vitality and happiness from themselves, Ruya can only numb herself through repeated training.
+Until one day, she was patrolling the city and found a cat.
+Looking at this little existence who usually lives in the back alley and walks proudly on the street at night, Luya feels very much like her lonely self.
+picture. From then on, looking for cats everywhere became a must-do thing she would do every day.
+"Meow..."
+In this waiting, she welcomed the person she was destined to be.

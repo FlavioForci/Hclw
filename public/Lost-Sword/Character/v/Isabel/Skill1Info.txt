@@ -1,0 +1,36 @@
+Skill 1 Information:
+==================================================
+Isabel (Grand Duke of the Principality of Aurelia)
+Born in the Principality of Aurelia
+Damage
+Cause attack power
+456/496/536/600/656%
+The damage
+Effect: Apply debuff
+Effect: Reduced attack power
+6/9/12/15/18%
+Duration:
+10
+Second
+Cooling time
+30
+Second
+Target unit
+All enemies
+quality
+gold
+Star rating
+★★★★★
+3/6/9/12/15/18/21/24/27/30%
+Ignore damage reduction
+2/4/6/8/10/12/14/16/18/20%
+Isabel
+Duke of the Principality of Aurelia.
+Aurelia is a continental country at the southern end of Britania, and has frequent territorial disputes with the Igrit Empire.
+It is not surprising that even if the territory of Aurelia was annexed by the Igrit Empire, it is not surprising that it was not annexed.
+It is because Aurelia has magic weapons left by the legendary warriors.
+The warrior was a person who traveled from the real world in the past. The Principality of Aurelia merged the gun left by the warrior with magic.
+Finally, the current magic weapon was produced.
+Because of this kind of technical strength, Aurelia was able to confront the Igrit Empire and form a balance.
+But as the time for the emperor of the Igrit Empire to hand over power to Prince Lucius, the relationship between the two countries became increasingly greater
+Unstable.

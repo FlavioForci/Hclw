@@ -1,0 +1,48 @@
+Skill 2 Information:
+==================================================
+Bedibio
+(Princess Elizabeth's maid)
+Personal Profile
+Princess Elizabeth's maid
+Although she is just a crying person, the princess is the only person who cares about her.
+She is ready to give everything she has for Elizabeth.
+Damage
+Cause attack power
+145/155/165/180/195%
+The damage
+Target unit
+All enemies ahead
+Cooling time
+11 seconds
+The breath of the tree of the world
+quality
+Purple
+Star rating
+4 stars
+18.4/20.8/23.2/25.6/28/30.4/32.8/35.2/37.6/40%
+ [Root" Passive
+[Effect: Give gain]
+Specific trigger conditions: the current health value is
+100%
+At the above
+Trigger target unit: itself
+Effect: Improved defense
+3/6/9/12/15/18/21/24/27/30%
+Spell attribute: Cannot be removed
+Bediville
+Bedivir originally wanted to keep Princess Elizabeth who was determined to leave, but suddenly she thought of all the past
+She once received brainwashing education in Wang Shi.
+“You are the shadow of Princess Elizabeth.
+“You want to live and die with Elizabeth, and that’s your mission as a maid.
+This is also the purpose of the royal family adopting orphan Bediville.
+She served Elizabeth since childhood and grew up with her.
+Because she was an orphan, she was afraid that the royal family would abandon her and that she was abandoned by this world. Once, when she was practicing swordsmanship with Elizabeth, she blocked the arrow that suddenly flew for the princess. In fact, all she thought about was that she might be abandoned because she did something wrong.
+Just as she gradually lost consciousness
+Looking at Elizabeth who was crying for herself, Little Bedeville felt that she had been redeemed.
+It was also from that day that she decided to devote her life to Elizabeth.
+“We have never been separated since birth. If we cannot follow the princess, life will be of no value to me.
+Bedivir said as he stopped Princess Elizabeth who wanted to leave alone.
+"Why are you still standing there? Bedi, if you are slowing down, you will be discovered!"
+Seeing Elizabeth wave to herself in surprise, Bediville ran over happily.
+"Yes! Your Highness the Princess!"
+Bedivir's steps were not hesitant at all.

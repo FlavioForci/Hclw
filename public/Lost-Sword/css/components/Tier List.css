@@ -1,272 +1,192 @@
 :root {
-    --s-tier: #ff4444;    /* Rot */
-    --a-tier: #ffa500;    /* Orange */
-    --b-tier: #ffd700;    /* Gelb */
- 
-  }
-  
-  .tier-list-container {
-    background: var(--background-dark);
-    padding: 20px;
-    border-radius: 12px;
-  }
-  
-  .tier-header {
-    display: grid;
-    grid-template-columns: 80px repeat(3, 1fr);
-    gap: 1rem;
-    margin-bottom: 1rem;
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .tier-row {
-    display: grid;
-    grid-template-columns: 80px repeat(3, 1fr);
-    gap: 1rem;
-    min-height: 200px;
-    margin-bottom: 1.5rem;
-    background: var(--background-dark);
-    background-color: rgba(63, 63, 63, 0.5);
-  }
-  
-  .tier-rank {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    border-radius: 8px 0 0 8px;
-  }
-  
-  .s-tier { background: var(--s-tier); }
-  .a-tier { background: var(--a-tier); }
-  .b-tier { background: var(--b-tier); }
-  
-  
-  
-  /* Responsive Design */
-  
-  
-
-  .tier-category-D, .tier-category-T, .tier-category-H{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    border-radius: 4px;
-    padding: 0.5rem;
-    background-color: rgb(63, 63, 63, 0.5);
-    width: 400px;
-    
-  }
-
-  .tier-category-D { color: #ff4444;
+  --s-tier: #ff4444;
+  --a-tier: #ffa500;
+  --b-tier: #ffd700;
+  --c-tier: #7fff7f;
+  --d-tier: #7f7fff;
+  --e-tier: #ff7fff;
+  --f-tier: #cccccc;
+  --x-tier: #333333;
+  --background-dark: #1f1f1f;
+  --text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
-  .tier-category-T { color: #ffa500; } 
-  .tier-category-H { color: #5ba872; }
 
+.tier-list-container {
+  border-radius: 12px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto;
+}
 
- 
+.tier-category-all{
+  display: inline-block;
+  width: 800px
+}
 
+.tier-row-2{
+  display: inline-block; 
+}
+.tier-header, .tier-row {
+  
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  grid-template-columns: 60px repeat(3, minmax(150px, 1fr));
+  flex-wrap: wrap; /* Erlaubt das Umbruch in die nächste Zeile, wenn kein Platz mehr ist */
+    gap: 10px; /* Fügt Abstand zwischen den Karten ein */
+    
+}
 
-
+.tier-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  width: 60px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px 0 0 0;
+  padding: 10px 5px;
+  text-shadow: var(--text-shadow);
+}
 
 .character-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Standard: auto-fit */
-   
-    z-index: 22;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+   flex-wrap: wrap;
+  width: 100%;
 }
 
-
-
-.Character-S img, .Character-A img, .Character-B img, .Character-C img, .Character-D img, .Character-E img, .Character-F img, .Character-X img { /* Gemeinsame Regeln */
-    display: block;
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
+[class^="Character-"], 
+[class*=" Character-"] {
+  aspect-ratio: 374/512;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  max-width: 100px;
+  max-height: 160px;
+  border: 2px solid var(--background-dark);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.Character-S span, .Character-A span, .Character-B span, .Character-C span , .Character-D span, .Character-E span, .Character-F span, .Character-X span{ /* Gemeinsame Regeln */
-  
-    color: rgb(255, 255, 255);
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 2px 0;
-    font-size: 0.5rem;
-    font-weight: 900;
-    -webkit-filter: drop-shadow(1px 3px 3px rgb(0, 0, 0));
+[class^="Character-"] img, 
+[class*=" Character-"] img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: transform 0.3s ease;
 }
 
-.Character-S img:hover, .Character-A img:hover, .Character-B img:hover { /* Gemeinsame Regeln */
-    transform: scale(1.1);
+[class^="Character-"]:hover img, 
+[class*=" Character-"]:hover img {
+  transform: scale(1.05);
 }
 
-:root {
-    --s-tier: #ff4444;    /* Rot */
-    --a-tier: #ffa500;    /* Orange */
-    --b-tier: #ffd700;    /* Gelb */
-    --c-tier: #7fff7f;    /* Grün */
-    --d-tier: #7f7fff;    /* Blau */
-    --e-tier: #ff7fff;    /* Pink */
-    --f-tier: #cccccc;    /* Grau */
-    --x-tier: #333333;    /* Dunkelgrau */
-    --background-dark: rgb(31, 31, 31);
-  }
-  
-  .tier-list-container {
-    background: var(--background-dark);
-    border-radius: 12px;
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  
-  .tier-header {
-    display: grid;
-    grid-template-columns: 80px repeat(3, 1fr);
-    gap: 1rem;
-    margin-bottom: 1rem;
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .tier-row {
-    display: grid;
-    grid-template-columns: 80px repeat(3, 1fr);
-    gap: 1rem;
-    min-height: 200px;
-    margin-bottom: 1.5rem;
-    background: var(--background-dark);
+[class^="Character-"] span, 
+[class*=" Character-"] span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 299;
+  text-shadow: var(--text-shadow);
+}
+
+.s-tier, .Character-S { background: var(--s-tier); }
+.a-tier, .Character-A { background: var(--a-tier); }
+.b-tier, .Character-B { background: var(--b-tier); }
+.c-tier, .Character-C { background: var(--c-tier); }
+.d-tier, .Character-D { background: var(--d-tier); }
+.e-tier, .Character-E { background: var(--e-tier); }
+.f-tier, .Character-F { background: var(--f-tier); }
+.x-tier, .Character-X { background: var(--x-tier); }
+
+
+
+.tier-category-D { color: var(--s-tier);}
+.tier-category-T { color: var(--a-tier); }
+.tier-category-H { color: var(--c-tier); }
+
+@media (max-width: 768px) {
+  .tier-header, .tier-row {
+    grid-template-columns: 40px repeat(3, minmax(100px, 1fr));
   }
   
   .tier-rank {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    border-radius: 8px 0 0 8px;
+    width: 40px;
+    font-size: 1.2rem;
+  }
+  .tier-category-all{
+    display: inline-block;
+    width: 400px
+  }
+}
+
+@media (max-width: 480px) {
+  .tier-header, .tier-row {
+    grid-template-columns: 30px repeat(3, minmax(80px, 1fr));
   }
   
-  .s-tier { background: var(--s-tier); }
-  .a-tier { background: var(--a-tier); }
-  .b-tier { background: var(--b-tier); }
-  .c-tier { background: var(--c-tier); }
-  .d-tier { background: var(--d-tier); }
-  .e-tier { background: var(--e-tier); }
-  .f-tier { background: var(--f-tier); }
-  .x-tier { background: var(--x-tier); }
-  
-  .Character-S, .Character-A, .Character-B,
-  .Character-C, .Character-D, .Character-E,
-  .Character-F, .Character-X {
-    max-width: 150px;
-    height: 150px;
-    padding: 2px;
-    margin: 10px;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    z-index: 22;
-    border-radius: 8px;
-    transition: all 0.2s ease;
-  }
-  
-  .Character-S { background: var(--s-tier); }
-  .Character-A { background: var(--a-tier); }
-  .Character-B { background: var(--b-tier); }
-  .Character-C { background: var(--c-tier); }
-  .Character-D { background: var(--d-tier); }
-  .Character-E { background: var(--e-tier); }
-  .Character-F { background: var(--f-tier); }
-  .Character-X { background: var(--x-tier); }
-  
- 
-  
-  .Character-S span, .Character-A span, .Character-B span,
-  .Character-C span, .Character-D span, .Character-E span,
-  .Character-F span, .Character-X span {
-    background-color: rgba(255, 255, 255, 0.226);
-    color: white;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  .tier-rank {
+    width: 30px;
     font-size: 1rem;
-    font-weight: 900;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
   }
-  
-  @media (max-width: 768px) {
-   
-   
-    
-    .Character-S, .Character-A, .Character-B,
-    .Character-C, .Character-D, .Character-E,
-    .Character-F, .Character-X {
-      width: 75px;
-      height: 100px;
-    }
-    
-    .character-grid img {
-      height: 100px;
-    }
-    
-    .tier-category-D, .tier-category-T, .tier-category-H {
-      width: 80px;
-      margin: 0px;
-      padding: 0px;
-      margin-left: -20px;
-      
-    }
-    .s-tier, .a-tier, .b-tier, .c-tier, .d-tier, .e-tier, .f-tier, .x-tier {
-      width:40px;
-      padding: 0px;
-      margin: 0px;
-      
-    }
-    .character-grid {
-        display: block;
-    
-      }
+  .tier-category-all{
+    display: inline-block;
+    width: 300px
+  }
+}
 
+.tier-row {
+  background-color: rgba(77, 77, 77, 0.404);
+  overflow-x: hidden;
+}
 
-    
+@media (max-width: 480px) {
+  .tier-header, .tier-row {
+    grid-template-columns: 20px repeat(3, minmax(70px, 1fr)); /* -10px */
+    gap: 0.3rem; /* reduzierter Abstand */
   }
 
-  .tier-header,
-  .tier-row {
-    grid-template-columns: 60px repeat(3, 1fr);
+  .tier-rank {
+    width: 20px; /* -10px */
+    font-size: 0.9rem; /* -0.1rem */
+    padding: 3px 1px; /* reduziertes Padding */
+    text-align: center;
   }
-  
-  .character-grid {
-    grid-template-columns: repeat(3, 1fr);
+
+  [class^="Character-"], 
+  [class*=" Character-"] {
+    max-width: 90px; /* -10px */
+    max-height: 150px; /* -10px */
+    border-width: 1px; /* dünnerer Rahmen */
+    margin-bottom: 5px; /* reduzierter Abstand */
   }
-  
-  .Character-S, .Character-A, .Character-B,
-  .Character-C, .Character-D, .Character-E,
-  .Character-F, .Character-X {
-    width: 75px;
-    height: 120px;
-  }
-  
-  .character-grid img {
-    height: 100px;
+
+  [class^="Character-"] span, 
+  [class*=" Character-"] span {
+    font-size: 0.6rem; /* -0.1rem */
+    padding: 3px; /* reduziertes Padding */
   }
 
 
-  
+
+  .tier-list-container {
+    padding: 10px; /* -10px */
+  }
+}

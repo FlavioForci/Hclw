@@ -1,0 +1,61 @@
+Skill 2 Information:
+==================================================
+Gavin
+(Knight of Justice)
+Brittany Alexander was born in Blatany in 500 years
+Damage
+Cause attack power
+474%/516%/558%/618%/672%
+The damage
+Target unit
+All enemies
+The first effect: fainting
+Faint: No action can be taken.
+Duration:
+1.5
+Second
+Second effect: Superimposed bonus damage
+Each layer of the favorable gain effect on the target unit is improved
+10%
+harm
+Cooling time
+12
+Second
+Green belt
+quality
+gold
+Star rating
+5 stars
+24%/28%/32%/36%/40%/44%/46%/48%/52%/56%/60%
+Damage reduction
+1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+Green Belt - Active
+[Effect: Remove debuff]
+Target unit: itself
+Remove the included debuff spell random
+1
+One effect.
+[Cooldown time]
+30
+Second
+Gavin
+The sword exists for faith and righteousness.
+“This is what my father often says to me.
+"The situation has changed now. We are the guardians of the royal family and must not be involved in meaningless political struggles.
+If that was what the family wanted, then I put down the sword in my hand.
+The girl Gavin was once a talented person who was expected to become the strongest knight of the Pandragon royal family.
+If there were no accidents, she would have been the veritable number one sword recognized by the royal family and family.
+But things went against my wishes, and Gavin's family became the lackeys of the usurpers of the throne.
+Gavin's sword could only point to King Yuser and Princess Elizabeth, who were supposed to be her lord.
+She, who is close to Elizabeth, cannot accept this fact.
+That night, Gavin broke his sword and prepared to leave the family.
+When his sister Gahris saw this scene, she said to her very disappointedly.
+"I gave up the sword because of my sister. But my sister wants to put down the sword now? Although I don't understand your mood, times have changed. Think about it carefully.
+When she was a child, Gahris wanted to become a knight and worked hard to practice swordsmanship, but after seeing Gavin's unattainable talent, she decided to move towards strategy.
+Later, she became a general of the Britannian Empire and made many military achievements.
+The increasing achievements of the sister are a great pain and an indelible sin for Gavin.
+Gavin was wandering outside for a long time.
+Until one day, she met Elizabeth and her group like fate and saved them with a branch.
+But for some reason, the strange man known as the guide saw Gavin and his eyes glowed and began to follow her all day.
+Three visits to the thatched cottage.
+That was a historic moment when Aidan successfully recruited Gavin.
