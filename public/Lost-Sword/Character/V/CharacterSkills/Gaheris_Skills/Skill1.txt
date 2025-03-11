@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Sin-The Ultimate Skill
+Damage
+Causes 434/462/504/546/602% damage
+Target unit
+All enemies
+Effect: Burning
+Continuous damage: Takes damage equivalent to the caster's attack every 1 second. Duration: 8 seconds
+Cooling time
+36 seconds

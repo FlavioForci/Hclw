@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Lightning Slash - Ultimate Skill
+Damage
+Causes 522/567/621/684/756% damage
+Effect: Apply debuff
+The target is inductive, and the damage to the target is inductive is increased by 5%, and the duration is 6 seconds.
+Cooling time
+32 seconds
+Target unit
+All enemies

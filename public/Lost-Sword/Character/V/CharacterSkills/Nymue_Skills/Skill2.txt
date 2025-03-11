@@ -1,0 +1,6 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Magic Amplification - Passive
+[Effect: Give gain]
+Target unit:
+Effect: Magic attack power increased by 18%/24%/30%/38%/46%

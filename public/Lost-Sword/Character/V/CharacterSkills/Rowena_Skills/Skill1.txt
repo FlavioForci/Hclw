@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Abyss Shock-Ultimate Skill
+Damage
+Causes 413%/448%/483%/532%/581% damage
+Target unit
+All enemies
+Effect: Horror
+Terror: No action can be carried out.
+Duration: 3 seconds
+Cooling time
+36 seconds

@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Sky Eye - Passive
+[Effect: Give gain]
+Target unit: itself
+Effect: Increase the critical hit rate by 2%/4%/6%/10%/15%

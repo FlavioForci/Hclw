@@ -1,0 +1,9 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Brave - Passive
+[Effect 1: Give gain]
+Target unit: itself
+Effect: Attack power increased by 18/24/30/38/46%
+[Effect 2: Give gain]
+Target unit: itself
+Effect: Attack speed increased by 10/15/20/25/30%

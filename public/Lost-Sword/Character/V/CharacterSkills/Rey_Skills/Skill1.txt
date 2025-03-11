@@ -1,0 +1,9 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Tornado - Ultimate Skill
+Damage
+Causes 280%/302%/324%/358%/392% damage
+Target unit
+All enemies
+Cooling time
+30 seconds

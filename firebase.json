@@ -1,0 +1,96 @@
+{
+  "hosting": {
+    "public": "public",  
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+      
+    ],
+
+    "cleanUrls": true },
+
+
+    "headers": [
+      {
+        "source": "**/*.@(html)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      
+      {
+        "source": "**/*.mp4",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
+      },
+      {
+        "source": "**/*.webm",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
+      },
+      {
+        "source": "**/*.css",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }
+        ]
+      },
+      {
+        "source": "**/*.js",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }
+        ]
+      },
+      {
+        "source": "/index.html",
+        "headers": [
+          { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+        ]
+      },
+      {
+        "source": "/app/**",
+        "headers": [
+          {"key": "Cache-Control", "value": "no-cache, no-store, must-revalidate"}
+        ]
+      }
+    
+    ],
+  
+      "rewrites": [
+        {
+          "source": "**/*.html",
+          "destination": "/$1.html"
+        },
+      {
+        "source": "**", 
+        "destination": "/index.html"  
+      },
+      {
+        "source": "/guides",          
+        "destination": "public/hclw/guides.html"
+      },
+      {
+        "source": "/reRoll",          
+        "destination": "/reRoll.html"
+      },
+      {
+        "source": "/app",        
+        "destination": "/app/index.html"
+      },
+      {
+        "source": "/app/**", 
+        "destination": "/app/index.html"
+      },
+       {
+        "source": "/hclw",
+        "destination": "hclw/hclw.html"}
+    ]
+
+
+  }
+  

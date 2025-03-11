@@ -1,0 +1,17 @@
+Card Info:
+==================================================
+Card information
+Arrows are shot without silence
+quality
+gold
+Star rating
+5 stars
+property
+Ranged strike force increased by 24/28/32/36/40/44/48/52/56/60%
+Ignore damage reduction 1/2/3/4/5/6/7/8/9/10%
+LV.1 Pernott
+[Effect: Give gain]
+Specific trigger conditions: Triggered when the current health is above 100%.
+Target unit: itself
+Effect: The ranged critical hit rate is increased by 1.5/3/4.5/6/7.5/9/10/12/13.5/15%
+Spell attribute: Unable to remove

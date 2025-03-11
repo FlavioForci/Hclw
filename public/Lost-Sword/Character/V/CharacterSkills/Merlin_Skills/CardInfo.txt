@@ -1,0 +1,16 @@
+Card Info:
+==================================================
+Card information
+The protection of the water dragon
+quality
+gold
+Star rating
+5 stars
+property
+Magic attack power increased by 24/28/32/36/40/44/48/52/56/60%
+Magic critical hit rate increased by 1/2/3/4/5/6/7/8/9/10%
+LV.1 Sage
+[Effect: Give team gain]
+Target unit: Our
+Effect: Attack power increased by 9/12/15/18/21/24/27/30/33/36%
+Spell attribute: Unable to remove

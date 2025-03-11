@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Dream Demon - Ultimate Skill
+Damage
+Causes 654%/708%/756%/834%/912% damage
+Target unit
+All enemies
+Effect: Horror
+Terror: No action can be carried out.
+Duration: 4 seconds
+Cooling time
+38 seconds

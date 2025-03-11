@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Titans Battle-Ultimate Skill
+Damage
+Causes 456/496/536/600/656% damage
+Effect: Apply debuff
+Effect: Attack power is reduced by 6/9/12/15/18%
+Duration: 10 seconds
+Cooling time
+30 seconds
+Target unit
+All enemies

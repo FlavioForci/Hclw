@@ -1,0 +1,9 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Dance under the Moon - Ultimate Skill
+Damage
+Causes 432/456/480/516/552% damage
+Target unit
+3 of all enemies
+Cooling time
+36 seconds

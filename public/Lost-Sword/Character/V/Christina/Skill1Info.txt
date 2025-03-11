@@ -1,0 +1,65 @@
+Skill 1 Information:
+==================================================
+Christina
+(Micia's Rose)
+Profession   
+Mage
+Christina ruled the kingdom as the young queen of the Kingdom of Mesia.
+Protect the Kingdom from the invasion of Brattany
+Damage
+Cause attack power
+536%/580%/628%/696%/764%
+The damage
+Target unit
+All enemies
+Effect: Burning
+Continuous damage: every
+1
+In the second, the attack power equivalent to the caster's
+100%
+damage.
+Duration:
+12
+Second
+Cooling time
+34
+Second
+Rose flame
+quality
+gold
+Star rating
+5 stars
+24%/28%/32%/36%/40%/44%/48%/52%/56%/60%
+Attack speed
+1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+Temperament-passive
+【Effect: Give team gain】
+Target unit: Our
+Effect: Increased critical hit rate
+0.5%/1%/1.5%/2%/2.5%/3%/3.5%/4%/4.5%/5%
+Christina
+The young queen of the Kingdom of Mercia, Christina.
+Although Mercia is a kingdom, its political system is close to that of a republic with a cabinet.
+After the early death of the former king, the young Christina inherited the throne.
+The reason why her throne was so stable was that a group of elders who were loyal to the previous kings made an indelible contribution.
+As she grew up, Christina began to feel dissatisfied with the elders who overprotected herself.
+But the elders did see themselves as granddaughters, and they were very united.
+In 522, after the successful coup, Futigen immediately sent the priest Iscario of the Tiamatism to Mercia and proposed to sign a non-aggression treaty.
+Anyone can see that it was a strategy to delay time in order to pacify the civil war in Britania, but if it was refused, there was no doubt that Mercia would be the next target.
+"Seeing that you have not maintained the proper manners to a great country, I will regard it as you have refused."
+When the angry Christina is about to order the execution of Iscario,
+John, the Supreme Elder, looked at Christina and shook his head gently, then knelt down to Iscario and said.
+“The Kingdom of Mercia is willing to accept the non-aggression treaty.”
+Christina clearly knew that this would damage national prestige, but she failed to stop John.
+After Iscario returned, Christina felt angry, powerless and self-blame.
+"Elder John, am I still the queen of a country like this? What is the difference between this and those miserable vassal states?"
+"Her Majesty, we are only separated from them by a border. Although it is cowardly, now the Holy Titania has joined Brita.
+The Nian Empire, we are really unable to fight them right now.
+"But, it's not hopeless."
+John handed the letter from Avalon to Christina.
+That was a letter proposing that countries except Britania and Titania hold alliance talks in Avalon.
+"Maybe we'll find a way out in the talks. Merlin, the Sage and Vivian, the Elves, should have a way.
+Christina said pouting as she touched the red rope that connected from her collarbone to her chest.
+"Thank you for kneeling for me. If that's a pointless talk, we'll attack Britania first.
+John said with a smile,
+“You have grown up.

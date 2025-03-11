@@ -1,0 +1,7 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Fire-passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: Burning resistance increased by 30/35/40/45/50%
+Spell attribute: Unable to remove

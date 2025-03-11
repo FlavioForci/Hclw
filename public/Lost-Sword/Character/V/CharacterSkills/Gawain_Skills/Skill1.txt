@@ -1,0 +1,14 @@
+Skill 1 (Tab 1) Information:
+==================================================
+The Wind Unparalleled - The Ultimate Skill
+Damage
+Causes 420%/456%/496%/548%/604% damage
+Target unit
+All enemies
+The first effect: fainting
+Faint: No action can be taken.
+Duration: 4 seconds
+Second effect: Superimposed bonus damage
+The beneficial buff effect on the target unit increases damage by 10% per layer
+Cooling time
+38 seconds

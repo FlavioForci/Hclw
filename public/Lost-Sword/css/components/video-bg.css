@@ -1,0 +1,15 @@
+/* css/components/video-bg.css */
+
+.bg-layer {
+    opacity: 0.02;
+
+    /* animation-timing-function und animation-iteration-count
+    sind normalerweise Teil einer vollständigen Keyframe-Animation,
+    die du hier nicht hast. Entferne sie, wenn du keine Animation
+    verwendest. */
+}
+
+.bg-layer video {
+    object-fit: cover;
+    object-position: center;
+}

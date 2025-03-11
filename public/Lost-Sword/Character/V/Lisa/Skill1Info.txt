@@ -1,0 +1,71 @@
+Skill 1 Information:
+==================================================
+Lisa
+Skill Duration
+2.16 seconds
+Damage/recovery
+lv
+1-
+lv
+5
+: Cause attack power
+480.0%
+/
+540.0%
+/
+600.0%
+/
+660.0%
+/
+720.0%
+The damage
+Target unit
+All enemies
+Cooling time
+32 seconds
+Smile in the dark
+quality
+gold
+Star rating
+5 stars
+twenty four%
+/
+28%32%36%40%44%48%52%56%60%
+, Remote critical hit rate increases
+1.0%
+/
+2.0%
+/
+3.0%
+/
+4.0%
+/
+5.0%
+/
+6.0%
+/
+7.0%
+/
+8.0%
+/
+9.0%
+/
+10.0%
+story
+"In the dim alley, the gangsters began to harass the roadside stalls again. Lisa watched from a distance and walked slowly to them.
+"Let you go through the day, I forgot so soon, right?" Her tone was calm, but her eyes were shining coldly.
+The gangsters laughed at her and rushed up, but Lisa just raised her finger. The black shadow whirled around her, forming a sharp shape.
+"Ahhhh-!"
+With a short scream, the alley returned to silence, and Lisa looked at her blood-stained hands and sighed softly.
+"Ha, it's really...it's all covered in blood."
+"These meat pieces that can't even sort garbage..."
+Effect 1
+Increase attack targets
+Target unit: itself
+The target unit of the general attack will be added 1 additional person. (3 full-level)
+Effect 2
+Give gain
+Target unit: itself
+Effect: 35.0% reduction in cure amount
+Spell attribute: Unable to release"
+Ha ha!

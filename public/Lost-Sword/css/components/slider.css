@@ -1,0 +1,129 @@
+.events-section {
+    text-align: center;
+    padding: 20px;
+    padding-top: 20px;
+    display: grid;
+}
+
+.events-section h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.slider-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-container {
+    width: 45%;
+    position: relative;  /* Wichtig für absolute Positionierung */
+    margin: 0 auto;    /* Zentriert horizontal */
+    overflow: hidden;   /* Überlauf ausblenden */
+    border: 1px solid #dddddd9f;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    z-index: 43;
+}
+
+.slider {
+    display: flex;      /* Flexbox für die Slides */
+    transition: transform 0.5s ease-in-out; /* Animation */
+    height: 100%;      /* Volle Höhe des Containers */
+    /* width wird per JS gesetzt */
+}
+
+.slide {
+    flex: 0 0 100%;    /* Jeder Slide nimmt 100% der Breite ein */
+    min-width: 100%;
+    box-sizing: border-box;
+    height: 100%;      /* Volle Höhe des Sliders */
+    position: relative; /* Wichtig für absolute Positionierung */
+}
+
+.slide img {
+    width: 100%;      /* Bild füllt den Slide in der Breite */
+    height: 100%;      /* Bild füllt den Slide in der Höhe */
+    object-fit: cover;  /* Wichtig für korrektes Skalieren/Beschneiden */
+    display: block;    /* Verhindert unnötigen Abstand */
+    border: none;
+}
+
+.iframe
+
+.caption {
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+.slider-container .prev, .slider-container .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(31, 31, 31); /* Hintergrundfarbe */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container .prev:hover, .slider-container .next:hover {
+    background-color: #555; /* Hintergrundfarbe bei Hover */
+}
+
+.slider-container .prev {
+    left: 10px;
+}
+
+.slider-container .next {
+    right: 10px;
+}
+
+.slider-container .prev, .slider-container .next {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .slider-container-wrapper {
+        display: block;
+    }
+    .slider-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+.slide-link:hover {
+    opacity: 0.8; /* oder ein anderer Effekt, den du bevorzugst */
+    transition: opacity 0.2s ease-in-out;
+}
+
+.slide-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.slide-link:hover .slide-image {
+    transform: scale(1.05); /* oder ein anderer Effekt, den du bevorzugst */
+}
+

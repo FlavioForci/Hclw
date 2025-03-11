@@ -1,0 +1,10 @@
+Skill 1 (Tab 2) Information:
+==================================================
+The Holy Shield - Active
+Target unit
+All of us
+Effect: Give gain
+Effect: Damage reduction 4/8/12/16/20%
+Duration: 20 seconds
+Cooling time
+20 seconds

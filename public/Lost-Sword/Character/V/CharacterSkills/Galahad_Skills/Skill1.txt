@@ -1,0 +1,17 @@
+Skill 1 (Tab 1) Information:
+==================================================
+The Messenger of Light - Ultimate Skill
+Effect 1: Give Buffer
+Target unit: All of us
+Immune Damage: Immune Damage.
+Duration: 5 seconds
+Effect 2: Give Buffer
+Target unit: All our shooter professions
+Effect: Ranged attack power increased by 160/180/200/225/250%
+Duration: 20 seconds
+Effect 3: Give Buffer
+Target unit: All mage professions in our side
+Effect: Magic, Attack Power Increased 160/180/200/225/250%
+Duration: 20 seconds
+Cooling time
+30 seconds

@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Fireball - Active
+Damage
+Causes 239%/263%/287%/319%/351% damage
+Target unit
+All enemies
+Effect: Burning
+Continuous damage: Takes damage equivalent to 100% of the caster's attack power every 1 second.
+Duration: 12 seconds
+Cooling time
+9 seconds

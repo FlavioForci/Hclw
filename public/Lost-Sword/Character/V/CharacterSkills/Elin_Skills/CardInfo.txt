@@ -1,0 +1,16 @@
+Card Info:
+==================================================
+Card information
+Agile dodge
+quality
+White
+Star rating
+3 stars
+property
+Attack speed increased by 1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+LV.1 Elves' Shelter
+[Effect: Give gain]
+Specific triggering conditions: Trigger when the current health is below 30%.
+Target unit: itself
+Effect: Get healing improvement 1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+Spell attribute: Cannot be removed

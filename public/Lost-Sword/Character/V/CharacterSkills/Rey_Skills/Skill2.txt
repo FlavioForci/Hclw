@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Random attack - take the initiative
+Damage
+Causes 138%/144%/150%/159%/168% damage
+Target unit
+All enemies
+Cooling time
+9 seconds

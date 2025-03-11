@@ -1,0 +1,54 @@
+/* css/base.css */
+
+body {
+    margin: 0;
+    font-family: roboto;
+    color: rgb(114, 84, 84);
+    min-height: 100vh;
+    background-color: rgb(22, 22, 22);
+    
+    
+}
+
+/*  Füge hier weitere grundlegende Stile hinzu, z.B.: */
+
+h1, h2, h3, h4, h5, h6 {
+    /* Stile für Überschriften */
+  
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+a {
+    /* Grundstile für Links */
+    color: #007bff; /* Beispiel */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+/* Optional: Ein CSS-Reset (empfohlen für konsistentes Verhalten) */
+/*  Normalize.css ist eine gute Option: https://necolas.github.io/normalize.css/ */
+/*  Du könntest es herunterladen und einbinden ODER den Inhalt hier einfügen: */
+/*
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0} ... (und so weiter) ...
+*/
+
+/* Optional: Grundlegende Typografie-Einstellungen */
+/*
+body {
+    font-size: 16px;  // Basis-Schriftgröße
+    line-height: 1.5; // Zeilenabstand
+}
+*/
+
+
+
+* {
+    font-family: "roboto", sans-serif;
+    
+}

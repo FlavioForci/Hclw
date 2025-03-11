@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="/app/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="HCLW Tier List"/>
+    <link rel="apple-touch-icon" href="/public/app/favicon.ico"/>
+    <link rel="manifest" href="/app/manifest.json"/>
+    <title>HCLW Tier List</title>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="/public/css/styless2.css">
+    <link href="/app/static/css/main.ca43651d.css" rel="stylesheet">
+
+    <!-- Inline Styles (Consider moving to CSS file) -->
+    <style>
+        /* Hero Section Background */
+        .guide-hero {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .guide-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('../images/tierlistbackround.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            z-index: -5;
+            animation: smoothFade 2.5s ease-out forwards;
+            border-radius: 50px;
+        }
+
+        @keyframes smoothFade {
+            0% {
+                opacity: 0;
+                filter: blur(5px);
+            }
+            100% {
+                opacity: 0.1;
+                filter: blur(5px);
+            }
+        }
+
+        /* Hero Text Styles */
+        .guide-title {
+            position: relative;
+            padding-top: 100px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            align-self: center; /*Added align-self: center*/
+        }
+
+        .content {
+            position: relative;
+            z-index: 0;
+        }
+    </style>
+
+    <!-- JavaScript Links -->
+    <script defer="defer" src="/static/js/main.fce832a6.js"></script>
+</head>
+<body>
+    <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+
+    <div class="sidebar">
+        <nav class="nav-container">
+            <div class="nav-links">
+                <img src="../images/HCLW.webp" alt="HCLW Logo">
+                <a href="/index">Home</a>
+                <a href="./index" class="active">Tier List </a>
+                <a href="#">Guides</a>
+                <a href="#">Kontakt</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="content">
+        <!-- Hero Section -->
+        <section class="guide-hero">
+            <h1 class="guide-title">Tier List</h1><br>
+            <p>will change a lot cause many things are not known yet</p>
+            <h4 style="color: rgba(204, 22, 22, 0.815);">-Data from Rayku </h4>
+        </section>
+
+        <div id="root"></div>
+
+        <script>
+            function toggleSidebar() {
+                document.querySelector(".sidebar").classList.toggle("active");
+                document.querySelector(".content").classList.toggle("shifted");
+            }
+        </script>
+    </div>
+</body>
+</html>

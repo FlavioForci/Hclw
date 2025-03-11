@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Flash - Ultimate Skill
+Damage
+Causes 711/765/819/900/990% damage
+Effect: Additional damage
+When the target unit is a lord, it causes 1 additional damage equivalent to 120/140/160/180/200% of the attack power.
+Target unit
+All enemies
+Cooling time
+32 seconds

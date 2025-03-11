@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Blizzard-Ultimate Skill
+Damage
+Causes 490%/530%/570%/630%/690% damage
+Target unit
+All enemies
+Effect: Freezing
+Freezing: No action can be carried out.
+Duration: 3 seconds
+Cooling time
+36 seconds

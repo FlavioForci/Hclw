@@ -1,0 +1,11 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Go, Chun San - Take the initiative
+Damage
+Causes 195%/202%/210%/222%/234% damage
+Target unit
+All enemies
+Effect: Remove the gain
+Removes 1 random effect from the included buff spell.
+Cooling time
+12 seconds

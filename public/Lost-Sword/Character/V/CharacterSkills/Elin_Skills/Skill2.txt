@@ -1,0 +1,13 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Tree spirit vine-Active
+Damage
+Causes 110%/114%/118%/124%/130% damage
+Target unit
+1 of all enemies ahead
+(Target details: Target units with a distance)
+Effect: Bondage
+Bondage: No action can be carried out.
+Duration: 1 second
+Cooling time
+12 seconds

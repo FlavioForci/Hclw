@@ -1,0 +1,10 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Shield - Active
+Cooling time
+18 seconds
+Target unit
+All of us
+Effect: Give gain
+Shield: Generates a shield that absorbs 30%/40%/50%/65%/80% damage equivalent to the caster's health.
+Duration: 10 seconds

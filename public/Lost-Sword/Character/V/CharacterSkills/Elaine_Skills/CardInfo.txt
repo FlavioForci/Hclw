@@ -1,0 +1,17 @@
+Card Info:
+==================================================
+Card information
+The essence of water
+quality
+White
+Star rating
+3 stars
+property
+Magic attack power increased by 11/12/13/14/15/16/17/18/19/20%
+resonance
+[Damage]: Causes 180/210/240/270/300/330/360/3990/420/450% damage
+[Target Unit]: All enemies
+[Effect: Apply debuff]
+Effect: 1% reduction in attack power
+Duration: 10 seconds
+[Cooldown time]: 48 seconds

@@ -1,0 +1,16 @@
+Card Info:
+==================================================
+Card information
+Snowflake Contract
+quality
+Purple
+Star rating
+4 stars
+property
+Defensive strength increased by 18.4/20.8/23.2/25.6/28/30.4/32.8/35.2/37.6/40%
+ [Magic Defense" Passive
+[Effect: Give gain]
+Specific trigger conditions: When the current health is above 50%
+Trigger target unit: itself
+Effect: Magic Defensive power increased 9/12/15/18/21/24/27/30/33/36%
+Spell attribute: Cannot be removed

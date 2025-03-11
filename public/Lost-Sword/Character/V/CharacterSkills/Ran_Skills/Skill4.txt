@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Pressure-passive
+Effect: Apply debuff
+Target unit: Enemy
+Effect: Defensive power is reduced by 2%/4%/6%/8%/10%

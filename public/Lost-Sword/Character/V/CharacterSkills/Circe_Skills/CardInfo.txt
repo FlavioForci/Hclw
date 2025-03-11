@@ -1,0 +1,15 @@
+Card Info:
+==================================================
+Card information
+Live in the present
+quality
+gold
+Star rating
+5 stars
+property
+Magic attack power increased by 24%/28%/32%/36%/44%/48%/52%/56%/60%
+Live in the present
+Effect: Give teams a bonus
+Target unit: All enemies
+Effect: Attack power is reduced by 1.5/3/4.5/6/7.5/9/10.5/12/13.5/15%
+Spell attribute: Unable to remove

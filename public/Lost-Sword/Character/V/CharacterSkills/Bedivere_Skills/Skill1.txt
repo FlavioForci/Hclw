@@ -1,0 +1,9 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Prayer of the Stars - Ultimate Skill
+Recovery amount
+Obtain 216/384/416/456/504% recovery
+Target unit
+All of us
+Cooling time
+28 seconds

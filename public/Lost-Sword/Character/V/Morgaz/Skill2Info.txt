@@ -1,0 +1,72 @@
+Skill 2 Information:
+==================================================
+Morgaz
+(Red Lotus Witch)
+The witch who was cursed for his unknown origin and embarked on the path of a witch
+Damage
+Cause attack power
+272%/300%/328%/364%/404%
+The damage
+Target unit
+All enemies ahead
+Effect: Extra damage due to abnormal status
+When attacking a target unit that is burned
+, damage increased
+30%/45%/60%/75%/90%
+Cooling time
+12
+Second
+obey
+quality
+gold
+Star rating
+5 stars
+24%/28%/32%/36%/40%/44%/48%/52%/56%/60%
+Damage reduction
+1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+LV.1 was abused
+[Effect: Give gain]
+Trigger condition: When hit by the target
+Target unit: itself
+Capability value overlay: each
+1
+The layer increases the defense of the target unit
+1/2/3/4/5/6/7/8/9/10%
+(maximum
+12
+layer)
+Morgaz
+There are 5 witches in Britania.
+In addition to the three mysterious witches, the abyss witch Scyn, who is well known to the people,
+And...The Red Lotus Witch Murgaz
+The legend of the 5 Great Witches has been widely circulated throughout the continent and is an existence that scares people on the mainland.
+If the children cried non-stop at the village, parents would whisper the names of the five witches to scare the children.
+Their existence is deeply engraved in people's hearts.
+But now, Molgaz, one of the five great witches, is being escorted to the Goblin lair by being tied to a carriage.
+She was tied naked, shivering with shame.
+Fear of what fate you are about to usher in.
+"What are you...
+Molgaz asked in a trembling voice.
+The Goblins said with a greedy smile.
+"I want you to give birth to little goblin for us!"
+Suddenly, the carriage was hit hard and broke up
+Aidan and Elizabeth rushed over and defeated the goblins and rescued Molgaz.
+"Are you okay? Don't be afraid, it's safe now.
+Aidan said.
+Molgaz said with tears in his eyes.
+"Thank you...thank you..."
+Suddenly, she began to talk to herself.
+"Hmm...? Shouldn't save me...
+Elizabeth asked in shock.
+"Huh? What are you saying? Is anyone talking to you?"
+Molgaz was startled when he heard what Hat Jun said and said hesitantly.
+"Qi, Qi, actually...hat, Hat, Hun...want to make me deliberately be captured...and then burn all the goblin lairs..."
+Aidan and Elizabeth were shocked.
+"What?"
+Molgaz seems to have become accustomed to Hats' plans.
+He said in his clothes slowly
+"Me, I'm fine...I'm used to it...I just didn't expect Hat Jun's plan to be... like this..."
+Aidan looked at Molgaz like this and didn't know what to say.
+Molgaz seemed to have been used to it for a long time and wore clothes silently.
+But she obviously hadn't gotten rid of the fear just now, and her petite body looked pitiful and helpless.
+Aidan and Elizabeth had a confused mind and didn't know how to help her.

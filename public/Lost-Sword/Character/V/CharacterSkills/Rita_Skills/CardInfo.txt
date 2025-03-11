@@ -1,0 +1,15 @@
+Card Info:
+==================================================
+Card information
+Barista
+quality
+White
+Star rating
+3 stars
+property
+Improved defense power 11%/12%/13%/14%/15%/16%/17%/18%/19%20%
+LV.1 Barista
+[Effect: Additional treatment]
+Trigger condition: When the battle begins
+Target unit: itself
+Recovering the current health equivalent to 0.5%/1%/1.5%/2%/2.5%/3%/3.5%/4%/4.5%/5% of health.

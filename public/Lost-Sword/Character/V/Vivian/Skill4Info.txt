@@ -1,0 +1,42 @@
+Skill 4 Information:
+==================================================
+Vivian
+(The Lord of Avalon who remains neutral)
+Ancient elves who have lived for thousands of years were born in Avalon
+First effect: Give gain
+Target unit: itself
+Effect: Increased critical damage
+32/44/56/72/88%
+Second effect: Give gain
+Target unit: itself
+Effect: Increased critical hit rate
+3/4/5/7/9%
+Madness
+quality
+gold
+Star rating
+5 stars
+24/28/32/36/40/44/48/52/56/60%
+Increased magical critical strike rate
+1/2/3/4/5/6/7/8/9/10%
+LV.1 Madness
+[Effect: Give gain]
+Target unit: Our
+Effect: Increased critical damage
+9/12/15/18/21/24/27/30/33/36%
+Spell attribute: Unable to remove
+Vivian
+The world of swords and magic, Britania.
+To the west of Britania, there is an Elf Island called Avalon.
+Vivian is the owner of this Avalon.
+Avalon, who attaches importance to world balance, has never interfered with disputes in the human world and maintained neutrality.
+But after Futigen launched a coup, Avalon took the initiative to convene the alliance meeting.
+This is very unexpected news for the entire continent of Britania.
+“For the first time I saw you so positive about human things, what made you change your mind?
+"Haha, that's not. I just don't want to see Merlin's country perish like this.
+Vivian put down the teacup and smiled.
+Merlin wanted to see something from her deep eyes, but failed.
+"Puff, you're really... but thank you for saying that. Thanks to you, you can gather the countries."
+The two stopped talking about the topic and did not continue.
+Vivian looked at the lush forest below the city and murmured in a sound that the Merlin could not hear.
+“That kid should have done a good job.

@@ -1,0 +1,56 @@
+Skill 4 Information:
+==================================================
+Claire
+(The nun fighting doom)
+    gender
+female
+In the 498th year of Brittany, he was born in the civilian village of Britannia.
+Effect: Give teams a bonus
+Target unit: Our
+Effect: terror resistance enhancement
+30%/35%/40%/45%/50%
+Body training
+quality
+gold
+Star rating
+5 stars
+24%/28%/32%/36%/40%/44%/48%/52%/56%/60%
+Blind - Passive
+[Effect: Give gain]
+Specific trigger conditions: the current health value is
+50%
+Triggered when above
+Target unit: itself
+Effect: Abnormal resistance to increase
+2.5%/5%/7.5%/105/12.5%/15%/17.5%/20%/22.5%/25%
+Spell attribute: Unable to remove
+Claire
+Claire, a girl born in a poor civilian family, is slowly dying.
+She was born with bad luck and was a man born cursed.
+But Claire is lucky.
+Because little Esmeralda came to their village at the right time.
+Esmeralda heals Claire, allowing her to last her life.
+But Claire's doom is not over, and his stable life has not lasted for how long.
+The Goblin Elder attacked their village and launched an inhumane massacre. My father died under the sword of the Goblin.
+My mother died unfortunately while resisting the Goblins' invasion.
+At that moment, Claire's power was awakened.
+Her black flames burned the village and all the monsters.
+Zion: "This time it's successful."
+Iscario: "No, the attack without distinguishing between enemies and me can only mean that it is a failure.
+Her curse has been accompanied by her from birth
+That curse is actually related to the sect of Tiamat.
+Claire is the human experimental subject selected by the Tiamattes after sneaking into the Kingdom of Britania.
+Claire: “My life is really unfortunate.
+The Tiamat Church left behind the failed works, leaving only Claire who was waiting for death with all his might.
+On the line of life and death, an existence shrouded in dazzling light fell from the sky.
+She looked at the light, and the dazzling light took away her eyesight but saved her life.
+Claire became a nun with questions about the light.
+Later, through Gatuli's information, she learned that she was actually an experimental subject of the Tiamatism, and the villagers also died at the hands of the Tiamatism.
+From then on, she embarked on the path of fighting nuns.
+In fact, the experiment of Tiamat was not completely failed.
+Her physical abilities have completely exceeded human limits.
+"The pagans were found in the Earl's Territory of Carmason."
+The Bishop of Canterbury read the report for her with concern.
+“Okay, I’ll deal with it.
+Claire ran away with his staff tightened.
+To avenge the sect of Tiamat.

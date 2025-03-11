@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Instant step-active
+Damage
+Causes 142%/148%/153%/161%/168% damage
+Target unit
+All enemies ahead
+Cooling time
+12 seconds

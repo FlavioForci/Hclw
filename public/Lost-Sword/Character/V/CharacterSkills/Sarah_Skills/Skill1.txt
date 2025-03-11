@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Volcano Arrow - Ultimate Skill
+Damage
+Causes 297/319/341/385/418% damage
+Effect: Extra damage due to abnormal status
+When attacking target units that are burned, the damage increases by 20/30/40/60/80%
+Cooling time
+38 seconds
+Target unit
+All enemies

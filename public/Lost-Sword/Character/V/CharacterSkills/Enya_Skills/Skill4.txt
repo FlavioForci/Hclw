@@ -1,0 +1,6 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Adrenaline-passive
+Effect: Give gain
+Target unit:
+Effect: Attack speed is increased by 5%/10%/15%/20%/25%

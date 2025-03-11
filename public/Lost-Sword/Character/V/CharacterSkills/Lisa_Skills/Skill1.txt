@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Jealousy Feast - The Ultimate Skill
+Skill Duration
+2.16 seconds
+Damage/recovery
+lv1-lv5: Deals 480.0%/540.0%/600.0%/660.0%/720.0% damage
+Target unit
+All enemies
+Cooling time
+32 seconds

@@ -1,0 +1,16 @@
+Card Info:
+==================================================
+Card information
+Absolute Armor
+quality
+gold
+Star rating
+5 stars
+property
+Magic attack power increased by 24/28/32/36/40/44/48/52/56/60%
+Ignore damage reduction 1/2/3/4/5/6/7/8/9/10%
+LV.1 Diner
+Target unit: All of us
+Effect: Granting Buff: Attack Power Increase by 10/11/12/13/14/15/16/17/18/20%
+Duration: 10 seconds
+Cooldown time: 20 seconds

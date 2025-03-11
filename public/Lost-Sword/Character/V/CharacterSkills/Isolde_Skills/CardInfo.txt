@@ -1,0 +1,16 @@
+Card Info:
+==================================================
+Card information
+Peerless medical skills
+quality
+gold
+Star rating
+5 stars
+property
+The amount of cure increased by 6/8/10/12/14/16/18/20/22/24%
+Defensive strength increased by 6/8/10/12/14/16/18/20/22/24%
+LV1 Healing Wind
+[Effect: Additional treatment]
+Trigger condition: When the battle begins
+Target unit: All of us
+Recovering the current health equivalent to 11/12/13/14/15/16/17/18/19/20% of the health.

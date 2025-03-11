@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+The breath of the witch - Active
+Damage
+Causes 207%/213%/222%/234%/249% damage
+Target unit
+All enemies
+Effect: Apply debuff
+Effect: Defense -10/-15/-20/-25/-30
+Duration: 8 seconds
+Cooling time
+12 seconds

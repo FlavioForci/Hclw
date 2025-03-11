@@ -1,0 +1,7 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Abuse-passive
+Effect: Give gain
+Trigger condition: When killing
+Target unit: itself
+Ability value superposition: Each layer increases the attack power of the target unit by 3%/3%/3%/4%/4% (maximum 12 layers)

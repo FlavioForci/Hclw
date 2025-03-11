@@ -1,0 +1,11 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Dance wildly! - Ultimate Skills
+Damage
+Causes 549%/594%/639%/711%/783% damage
+Target unit
+All enemies
+Effect: Superimposed Buffer Additional Damage
+The buff effect on the target unit increases damage by 5% per layer
+Cooling time
+33 seconds

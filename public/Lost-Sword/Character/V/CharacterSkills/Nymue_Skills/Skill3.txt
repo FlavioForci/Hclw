@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Snowflake shelter-passive
+[Effect: Give gain]
+Target unit: itself
+Effect: Burning resistance increased by 20%/30%/40%/50%/60%

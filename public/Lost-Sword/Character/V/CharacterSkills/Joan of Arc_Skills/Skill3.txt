@@ -1,0 +1,7 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Saint-Passive
+Effect: Give teams a bonus
+Target unit: Our
+Effect: Health increase by 24/30/36/44/52%
+Spell attribute: Unable to remove

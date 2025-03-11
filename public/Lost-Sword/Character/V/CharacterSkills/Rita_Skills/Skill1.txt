@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Slash - Ultimate skill
+Damage
+Causes 344%/360%/384%/416%/448% damage
+Target unit
+All enemies
+Effect: Apply debuff
+Effect: Reduce critical resistance rate by 4%/6%/8%/10%/12%
+Duration: 5 seconds
+Cooling time
+38 seconds

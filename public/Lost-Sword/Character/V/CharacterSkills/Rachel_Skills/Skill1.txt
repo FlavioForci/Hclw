@@ -1,0 +1,13 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Healing Wind - Ultimate Skill
+Damage
+Obtain 250%/260%/270%/290%/310% recovery
+Target unit
+All of us
+Effect: Give gain
+Target unit: All of us
+Effect: Get healing improvement by 1%/2%/3%/5%/7%
+Duration: 12 seconds
+Cooling time
+38 seconds

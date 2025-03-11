@@ -1,0 +1,10 @@
+Card Info:
+==================================================
+Card information
+The will of the barbarian
+quality
+White
+Star rating
+3 stars
+property
+Melee attack power increased by 11/12/13/14/15/16/17/18/19/20%

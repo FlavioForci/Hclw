@@ -1,0 +1,12 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Bloody traces-Active
+Duration
+2 seconds
+Target unit
+All enemies
+Damage
+lv1-lv5: Causes attack power of 270.0%/
+288.0%/306.0%/324.0%/342.0% damage
+Cooling time
+6 seconds

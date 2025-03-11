@@ -1,0 +1,9 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Arrow Rain - Active
+Damage
+Causes 145/155/165/180/195% damage
+Target unit
+All enemies ahead
+Cooling time
+11 seconds

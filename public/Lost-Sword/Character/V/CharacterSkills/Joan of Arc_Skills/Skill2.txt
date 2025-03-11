@@ -1,0 +1,11 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Lightning Storm - Active
+Damage
+Causes 268/296/322/356/392% damage
+Effect: Extra damage due to abnormal status
+When attacking a target unit that has been fainted, the damage will be increased by 30/45/60/75/90%
+Cooling time
+12 seconds
+Target unit
+All enemies

@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Command- Passive
+Effect: Give gain
+Target unit: Our
+Effect: Attack power increased by 24%/30%/36%/44%/56%

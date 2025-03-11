@@ -1,0 +1,44 @@
+Skill 2 Information:
+==================================================
+Lane
+(The master of swordsmanship in Tongji Kingdom)
+As a prosecutor in Tongji State, it feels like he is wearing a mysterious veil
+Effect: Extra damage due to abnormal status
+Increases damage when attacking the target unit that has been subjected to electric shock
+35%/45%/60%/75%/90%
+Damage
+Cause attack power
+476%/518%/560%/616%672%
+The damage
+Target unit
+All enemies ahead
+Cooling time
+10
+Second
+Sword dance under the moon
+quality
+gold
+Star rating
+5 stars
+24%/28%/32%/36%/40%/44%/48%/52%/56%/60%
+Increased melee critical strike rate
+1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+LV. January sword dance
+[Effect: Reflection Damage]
+Trigger condition: When hit by the target
+cause
+1
+The number is equivalent to attack power
+10%/20%/30%/40%/50%/60%/70%/80%/90%/100%
+Additional damage.
+Lane
+Lann is known as the witch of the Eastern Empire and is a mixed race between humans and elves.
+She has always been fascinated by the legend of the ancient Elgrad Kingdom. After finally buying the Elgrad swordsmanship log, she began to follow the log
+Practice sword skills. However, even after reading the swordsmanship log for a long time, I didn’t get much.
+"Is it because I don't have enough understanding?"
+She wanted to be the swordsman-like person who helped her country a long time ago, and she practiced hard for 100 years. Although everyone was shocked
+Sighing at her superb swordsmanship, she was unable to complete the last move that only the sword saint could do.
+In this way, she numbed herself with alcohol and was decadent for a long time...
+One day, Lane came to the fierce battle of Britania. There, she rescued a dying girl from the soldiers.
+It was the girl who gave her a tip about the last move that Lanen finally reached the realm of the Sword Saint.
+Lane, who got his wish, entrusted the girl Ruya to the Kingdom of Cornwall and headed to Avalon.

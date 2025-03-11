@@ -1,0 +1,12 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Water Dragon, Ethel - Ultimate Skill
+Damage
+Causes 450/485/520/575/630% damage
+Target unit
+All enemies
+Effect: Freezing
+Freezing: No action can be performed.
+Duration: 4 seconds
+Cooling time
+35 seconds

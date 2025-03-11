@@ -1,0 +1,14 @@
+Skill 1 (Tab 2) Information:
+==================================================
+Obsession - Active
+Target unit
+All enemies
+First effect: Give gain
+Effect: Increased critical hit rate by 12%/14%/16%/20%/24%
+Duration: 10 seconds
+Second effect: Give gain
+Target unit: itself
+Effect: Critical damage increased by 16%/24%/32%/40%/48%
+Duration: 10 seconds
+Cooling time
+20 seconds

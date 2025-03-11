@@ -1,0 +1,12 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Nature's Gazing Lock-Active
+Damage
+Causes 248/273/298/331/365% damage
+Target unit
+All enemies
+Effect: Bondage
+Bondage: No action can be carried out.
+Duration: 1.5 seconds
+Cooling time
+20 seconds

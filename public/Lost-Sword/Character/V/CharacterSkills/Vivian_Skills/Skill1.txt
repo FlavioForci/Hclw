@@ -1,0 +1,15 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Eye of Tiamat - Ultimate Skill
+Damage
+Causes 720/774/816/876/936% damage
+Target unit
+All enemies
+First effect: extra damage due to abnormal status
+When attacking target units that are bound, the damage increases by 50/75/100/125/150%
+Second effect: Give gain
+Target unit: itself
+Effect: Critical damage increased by 24/32/40/48/56%
+Duration: 20 seconds
+Cooling time
+34 seconds

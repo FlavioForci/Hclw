@@ -1,0 +1,9 @@
+Skill 1 (Tab 4) Information:
+==================================================
+Jealous Messenger - Passive
+Trigger condition
+Always applicable
+Effect
+Effect: Give gain, target unit: itself
+Attack speed increased by 5.0%/10.0%/15.0%/20.0%
+/25.0%

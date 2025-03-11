@@ -1,0 +1,192 @@
+:root {
+  --s-tier: #ff4444;
+  --a-tier: #ffa500;
+  --b-tier: #ffd700;
+  --c-tier: #7fff7f;
+  --d-tier: #7f7fff;
+  --e-tier: #ff7fff;
+  --f-tier: #cccccc;
+  --x-tier: #333333;
+  --background-dark: #1f1f1f;
+  --text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.tier-list-container {
+  border-radius: 12px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.tier-category-all{
+  display: inline-block;
+  width: 800px
+}
+
+.tier-row-2{
+  display: inline-block; 
+}
+.tier-header, .tier-row {
+  
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  grid-template-columns: 60px repeat(3, minmax(150px, 1fr));
+  flex-wrap: wrap; /* Erlaubt das Umbruch in die nächste Zeile, wenn kein Platz mehr ist */
+    gap: 10px; /* Fügt Abstand zwischen den Karten ein */
+    
+}
+
+.tier-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  width: 60px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px 0 0 0;
+  padding: 10px 5px;
+  text-shadow: var(--text-shadow);
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+   flex-wrap: wrap;
+  width: 100%;
+}
+
+[class^="Character-"], 
+[class*=" Character-"] {
+  aspect-ratio: 374/512;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  max-width: 100px;
+  max-height: 160px;
+  border: 2px solid var(--background-dark);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+[class^="Character-"] img, 
+[class*=" Character-"] img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: transform 0.3s ease;
+}
+
+[class^="Character-"]:hover img, 
+[class*=" Character-"]:hover img {
+  transform: scale(1.05);
+}
+
+[class^="Character-"] span, 
+[class*=" Character-"] span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 299;
+  text-shadow: var(--text-shadow);
+}
+
+.s-tier, .Character-S { background: var(--s-tier); }
+.a-tier, .Character-A { background: var(--a-tier); }
+.b-tier, .Character-B { background: var(--b-tier); }
+.c-tier, .Character-C { background: var(--c-tier); }
+.d-tier, .Character-D { background: var(--d-tier); }
+.e-tier, .Character-E { background: var(--e-tier); }
+.f-tier, .Character-F { background: var(--f-tier); }
+.x-tier, .Character-X { background: var(--x-tier); }
+
+
+
+.tier-category-D { color: var(--s-tier);}
+.tier-category-T { color: var(--a-tier); }
+.tier-category-H { color: var(--c-tier); }
+
+@media (max-width: 768px) {
+  .tier-header, .tier-row {
+    grid-template-columns: 40px repeat(3, minmax(100px, 1fr));
+  }
+  
+  .tier-rank {
+    width: 40px;
+    font-size: 1.2rem;
+  }
+  .tier-category-all{
+    display: inline-block;
+    width: 400px
+  }
+}
+
+@media (max-width: 480px) {
+  .tier-header, .tier-row {
+    grid-template-columns: 30px repeat(3, minmax(80px, 1fr));
+  }
+  
+  .tier-rank {
+    width: 30px;
+    font-size: 1rem;
+  }
+  .tier-category-all{
+    display: inline-block;
+    width: 300px
+  }
+}
+
+.tier-row {
+  background-color: rgba(77, 77, 77, 0.404);
+  overflow-x: hidden;
+}
+
+@media (max-width: 480px) {
+  .tier-header, .tier-row {
+    grid-template-columns: 20px repeat(3, minmax(70px, 1fr)); /* -10px */
+    gap: 0.3rem; /* reduzierter Abstand */
+  }
+
+  .tier-rank {
+    width: 20px; /* -10px */
+    font-size: 0.9rem; /* -0.1rem */
+    padding: 3px 1px; /* reduziertes Padding */
+    text-align: center;
+  }
+
+  [class^="Character-"], 
+  [class*=" Character-"] {
+    max-width: 90px; /* -10px */
+    max-height: 150px; /* -10px */
+    border-width: 1px; /* dünnerer Rahmen */
+    margin-bottom: 5px; /* reduzierter Abstand */
+  }
+
+  [class^="Character-"] span, 
+  [class*=" Character-"] span {
+    font-size: 0.6rem; /* -0.1rem */
+    padding: 3px; /* reduziertes Padding */
+  }
+
+
+
+  .tier-list-container {
+    padding: 10px; /* -10px */
+  }
+}

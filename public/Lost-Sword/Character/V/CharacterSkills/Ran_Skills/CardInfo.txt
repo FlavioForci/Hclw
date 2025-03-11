@@ -1,0 +1,15 @@
+Card Info:
+==================================================
+Card information
+Sword dance under the moon
+quality
+gold
+Star rating
+5 stars
+property
+Melee attack power increased by 24%/28%/32%/36%/40%/44%/48%/52%/56%/60%
+Melee critical strike rate increased by 1%/2%/3%/4%/5%/6%/7%/8%/9%/10%
+LV. January sword dance
+[Effect: Reflection Damage]
+Trigger condition: When hit by the target
+Inflicts 1 additional damage equivalent to 10%/20%/30%/40%/50%/60%/70%/80%/90%/100% of attack power.

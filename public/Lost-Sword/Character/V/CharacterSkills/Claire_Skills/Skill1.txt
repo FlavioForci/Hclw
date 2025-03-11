@@ -1,0 +1,15 @@
+Skill 1 (Tab 1) Information:
+==================================================
+Holy Gun, Longinus - Ultimate Skill
+Damage
+Causes 820%/896%/960%/1066%/1170% damage
+Target unit
+All enemies
+The first effect: fainting
+Faint: No action can be taken.
+Duration: 4 seconds
+Second effect: additional treatment
+Target unit: All of us
+Recover the current health equivalent to 50% of the health.
+Cooling time
+38 seconds

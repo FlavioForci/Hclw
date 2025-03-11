@@ -1,0 +1,6 @@
+Skill 1 (Tab 3) Information:
+==================================================
+Bloodsucking - Passive
+[Effect: Blood sucking]
+Target unit: itself
+Recovery is equivalent to 1%/2%/3%/4%/5% of the health value.
