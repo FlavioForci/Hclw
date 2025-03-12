@@ -13,6 +13,16 @@
 
     "headers": [
       {
+        "source": "**/*.@(html)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      
+      {
         "source": "**/*.mp4",
         "headers": [
           { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
@@ -52,6 +62,10 @@
     ],
   
       "rewrites": [
+        {
+          "source": "**/*.html",
+          "destination": "/$1.html"
+        },
       {
         "source": "**", 
         "destination": "/index.html"  

@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lost Sword Team Building Guide - Basic Team Building Meta 12.03.2025">
+
+    <meta name="keywords" content=" Lost Sword Meta , Lost Sword Teams , Lost Sword Team Guide , Lost Sword Team Building ">
+
+    <meta name="author" content="Tychara Team">
+    <meta property="og:title" content="Tychara - Gacha Guides and more">
+
+    
+    <title>Tychara - Team Building  Pet Recommendation</title>
+    <link rel="stylesheet" href="/Lost-Sword/css/main.css">
+    <link rel="stylesheet" href="/Lost-Sword/css/components/slider.css">
+    <link rel="stylesheet" href="/Lost-Sword/css/components/Character.css">
+    <style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Pet Guide Styles */
+.pet-guide {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.pet-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.pet-card {
+    background: #2a2a2a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-5px);
+}
+
+.pet-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pet-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.stat-badge {
+    background: #c99700;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.pet-skills {
+    list-style: none;
+    padding: 0;
+}
+
+.pet-skills li {
+    margin: 0.8rem 0;
+    padding: 0.5rem;
+    background: #3a3a3a;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.pet-desc {
+    color: #ddd;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.pet-tips {
+    background: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #c99700;
+}
+
+.pet-tips ul {
+    display: grid;
+    gap: 1rem;
+    padding-left: 0;
+}
+
+.pet-tips li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .pet-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .pet-image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+/* Team Info Styling */
+.team-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(82, 82, 82, 0.1);
+    border-radius: 8px;
+}
+
+.team-info h3 {
+    color: #c99700;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.team-info ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: grid;
+    gap: 8px;
+}
+
+.team-info li {
+    padding: 8px;
+    background-color: rgba(201, 147, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .Character-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+    
+    .Character-S, .Character-A, .Character-B {
+        max-width: 120px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-info li {
+        font-size: 0.9em;
+    }
+    
+    .Character-S span, 
+    .Character-A span, 
+    .Character-B span {
+        font-size: 1em;
+    }
+}
+
+
+.site-info-content p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Listen-Stile */
+ul {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Sektionen-Stile */
+section {
+    margin: 25px 0;
+    padding: 20px;
+   
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+h3 {
+ 
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+/* Tabellen-Stile */
+.phase-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.phase-table th,
+.phase-table td {
+    padding: 12px;
+    text-align: left;
+    background-color: rgb(31, 31, 31);
+}
+
+.phase-table th {
+    background-color: rgb(48, 48, 48);
+    font-weight: 600;
+   
+}
+
+/* Bild-Stile */
+.card-container {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tipp-Boxen */
+.tip {
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+    border-left: 4px solid #ffc107;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+/* Team-Building Abschnitt */
+.team-building {
+   
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.team-building img {
+    height: 50px;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.team-building img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-info-content h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .phase-table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .team-building img {
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 15px;
+    }
+
+    .site-info {
+        padding: 15px;
+    }
+
+    .team-building img {
+        height: 35px;
+    }
+}
+
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHK5DQPT94"></script>
+
+    
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HHK5DQPT94');
+</script>
+
+    
+</head>
+<body>
+  <div class="logo-container">
+       <a href="/index"><div class="logo">
+            <img src="/Lost-Sword/img//Subtract.png" alt="Logo">
+            <span class="logo-text">ychara</span></a>
+        </div>
+
+       <div class="kofi"> <a href='https://ko-fi.com/P5P819R853' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></div>
+        <button class="toggle-button" id="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+    <nav id="navbar">  
+        
+      
+    
+
+        <ul> <li><a href="/Lost-Sword/index"><img src="/Lost-Sword/img//home_button.png" alt="Icon 1"> Home</a></li>
+            <li><a href="#"><img src="/Lost-Sword/img//Guide_button.png" alt="Icon 2"> Guides</a></li>
+            <li><a href="/Lost-Sword/Character/index"><img src="/Lost-Sword/img//Character_button.png" alt="Icon 3"> Character</a></li>
+            <li><a href="#"><img src="/Lost-Sword/img//Info_button.png" alt="Icon 4"> About us </a></li>
+            </ul>
+    </nav>
+    <div class="background-container">
+        <div class="bg-layer layer-1">
+            <video autoplay loop muted playsinline>
+                <source src="/images/main-bg.mp4" type="video/mp4">
+                Dein Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+    </div>
+
+
+    
+    
+
+<div class="content-container">
+
+    <div class="site-info">
+        <div class="site-info-content">
+            <h1>
+            Team Building </h1>
+            <p>Lost Sword Basic Team Building <br>Meta 12.03.2025
+
+              </p>
+        </div>
+
+
+      
+         <h2>Overview</h2>
+         <ul>
+            <li>The  meta is divided into two parts.</li>
+
+               <li> "Galahad" to give shooters and wizards a powerful buff</li>
+                
+               <li> "Ran card" that deals counterattack damage in proportion to your attack.</li>
+                
+               <li> Once you have secured one or both of these, it is recommended that you have a variety of healers to increase your deck's flexibility.</li>
+                
+                <li>Securing the main dealers is also important, but from a long-term perspective, it is advantageous to meet the above first.</li>
+         </ul>
+        
+
+         <section>
+            <h2>Resonance System & Cards</h2>
+            
+            
+    
+            <article>
+                <h3>What is Resonance?</h3>
+                <p>
+                    The game features a unique <strong>Resonance System</strong> that allows players to exchange 
+                    duplicate heroes for Stats or  Resonance Cards. 
+                </p>
+                
+            </article>
+    
+            <article>
+                <h3>Card Features</h3>
+                <p>
+                    <img src="/Lost-Sword/img/ExchangeCard.jpg" alt="Card Feature" style="  margin-right:15px; width:500px">
+                    
+                </p>
+                <h3>These special cards have distinct characteristics:</h3>
+                
+                <ul>
+                    
+                    <li>No class or attribute restrictions</li>
+                    <li>Can dramatically alter gameplay (meta-changing)</li>
+                </ul>
+            </article>
+    
+            <article class="tip">
+                <h3>Tip</h3>
+                <p>
+                    Before using duplicate heroes for <em>Transcendence</em>, prioritize 
+                    looking for Meta  and <strong>creating cards</strong>. The strategic advantages of cards 
+                    provide long-term value over immediate stat boosts.
+                </p>
+            </article>
+        </section>
+
+ <h2>Transcendence Mechanics</h2> 
+        <section class="system-container">
+           
+            
+            <!-- Image placeholder for transcendence visual -->
+            <div class="card-container">
+                <!-- Placeholder for resonance card examples -->
+                <img src="/Lost-Sword/img/Exchange.jpg" alt="Resonance Card Example" class="card-image"  style="   margin-right:15px; width:500px">
+               
+            </div>
+    
+            <article>
+                <h3>Core Benefits</h3>
+                <ul>
+                    <li>Base stat increases:
+                        <ul>
+                            <li>Damage: +X%</li>
+                            <li>Defense: +X%</li>
+                            <li>Health: +X%</li>
+                        </ul>
+                    </li>
+                    <li>Skill enhancements at key levels</li>
+                    <li>Potential new abilities</li>
+                </ul>
+            </article>
+    
+            <article>
+                <h3>Progression Milestones</h3>
+                <table class="phase-table">
+                    <tr>
+                        <th>Transcendence Level</th>
+                        <th>Benefits</th>
+                    </tr>
+                    <tr>
+                        <td>Level 3</td>
+                        
+                        <td>
+                            <ul>
+                                <li>All skill levels +1</li>
+                                <li>Stat boost increase</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Level 5 (Awakening)</td>
+                        
+                        <td>
+                            <ul>
+                                <li>All skill levels +1</li>
+                                <li>Chance for new skills</li>
+                                <li>Maximum stat boost</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+    
+            <article class="tip">
+                <h3>Optimization Strategy</h3>
+                <p>
+                    <strong>Prioritize reaching levels 3 and 5:</strong><br>
+                    The skill enhancements at these thresholds provide more value than linear stat increases. 
+                    Plan your hero duplicates accordingly:
+                </p>
+                <ul>
+                    <li>Total duplicates needed for full power: 8</li>
+                    <li>Recommended progression path: 3 → 5 → Awakening</li>
+                </ul>
+            </article>
+    
+            
+        </section>
+
+        <h2>Team Building</h2>
+
+        <section class="team-building">
+            <article>
+                <h3>Core Roles</h3>
+                <p>
+                    <strong>1. Main DPS:</strong> <img src="/Lost-Sword/img/Lisa3.png" alt=""> <img src="/Lost-Sword/img/Merlin3.png" alt="">Main Attack Damage 
+                    <br>
+                    <strong>2. Healer:</strong> <img src="/Lost-Sword/img/Ria 2.png" alt=""> <img src="/Lost-Sword/img/Isoldde4.png" alt="">Buffs, debuffs, and healing to enhance your team's performance.
+                    <br>
+                    <strong>3. Tank/Support:</strong> <img src="/Lost-Sword/img/Galahad.png" alt="">Absorbs damage , protects / buff your team.
+                    <br>
+                    <strong>4. Second DPS:</strong>  <a href="/Lost-Sword/Character/Ran"><img src="/Lost-Sword/img/Ran.png" alt=""></a>
+                    <a href="/Lost-Sword/Character/Lua">
+                        <img src="/Lost-Sword/img/Lua.png" alt="Lua">
+                        </a>
+                    
+                  
+                      <a href="/Lost-Sword/Character/Tristan">
+                        <img src="/Lost-Sword/img/Tristan.png" alt="Tristan">
+                      
+                      </a>
+                   
+                 
+                      <a href="/Lost-Sword/Character/Ran">
+                        <img src="/Lost-Sword/img/Ran.png" alt="Ran">
+                  
+                      </a>
+                 
+                    
+                
+                      <a href="/Lost-Sword/Character/Kay">
+                        <img src="/Lost-Sword/img/18473.png" alt="Kay">
+                     
+                      </a>
+                  
+                  
+                      <a href="/Lost-Sword/Character/Anessa"> 
+                        <img src="/Lost-Sword/img/Anesa.png" alt="Anessa"></a>
+                        Secondary Attack Dealer to balance your team's damage output.
+                
+            </article>
+    
+            <article>
+                <h3>Team Synergy</h3>
+                <p>
+                    <strong>1. Buffs & Debuffs:</strong> Coordinate skills that enhance each other.
+                    <br>
+                    <strong>2. Healing & Sustain:</strong> Ensure your team can survive longer battles.
+                </p>
+            </article>
+    
+            <article>
+                <h3>Meta Considerations</h3>
+                <p>
+                    <strong>1. Current Meta:</strong> Check the latest tier lists and updates for optimal team compositions.
+                    <br>
+        
+                    <strong>2. Flexibility:</strong> Adapt your team based on the game mode and opponent.
+                </p>
+            </article>
+
+        </section>
+
+          
+
+            <section class="Character-liste">
+                <h2>Example Team Composition</h2>
+                
+                <h3>Meta</h3>
+            
+                <div class="Character-grid" style="background-color: rgb(31, 31, 31);">
+                    <!-- Character 1 - S-Rank -->
+                    <a href="/Lost-Sword/Character/Galahad" class="Character-S">
+                        <img src="/Lost-Sword/img/Galahad.png" alt="Galahad - Fire Tank">
+                        <span>Galahad</span>
+                    </a>
+                
+                    <!-- Character 2 - A-Rank -->
+                    <a href="/Lost-Sword/Character/Ran" class="Character-S">
+                        <img src="/Lost-Sword/img/Ran.png" alt="Ran - Dark Attacker">
+                        <span>Ran</span>
+                    </a>
+                
+                    <!-- Character 3 - S-Rank -->
+                    <a href="/Lost-Sword/Character/Lisa" class="Character-S">
+                        <img src="/Lost-Sword/img/Lisa3.png" alt="Lisa - Shadow Mage">
+                        <span>Lisa</span>
+                    </a>
+                
+                    <!-- Character 4 - B-Rank -->
+                    <a href="/Lost-Sword/Character/Isolde" class="Character-S">
+                        <img src="/Lost-Sword/img/Isoldde4.png" alt="Isolde - Water Healer">
+                        <span>Isolde</span>
+                    </a>
+                
+                    <!-- Character 5 - A-Rank -->
+                    <a href="/Lost-Sword/Character/Merlin" class="Character-S">
+                        <img src="/Lost-Sword/img/Merlin3.png" alt="Merlin - Light Support">
+                        <span>Merlin</span>
+                    </a>
+                </div>
+                
+                
+
+
+
+                <h3>2.</h3>
+            
+                <div class="Character-grid" style="background-color: rgb(31, 31, 31);">
+                    <!-- Character 1 - S-Rank -->
+                    <a href="/Lost-Sword/Character/Galahad" class="Character-S">
+                        <img src="/Lost-Sword/img/Galahad.png" alt="Galahad - Fire Tank">
+                        <span>Galahad</span>
+                    </a>
+                
+                    <!-- Character 2 - A-Rank -->
+                    <a href="/Lost-Sword/Character/Lua" class="Character-S">
+                        <img src="/Lost-Sword/img/Lua.png" alt="Ran - Dark Attacker">
+                        <span>Lua</span>
+                    </a>
+                
+                    <!-- Character 3 - S-Rank -->
+                    <a href="/Lost-Sword/Character/Lisa" class="Character-S">
+                        <img src="/Lost-Sword/img/Lisa3.png" alt="Lisa - Shadow Mage">
+                        <span>Lisa</span>
+                    </a>
+                
+                    <!-- Character 4 - B-Rank -->
+                    <a href="/Lost-Sword/Character/Ria-2" class="Character-S">
+                        <img src="/Lost-Sword/img/Ria 2.png" alt="Isolde - Water Healer">
+                        <span>Ria</span>
+                    </a>
+                
+                    <!-- Character 5 - A-Rank -->
+                    <a href="/Lost-Sword/Character/Merlin" class="Character-S">
+                        <img src="/Lost-Sword/img/Merlin3.png" alt="Merlin - Light Support">
+                        <span>Merlin</span>
+                    </a>
+                </div>
+                
+                </div>
+            
+               
+            </section>
+
+
+            <section class="pet-guide">
+                <h2>Recommended Pets</h2>
+                
+                <div class="pet-container">
+                    <!-- Phoenix -->
+                    <article class="pet-card">
+                        <div class="pet-header">
+                            <h3>Phoenix</h3>
+                            <img src="/Lost-Sword/img/Phoenix.jpg" alt="Phoenix Pet" class="pet-image">
+                        </div>
+                        <div class="pet-stats">
+                            <div class="stat-badge">
+                                <span class="stat-icon"></span>
+                                Increased Attack %
+                            </div>
+                            
+                        </div>
+                        <p class="pet-desc">
+                            The ultimate all-rounder pet that boosts critical hit probability. 
+                            Essential for DPS-focused teams and most game content.
+                        </p>
+                    </article>
+            
+                    <!-- Esteria -->
+                    <article class="pet-card">
+                        <div class="pet-header">
+                            <h3>Esteria</h3>
+                            <img src="/Lost-Sword/img/Esteria.jpg" alt="Esteria Pet" class="pet-image">
+                        </div>
+                        <div class="pet-stats">
+                            <div class="stat-badge">
+                                <span class="stat-icon"></span>
+                                Increased Attack %
+                            </div>
+                           
+                        </div>
+                        <p class="pet-desc">
+                            Crowd control specialist with fear-inducing skills. 
+                            Becomes less effective against CC-immune bosses in late game.
+                        </p>
+                    </article>
+            
+                    <!-- Athena -->
+                    <article class="pet-card">
+                        <div class="pet-header">
+                            <h3>Athena</h3>
+                            <img src="/Lost-Sword/img/Athena.jpg" alt="Athena Pet" class="pet-image">
+                        </div>
+                        <div class="pet-stats">
+                            <div class="stat-badge">
+                                <span class="stat-icon"></span>
+                                Increased Attack %
+                            </div>
+                           
+                        </div>
+                        <p class="pet-desc">
+                            Boss-killer specialist with massive single-target damage. 
+                            Perfect for raid battles and single-enemy scenarios.
+                        </p>
+                    </article>
+                </div>
+            
+                <div class="pet-tips">
+                    <h3>Deployment Strategy</h3>
+                    <ul>
+                        <li>Max 3 pets active simultaneously</li>
+                        <li>Only one active skill can be used at a time <strong>Only the the front Skill</strong></li>
+                        <li>Combine Phoenix (CRIT) + Athena (Burst) for optimal DPS</li>
+                        <li>Use Esteria for crowd control in wave-based content</li>
+                    </ul>
+                </div>
+            </section>
+            
+            
+
+</div>
+
+
+<script defer="" src="/Lost-Sword/script/script.js"></script>
+         </body>
+</html>
